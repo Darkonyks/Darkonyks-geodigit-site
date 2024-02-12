@@ -127,7 +127,9 @@ LANGUAGES = (
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale/')]
 
-STATIC_ROOT = os.path.join(CORE_DIR, 'staticfiles')
+STATIC_FOLDER = 'Gsite'
+
+STATIC_ROOT = os.path.join(CORE_DIR, STATIC_FOLDER, 'staticfiles')
 
 # STATIC_ROOT = [
 #     os.path.join(BASE_DIR, 'Gsite/static')
