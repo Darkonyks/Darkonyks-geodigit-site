@@ -15,8 +15,9 @@ from pathlib import Path
 from django.utils.translation import gettext_lazy  as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
-
+# BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+CORE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -126,15 +127,15 @@ LANGUAGES = (
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale/')]
 
-STATIC_ROOT = (BASE_DIR / 'Gsite/static')
+STATIC_ROOT = os.path.join(CORE_DIR, 'staticfiles')
 
 # STATIC_ROOT = [
 #     os.path.join(BASE_DIR, 'Gsite/static')
 # ]
 
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, 'Gsite/static')
-# ]
+STATICFILES_DIRS = [
+    os.path.join(CORE_DIR, 'Gsite/static')
+]
 
 
 MEDIA_ROOT = BASE_DIR / 'media'
