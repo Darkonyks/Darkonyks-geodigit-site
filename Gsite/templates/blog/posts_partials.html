@@ -1,0 +1,23 @@
+{% load i18n %}
+    <div class="arck-blog-feed-content" id="posts-content">
+        {% for post in posts %}
+        <div class="arck-blog-item-2 wow fadeInUp" data-wow-delay="1000" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0; animation-name: fadeInUp;" >
+            <div class="inner-img">
+                <img src="{{ post.image.url }}" alt="">
+            </div>
+            <div class="inner-text headline pera-content">
+                <div class="blog-meta">
+                    <a href="#"><span class="blog-cat text-uppercase">{{ post.category }}</span></a>	
+                    <a href="#"><span class="date"><i class="far fa-calendar-alt"></i> {{ post.publish|date:"D. | d M. Y" }}</a>
+                    <a href="#"><span class="author"><i class="far fa-user-circle"></i> {{ post.author }}</span></a>
+                    {% if post.click_count > 0 %}
+                        <a href="{{ post.get_absolute_url }}" id="post-click-link"><span class="click-count"><i class="far fa-eye"></i> {{ post.click_count }}</span></a>
+                    {% endif %}
+                </div>
+                <h3><a href="{% url 'update_click_count' post.slug %}">{{ post.title }}</a></h3>
+                <p>{{ post.excerpt|safe }}</p>
+                <a class="read-more-btn text-uppercase" href="{% url 'update_click_count' post.slug %}"> {% translate 'READ MORE' %} <i class="fal fa-arrow-right"></i></a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>

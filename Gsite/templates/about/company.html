@@ -1,0 +1,58 @@
+{% load static %}
+{% load humanize %}
+{% load i18n %}
+<section id="arck-about" class="arck-about-section">
+    <div class="container">
+        <div class="arck-about-content">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="arck-about-text-wrapper position-relative p-0">
+                        <div class="arck-section-title headline pera-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+                            <h3 class="oldsite-font font-22 cl-green">{% translate 'GEODIGIT IS A COMPANY SPECIALIZED IN GEOINFORMATION TECHNOLOGY AND GEOSPATIAL DATA MANAGEMENT.' %}</h3>
+                            <p class="newsite-font cl-blue pt-3">
+                                {% translate 'We have years of experience in the field of geodesy, geoinformation systems, as well as all kinds of processing of spatial data. Knowledge of project management has been developed at the local and international market. Our experts will help you design your system so that it can become technically feasible and sustainable, and our operations will lead your projects to their completion.' %}                              
+                            </p>
+                        </div>
+                        <div class="arck-year-experience headline pera-content d-flex align-items-center flex-wrap justify-content-center wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 400ms; animation-name: fadeInUp;">
+                            <h3><span class="counter"> 
+                                {{ existence }}
+                            </span>+</h3>
+                            <p class="oldsite-font font-16 cl-blue">{% translate 'Years of Existence' %}</p>
+                            <h3><span class="counter"> 
+                                {{ working }}
+                            </span>+</h3>
+                            <p class="oldsite-font font-16 cl-blue">{% translate 'Years Expiriance Working' %}</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="arck-about-img-wrapper position-relative wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInRight;">
+                        <div style="z-index: 1;" class="position-absolute"><i></i></div>
+                        <span class="shape1 position-absolute"><img class="lozad" data-src="{% static 'img/about/dot-shape.png' %}" alt="Shape"></span>
+                        <div id="arck-slider-main_1" class="arck-slider-area" style="background: white;">
+                            <div class="arck-main-slider-item position-relative">
+                                <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/about/Rotate_1.jpg' %}"></div>
+                            </div>
+                            <div class="arck-main-slider-item position-relative">
+                                <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/about/Rotate_2.jpg' %}"></div>
+                            </div>
+                            <div class="arck-main-slider-item position-relative">
+                                <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/about/Rotate_3.jpg' %}"></div>
+                            </div>
+                            <div class="arck-main-slider-item position-relative">
+                                <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/about/Rotate_4.jpg' %}"></div>
+                            </div>
+                            <div class="arck-main-slider-item position-relative">
+                                <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/about/Rotate_5.jpg' %}"></div>
+                            </div>
+                            <div class="arck-main-slider-item position-relative">
+                                <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/about/Rotate_6.JPG' %}"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,112 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="{{ request.LANGUAGE_CODE }}">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>{% block title %}Geodigit{% endblock %}</title>
+	<meta name="description" content="We are processing and mapping data into GIS systems on all types of underground and overhead lines such as telecommunications networks, low and high-voltage.">
+	<meta name="keywords" content="geospatial data, data management, specialists, GIS, 3d mapping, mapping, surveying, geoinfomation technology, geodesy, outsourcing">
+	<script defer src="{% static 'js/customMain.js' %}"></script>
+	<link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fontawesome-all.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slick-theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/global.css' %}">
+    <link rel="stylesheet" href="{% static 'css/twenty.css' %}">
+    <link rel="stylesheet" href="{% static 'css/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slider.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nanogallery2.min.css' %}">
+
+</head>
+<body class="archx-home">
+	<div id="preloader">
+	</div>
+	</div>
+
+	<div class="up">
+		<a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
+	</div>
+	{% block content %}{% endblock %}
+	<!-- For Js Library -->
+	<script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+	<script src="{% static 'js/jquery3.6.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/popper.min.js' %}"></script>
+	<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'js/appear.js' %}"></script>
+	<script src="{% static 'js/slick.js' %}"></script>
+	<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/waypoints.js' %}"></script>
+	<script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+	<script src="{% static 'js/twenty.js' %}"></script>
+	<script src="{% static 'js/imagesloaded.min.js' %}"></script>
+	<script src="{% static 'js/masonary.min.js' %}"></script>
+	<script src="{% static 'js/wow.min.js' %}"></script>
+	<script src="{% static 'js/jquery.inputarrow.js' %}"></script>
+	<script src="{% static 'js/script.js' %}"></script>
+	<script src="{% static 'js/swiper.js' %}"></script>
+	<script src="{% static 'js/lottie-player.js' %}"></script>
+	<script src="{% static 'js/slider.js' %}"></script>
+	<script src="{% static 'js/currentUrl.js' %}"></script>
+	<script src="{% static 'js/certificates.js' %}"></script>
+	<script src="{% static 'js/nanogallery2.min.js' %}"></script>
+	<script src="{% static 'js/nanogallery-custom.js' %}"></script>
+	<script src="{% static 'js/customGisService.js' %}"></script>
+	<script src="{% static 'js/animated-icons.js' %}"></script>	
+
+	
+	{% if '/blog/' == request.path %}
+	<script>
+		document.getElementById('prev-page-link').addEventListener('click', function () {
+			var nextLink = this.parentElement.nextElementSibling.querySelector('a');
+
+			this.classList.remove('active');
+
+			nextLink.classList.add('active');
+		});
+
+		document.getElementById('last-page-link').addEventListener('click', function () {
+			var prevLink = this.parentElement.previousElementSibling.querySelector('a');
+
+			prevLink.classList.add('active');
+
+			this.classList.remove('active');
+		});
+	</script>
+	{% endif %}
+	{% if '/blog/' in request.path %}
+    <script>
+
+
+		const blogLink = document.getElementById('blog-link');
+
+			if (blogLink) {
+				const currentIndicator = document.createElement('span');
+				blogLink.classList.add('currentLink')
+				currentIndicator.className = 'current-indicator';
+				blogLink.appendChild(currentIndicator);
+			}
+    	</script>
+	{% endif %}
+
+
+	<script>
+		function changeLanguage() {
+			var selectedLanguage = document.getElementById("languageSelect").value;
+			var url = '/' + selectedLanguage + '/'; 
+			window.location.href = url;
+		}
+
+		const observer = lozad(); 
+		observer.observe();
+	</script>
+</body>
+</html>

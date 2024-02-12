@@ -1,0 +1,27 @@
+# Python byte code
+__pycache__/
+
+# Virtual environment
+venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Database
+db.sqlite3
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Local settings
+local_settings.py
+
+# Media and static files (if using Django storage backends)
+media/posts/
+# static/
+
+# Log files
+*.log

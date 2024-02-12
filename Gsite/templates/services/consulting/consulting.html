@@ -1,0 +1,62 @@
+{% extends "home.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate 'Consulting' %}{% endblock %}
+
+{% block content %}
+
+{% include "base/navbar.html" %}
+{% translate 'CONSULTING' as consulting_title %}
+{% include "base/page-title.html" with page_title_default=consulting_title %}
+<section>
+    <div class="container">
+        <div class="arck-project-details-text ul-li-block">
+            <div class="row">
+                <div class="col-lg-6 pt-5 mt-2">
+                    <h2 class="oldsite-font-h2 pb-3 mt-1">{% translate 'With GeoDigit' %}</h2>
+                    <h4 class="oldsite-font-h4-blue pb-3">
+                        {% translate 'GEODIGIT CONSULTING INCLUDES PROFESSIONAL, TECHNICAL, LEGAL AND ORGANIZATIONAL SUPPORT TO CLIENTS DURING PLANNING AND REALISATION OF THEIR PROJECTS.' %}
+                    </h4>
+                    <p class="font-18 cl-blue pb-2">
+                        {% translate 'We have extensive experience in consulting activities, from project assignment, conceptual solutions, urban planning, design and audit, to inspection and technical consulting.' %}
+                    </p>
+                    <p class="font-18 cl-blue pb-2">
+                        {% translate 'The high level of qualifications, competencies and quality possessed by the expert team of GeoDigit ensures the success of project implementation in the field of geodesy, geoinformation, construction and telecommunications.' %}
+                    </p>
+                    <ul class="font-18 cl-blue" style="line-height: 1.9">
+                        <li>
+                            {% translate 'Project development and management' %}
+                        </li>
+                        <li>
+                            {% translate 'Control and quality assurance' %}
+                        </li>
+                        <li>
+                            {% translate 'GIS consulting' %}
+                        </li>
+                        <li>
+                            {% translate 'Feasibility study' %}
+                        </li>
+                        <li>
+                            {% translate 'Training' %}
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 pt-5 pb-5 mt-2">
+                    <div class="archx-section-title headline-2 wow fadeInUp pb-4" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+                        <div id="my_nanogallery4">
+                            <img src="{% static 'img/consulting/consulting_2.jpg' %}" data-ngsrc="{% static 'img/consulting/consulting_2.jpg' %}" data-nanogallery2-lightbox />
+                            <img src="{% static 'img/consulting/consulting_4.jpg' %}" data-ngsrc="{% static 'img/consulting/consulting_4.jpg' %}" data-nanogallery2-lightbox />
+                            <img src="{% static 'img/consulting/consulting_1_1.jpg' %}" data-ngsrc="{% static 'img/consulting/consulting_1_1.jpg' %}" data-nanogallery2-lightbox />
+                            <img src="{% static 'img/consulting/consulting_3.jpg' %}" data-ngsrc="{% static 'img/consulting/consulting_3.jpg' %}" data-nanogallery2-lightbox />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include "contact/contact-map.html" %}
+{% include "base/footer.html" %}
+
+{% endblock %}

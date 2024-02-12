@@ -1,0 +1,2455 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-21 13:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\core\settings.py:127
+msgid "Serbian"
+msgstr ""
+
+#: .\core\settings.py:128
+msgid "English"
+msgstr ""
+
+#: .\core\settings.py:129
+msgid "German"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\_termui_impl.py:518
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\_termui_impl.py:522
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1120
+msgid "Aborted!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1309
+#: .\venv\Lib\site-packages\click\decorators.py:559
+msgid "Show this message and exit."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1340
+#: .\venv\Lib\site-packages\click\core.py:1370
+#, python-brace-format
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1387
+msgid "Options"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1413
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\click\core.py:1429
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1636
+msgid "Commands"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1668
+msgid "Missing command."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1746
+msgid "No such command {name!r}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2310
+msgid "Value must be an iterable."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2331
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\click\core.py:2778
+#, python-brace-format
+msgid "env var: {var}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2808
+msgid "(dynamic)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2821
+#, python-brace-format
+msgid "default: {default}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2834
+msgid "required"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\decorators.py:528
+msgid "Show the version and exit."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:44
+#: .\venv\Lib\site-packages\click\exceptions.py:80
+#, python-brace-format
+msgid "Error: {message}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:72
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:121
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:123
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:179
+msgid "Missing argument"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:181
+msgid "Missing option"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:183
+msgid "Missing parameter"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:185
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:192
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:212
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:224
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:262
+msgid "unknown error"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:269
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\parser.py:474
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\click\shell_completion.py:319
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\shell_completion.py:326
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:158
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:174
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:176
+#, python-brace-format
+msgid "Error: {e.message}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:187
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:243
+msgid "Error: invalid input"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:773
+msgid "Press any key to continue..."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:266
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:298
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\click\types.py:392
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\click\types.py:414
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:470
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:611
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:635
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:822
+msgid "file"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:824
+msgid "directory"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:826
+msgid "path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:877
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:886
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:894
+#, python-brace-format
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:903
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:912
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:921
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:988
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
+msgid "Messages"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:50
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:52
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:54
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:104
+#: .\venv\Lib\site-packages\django\forms\fields.py:752
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:165
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:176
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:259
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:267
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:279
+#: .\venv\Lib\site-packages\django\core\validators.py:287
+#: .\venv\Lib\site-packages\django\core\validators.py:316
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:296
+#: .\venv\Lib\site-packages\django\core\validators.py:317
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:308
+#: .\venv\Lib\site-packages\django\core\validators.py:315
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:351
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:357
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:392
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:401
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:410
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:420
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:438
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:461
+#: .\venv\Lib\site-packages\django\forms\fields.py:347
+#: .\venv\Lib\site-packages\django\forms\fields.py:386
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:463
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:468
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:473
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:544
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:605
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1423
+#: .\venv\Lib\site-packages\django\forms\models.py:893
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1425
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\constraints.py:17
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:128
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:129
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:130
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:131
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:173
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1094
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1095
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1097
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1147
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1149
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1253
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1354
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1358
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1493
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1362
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1489
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1502
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1626
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1628
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1789
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1793
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1845
+msgid "Email address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1870
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1948
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1950
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1990
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1992
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2088
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2105
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2113
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2144
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2237
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2238
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2240
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2291
+msgid "Positive big integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2306
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2321
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2337
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2373
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2448
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2452
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2456
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2564
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2588e
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2653
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2655
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:232
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:393
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "A JSON object"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:28
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:919
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:921
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1212
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1269
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1271
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1319
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:184
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:91
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:298
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:467
+#: .\venv\Lib\site-packages\django\forms\fields.py:1241
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:490
+#: .\venv\Lib\site-packages\django\forms\fields.py:1242
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:517
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:551
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:552
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:621
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:622
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:623
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:625
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:630
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:694
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:857
+#: .\venv\Lib\site-packages\django\forms\fields.py:949
+#: .\venv\Lib\site-packages\django\forms\models.py:1566
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:951
+#: .\venv\Lib\site-packages\django\forms\fields.py:1070
+#: .\venv\Lib\site-packages\django\forms\models.py:1564
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1071
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1310
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1340
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:98
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:244
+#: .\venv\Lib\site-packages\django\forms\forms.py:328
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:63
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:67
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:72
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:484
+#: .\venv\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:886
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:891
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:898
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:907
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1338
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1429
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1568
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:226
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:463
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:464
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:465
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:794
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:795
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:796
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:861
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:891
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:908
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:910
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:912
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:914
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:916
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:918
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:73
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:79
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:152
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:154
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+#: .\venv\Lib\site-packages\tornado\locale.py:295
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:8
+#: .\venv\Lib\site-packages\tornado\locale.py:296
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:9
+#: .\venv\Lib\site-packages\tornado\locale.py:297
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+#: .\venv\Lib\site-packages\tornado\locale.py:298
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+#: .\venv\Lib\site-packages\tornado\locale.py:299
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:12
+#: .\venv\Lib\site-packages\tornado\locale.py:300
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:13
+#: .\venv\Lib\site-packages\tornado\locale.py:301
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+#: .\venv\Lib\site-packages\tornado\locale.py:281
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+#: .\venv\Lib\site-packages\tornado\locale.py:282
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+#: .\venv\Lib\site-packages\tornado\locale.py:283
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+#: .\venv\Lib\site-packages\tornado\locale.py:284
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+#: .\venv\Lib\site-packages\tornado\locale.py:285
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+#: .\venv\Lib\site-packages\tornado\locale.py:286
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+#: .\venv\Lib\site-packages\tornado\locale.py:287
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+#: .\venv\Lib\site-packages\tornado\locale.py:288
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+#: .\venv\Lib\site-packages\tornado\locale.py:289
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+#: .\venv\Lib\site-packages\tornado\locale.py:290
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+#: .\venv\Lib\site-packages\tornado\locale.py:291
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+#: .\venv\Lib\site-packages\tornado\locale.py:292
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:78
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:254
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:273
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:111
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:112
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:116
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:122
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:127
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:136
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:142
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:148
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:349
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:38
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:40
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:79
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:220
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:238
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:247
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:371
+msgid "1 second ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:377
+msgid "1 minute ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:382
+msgid "1 hour ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:385
+#, python-format
+msgid "%(time)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:387
+msgid "yesterday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:387
+#, python-format
+msgid "yesterday at %(time)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:389
+#, python-format
+msgid "%(weekday)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:389
+#, python-format
+msgid "%(weekday)s at %(time)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:392
+#: .\venv\Lib\site-packages\tornado\locale.py:445
+#, python-format
+msgid "%(month_name)s %(day)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:394
+#, python-format
+msgid "%(month_name)s %(day)s at %(time)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:399
+#, python-format
+msgid "%(month_name)s %(day)s, %(year)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:401
+#, python-format
+msgid "%(month_name)s %(day)s, %(year)s at %(time)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:439
+#, python-format
+msgid "%(weekday)s, %(month_name)s %(day)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\locale.py:462
+#, python-format
+msgid "%(commas)s and %(last)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\test\locale_test.py:68
+msgctxt "law"
+msgid "right"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\test\locale_test.py:69
+msgctxt "good"
+msgid "right"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\test\locale_test.py:70
+#: .\venv\Lib\site-packages\tornado\test\locale_test.py:72
+msgctxt "organization"
+msgid "club"
+msgstr ""
+
+#: .\venv\Lib\site-packages\tornado\test\locale_test.py:74
+#: .\venv\Lib\site-packages\tornado\test\locale_test.py:75
+msgctxt "stick"
+msgid "club"
+msgstr ""
+
+# NAVIGATOR I PANEL
+msgid "HOME"
+msgstr "ANFANGSSEITE"
+
+msgid "ABOUT"
+msgstr "ÜBER UNS"
+
+msgid "SERVICES"
+msgstr "DIENSTLEINSTUNGEN"
+
+msgid "GIS SERVICES"
+msgstr "GEOINFORMATIONSDIENSTE"
+
+msgid "GIS DEVELOPMENT"
+msgstr "GIS ENTWICKLUNG"
+
+msgid "3D MAPPING"
+msgstr "3D-MAPPING-LÖSUNG"
+
+msgid "SURVEYING"
+msgstr "GEODÄTISCHE DIENSTLEISTUNGEN"
+
+msgid "PLANNING AND DESIGN"
+msgstr "PLANUNG UND PROJEKTENTWICKLUNG"
+
+msgid "REFERENCES"
+msgstr "REFERENZEN"
+
+msgid "CONTACT"
+msgstr "KONTAKT"
+
+# MAIN SLIDER
+msgid "WE’RE GEOSPATIAL DATA MANAGEMENT SPECIALISTS"
+msgstr "WIR SIND SPEZIALISTEN FÜR GEOSPATIAL DATA MANAGEMENT​"
+
+msgid "GEOINFORMATION SERVICES"
+msgstr "GEOINFORMATIONSDIENSTE"
+
+msgid "We are analyzing and capturing any datasets into geoinformation systems (GIS), specially data of linear infrastructure (telecommunication networks, power networks, gas line networks etc.) Our GIS solutions for storing and visualization of datasets are developed in Open Source platforms according to the needs of our clients. We are offering surveying services which can be used in a GIS context or 3D mapping products."
+msgstr "Wir analysieren und erfassen Datensätze in Geoinformationssystemen (GIS), insbesondere Daten linearer Infrastruktur (Telekommunikationsnetze, Stromnetze, Gasleitungsnetze etc.). Unsere GIS-Lösungen zur Speicherung und Visualisierung von Datensätzen werden in Open-Source-Plattformen nach den Bedürfnissen unserer Kunden entwickelt. Wir bieten Vermessungsdienste an, die in einem GIS-Kontext oder 3D-Mapping-Produkten verwendet werden können.​"
+
+msgid "TAKE A TOUR"
+msgstr "MACHEN SIE EINE TOUR​"
+
+msgid "About"
+msgstr "Über uns"
+
+msgid "Why"
+msgstr "Warum"
+
+msgid "Because we have everything necessary to ensure successful cooperation:"
+msgstr "Weil wir Alles haben, was für eine erfolgreiche Zusammenarbeit notwendig ist:"
+
+msgid "Knowledge"
+msgstr "Wissen"
+
+msgid "Confidence"
+msgstr "Vertrauen"
+
+msgid "Capacity"
+msgstr "Kapazität"
+
+msgid "Technology"
+msgstr "Technologie"
+
+msgid "Expertise"
+msgstr "Sachverstand"
+
+msgid "Quality"
+msgstr "Qualität"
+
+msgid "Scalability"
+msgstr "Skalierbarkeit"
+
+msgid "Competitive pricing"
+msgstr "Wettbewerbsfähige Preise"
+
+msgid "IS A COMPANY SPECIALIZED IN"
+msgstr "IST EIN UNTERNEHMEN, DAS AUF"
+
+msgid "GEODIGIT IS A COMPANY SPECIALIZED IN GEOINFORMATION TECHNOLOGY AND GEOSPATIAL DATA MANAGEMENT."
+msgstr "GEODIGIT IST EIN UNTERNEHMEN, DAS AUF GEOINFORMATIONSTECHNOLOGIE UND GEODATENVERWALTUNG SPEZIALISIERT IST."
+
+msgid "We have years of experience in the field of geodesy, geoinformation systems, as well as all kinds of processing of spatial data. Knowledge of project management has been developed at the local and international market. Our experts will help you design your system so that it can become technically feasible and sustainable, and our strong operations will lead your projects to their completion."
+msgstr "Wir verfügen über langjährige Erfahrung im Bereich der Geodäsie, Geoinformationssysteme sowie aller Arten der Verarbeitung von Geodaten. Kenntnisse im Projektmanagement wurden auf dem lokalen und internationalen Markt erlangt. Unsere Experten helfen Ihnen, Ihr System technisch operativ und nachhaltig zu gestalten, und mit unserer Unterstützung helfen wir Ihnen Ihre Projekte zu ihrem Abschluss zu führen."
+
+msgid "More Info"
+msgstr "Weitere Informationen"
+
+msgid "More Details"
+msgstr "Weitere Einzelheiten"
+
+msgid "Services"
+msgstr "Dienstleistungen"
+
+msgid "Geodata survey"
+msgstr "Geodatenerhebung"
+
+msgid "GIS development"
+msgstr "GIS-Entwicklung"
+
+msgid "Datasets implementation"
+msgstr "Implementierung von Datensätzen"
+
+msgid "Analog data digitization"
+msgstr "Digitalisierung analoger Daten"
+
+msgid "Inventory documentation"
+msgstr "Bestandsdokumentation"
+
+msgid "Maintenance and update"
+msgstr "Wartung und Aktualisierung"
+
+# SERVICES USLUGE
+msgid "GIS Services"
+msgstr "Geoinformationsdienste"
+
+msgid "READ MORE"
+msgstr "MEHR LESEN"
+
+msgid "Read More"
+msgstr "Mehr lesen"
+
+msgid "GIS services involve the use of spatial data for mapping, analysis, and support in various areas, utility line infrastructure urban planning to environmental conservation."
+msgstr "Die GIS-Dienstleistungen umfassen die Verwendung räumlicher Daten für Kartierung, Analyse und Unterstützung in verschiedenen Bereichen, von der Infrastruktur der kommunalen Wasserleitungen und Stadtplanung bis zum Umweltschutz."
+
+msgid "GIS Development"
+msgstr "GIS Entwicklung"
+
+msgid "GIS development involves creating and enhancing systems for efficient management, analysis, and visualization of spatial data."
+msgstr "Die Entwicklung von GIS umfasst die Schaffung und Verbesserung von Systemen für effizientes Management, Analyse und Visualisierung von räumlichen Daten."
+
+msgid "3D Mapping"
+msgstr "3D-Mapping-Lösung"
+
+msgid "3D mapping is the representation of real-world objects in a three-dimensional space, allowing for a detailed depiction and better understanding of the environment."
+msgstr "3D-Kartierung ist die Darstellung realer Objekte im dreidimensionalen Raum, was eine detaillierte Abbildung und ein besseres Verständnis der Umgebung ermöglicht."
+
+msgid "Surveying"
+msgstr "Geodätische Dienstleistungen"
+
+msgid "Surveying is the process of measuring and mapping land, providing essential data for construction projects, land management, and infrastructure development."
+msgstr "Vermessung ist der Prozess des Messens und Kartierens von Land, der wesentliche Daten für Bauprojekte, Landmanagement und Infrastrukturentwicklung bereitstellt."
+
+msgid "Planning and Design"
+msgstr "Planung und Projektentwicklung"
+
+msgid "Optical passive network planning for residential and business users. We provide services for the development of preliminary, main and as-built design. We design optical access and long-distance networks."
+msgstr "Die Planung von optischen passiven Netzwerken für Wohn- und Geschäftsnutzer. Wir bieten Dienstleistungen für die Entwicklung von Vor-, Haupt- und Ausführungsdesign an. Wir entwerfen optische Zugangs- und Fernnetzwerke."
+
+msgid "Consulting involves providing professional, technical, legal, and organizational support to clients during the planning and implementation of their projects."
+msgstr "Consulting umfasst die Bereitstellung von professioneller, technischer, rechtlicher und organisatorischer Unterstützung für Kunden während der Planung und Umsetzung ihrer Projekte."
+
+# SERVICES USLUGE
+msgid "OUR CLIENTS AND PARTNERS"
+msgstr "KUNDEN UND PARTNER"
+
+msgid "Our long-term satisfied clients are proof of our quality and expertise."
+msgstr "Unsere langjährigen zufriedenen Kunden sind der Beweis für unsere Qualität und Kompetenz."
+
+msgid "See Our References"
+msgstr "Sehen Sie unsere Referenzen"
+
+msgid "Please Read & know about our blogs leatest news"
+msgstr "Lesen Sie unsere Blogs und aktuelle Nachrichten."
+
+msgid "Comments"
+msgstr "Kommentare"
+
+msgid "CONTACT US"
+msgstr "KONTAKTIERE UNS"
+
+msgid "Contact us and make an appointment. Ask us a question or give your suggestion."
+msgstr "Kontaktieren Sie uns und vereinbaren Sie einen Termin. Stellen Sie uns eine Frage oder geben Sie Ihren Vorschlag ab."
+
+msgid "Enter your name*"
+msgstr "Name eingeben*"
+
+msgid "Enter your email*"
+msgstr "E-Mail eingeben*"
+
+msgid "Enter your message*"
+msgstr "Nachricht eingeben*"
+
+msgid "Send us a Messege"
+msgstr "Sende uns eine Nachricht"
+
+
+# MAPA
+msgid "Our Address"
+msgstr "Adresse"
+
+msgid "Contact Way"
+msgstr "Kontakt"
+
+msgid "Serbia"
+msgstr "Serbien"
+
+# FOOTER
+msgid "is a company specialized in geoinformation technology and geospatial data management."
+msgstr "ist ein Unternehmen, das auf Geoinformationstechnologie und Geodatenverwaltung spezialisiert ist."
+
+msgid "VAT"
+msgstr "VAT"
+
+msgid "Reg. Number"
+msgstr "Registrierungsnummer"
+
+msgid "Prominent"
+msgstr "Prominent"
+
+msgid "Home"
+msgstr "Anfangsseite"
+
+msgid "About Us"
+msgstr "Über uns"
+
+msgid "References"
+msgstr "Referenzen"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Social Pages"
+msgstr "Soziale Netzwerke"
+
+
+# ABOUT
+msgid "Years of Existence"
+msgstr "Jahre des Bestehens"
+
+msgid "Years Expiriance Working"
+msgstr "Jahre Erfahrung in der Arbeit"
+
+msgid "Certificates and Standards"
+msgstr "Zertifikate und Standards"
+
+msgid "QUALITY MANAGEMENT SYSTEM"
+msgstr "QUALITÄTSMANAGEMENTSYSTEM"
+
+msgid "INFORMATION SECURITY MANAGEMENT SYSTEM"
+msgstr "INFORMATIONSSICHERHEITS–MANAGEMENTSSYSTEM"
+
+msgid "MANAGEMENT SYSTEM FOR HEALTH AND SAFETY AT WORK"
+msgstr "GESUNDHEITSSCHUTZ UND SICHERHEITSMANAGEMENTSYSTEM AM ARBEITSPLATZ"
+
+msgid "MANAGEMENT SYSTEM FOR ENVIRONMENTAL PROTECTION"
+msgstr "UMWELTSCHUTZ–MANAGEMENTSYSTEM"
+
+msgid "BUSINESS CONTINUITY MANAGEMENT SYSTEMS"
+msgstr "SYSTEME FÜR DAS KONTINUIERLICHE GESCHÄFTSMANAGEMENT"
+
+msgid "Guided by its mission and vision, GeoDigit has harmonized its quality system with internationally recognized standards, which confirm the dedication and commitment of the organization towards achieving the objectives of ensuring the quality of services."
+msgstr "Seine Mission und Vision fortführend hat das Unternehmen GeoDigit sein Qualitätssystem auf einen international anerkannten Standard ausgerichtet, der das Engagement und die Entschlossenheit der Organisation bestätigt, die Ziele der Qualitätssicherung bei der Erbringung von Dienstleistungen zu erreichen."
+
+msgid "One of the main priorities of the company is to ensure the safety and security of data and informations. Nowadays, the key aspect of professionalism is the way of dealing with confidential information’s. GeoDigit is an organization that has its own security system raised to the highest level as evidenced by the internationally recognized certificate."
+msgstr "Eine der obersten Prioritäten des Unternehmens ist die Gewährleistung der Sicherheit von Daten und Informationen. Heutzutage stellt der Umgang mit vertraulichen Informationen ein Hauptthema der Geschäftlichkeit dar. GeoDigit ist eine Organisation, die ihr Sicherheitssystem auf das höchste Niveau gebracht hat, was durch ein international anerkanntes Zertifikat belegt wird."
+
+msgid "Our team is our strength. Employees are the highest value of our organization, and we employ all available methods to protect them in their work. Through comprehensive safety measures, we safeguard both our employees and the organization."
+msgstr "Unser Team ist unsere Stärke. Mitarbeiter sind der höchste Wert unserer Organisation, und wir setzen alle verfügbaren Methoden ein, um sie bei ihrer Arbeit zu schützen. Durch umfassende Sicherheitsmaßnahmen schützen wir sowohl unsere Mitarbeiter als auch die Organisation."
+
+msgid "GeoDigit and its employees are socially responsible and aware of the necessity and importance of environmental protection. International standard is just a proof of commitment to maintaining our planet clean and safe."
+msgstr "Das Unternehmen GeoDigit und seine Mitarbeiter sind sozial verantwortlich und wissen um die Notwendigkeit und Wichtigkeit des Umweltschutzes. Der internationale Standard ist nur ein Beweis für die Verpflichtung, unseren Planeten sauber und sicher zu halten."
+
+msgid "ISO 22301 is the internationally recognized standard for Business Continuity Management Systems (BCMS). In a world where cyberattacks, data breaches, and natural disasters can disrupt business continuity and quickly damage reputation, organizations need to implement, maintain, and continually refine their Business Continuity Management System (BCMS)."
+msgstr "ISO 22301 ist der international anerkannte Standard für Business Continuity Management Systeme (BCMS). In einer Welt mit Cyberangriffen, Datenschutzverletzungen und Naturkatastrophen müssen Organisationen ihr BCMS implementieren, warten und verfeinern, um Geschäftskontinuität und Ruf zu schützen."
+
+msgid "CERTIFICATE"
+msgstr "ZERTIFIKATE"
+
+msgid "Career at GeoDigit"
+msgstr "Karriere bei GeoDigit"
+
+msgid "GeoDigit engages different employee profiles. Depending on the project, profiles of employees that are required change, but in order to be engaged by the company, it is essential that the candidates have the following virtues:"
+msgstr "GeoDigit beschäftigt verschiedene Mitarbeiterprofile. Je nach Bedürfnissen des jeweiligen Projekts, ändern sich die Profile der Arbeitskräfte, die gesucht werden, aber für die Anstellung in unserem Unternehmen ist es in jedem Fall notwendig, dass die Kandidaten folgende Stärken besitzen:"
+
+msgid "Commitment"
+msgstr "Hingabe"
+
+msgid "Persistence"
+msgstr "Beharrlichkeit"
+
+msgid "Organization"
+msgstr "Organisationssinn"
+
+msgid "Meticulousness and precision"
+msgstr "Ordentlichkeit und Präzision"
+
+msgid "Ambition"
+msgstr "Ehrgeiz"
+
+msgid "Punctuality"
+msgstr "Genauigkeit"
+
+msgid "Analyticity"
+msgstr "Analytisches Denken"
+
+msgid "Computer literacy"
+msgstr "Computerkenntnisse"
+
+msgid "Systematicity"
+msgstr "Systematisches Denken"
+
+msgid "If you believe that you own the said virtues, send us your CV with a picture and motivation letter to the e-mail address"
+msgstr "Wenn Sie glauben, dass Sie diese Stärken besitzen, senden Sie uns bitte Ihren Lebenslauf mit Bild und einem Motivationsschreiben an die E-Mail-Adresse"
+
+
+# SERVICES - USLUGE GIS-a
+msgid "DIGITIZATION AND DOCUMENTATION"
+msgstr "DIGITALISIERUNG UND DOKUMENTATION"
+
+msgid "KNOW HOW"
+msgstr "FACHWISSEN"
+
+msgid "Digitization of geodata"
+msgstr "Digitalisierung von Geodaten"
+
+msgid "Digitization involves the process of converting physical maps, drawings, or other analog data into digital formats. This is done to create digital representations of geographic features and information. There are various methods for digitizing geodata, including manual digitization using digitizing tablets, heads-up digitization in GIS software, and automated methods like satellite and aerial imagery analysis. Digitized geodata can be used for mapping, analysis, and visualization in GIS applications, urban planning, environmental monitoring, and more."
+msgstr "Digitalisierung umfasst den Prozess der Umwandlung physischer Karten, Zeichnungen oder anderer analoger Daten in digitale Formate. Dies wird durchgeführt, um digitale Darstellungen geografischer Merkmale und Informationen zu erstellen. Es gibt verschiedene Methoden zur Digitalisierung von Geodaten, darunter manuelle Digitalisierung mit Digitalisierungstabletts, Heads-Up-Digitalisierung in GIS-Software und automatisierte Methoden wie die Analyse von Satelliten- und Luftbildern. Digitalisierte Geodaten können für Kartierung, Analyse und Visualisierung in GIS-Anwendungen, Stadtplanung, Umweltüberwachung und mehr verwendet werden."
+
+msgid "Maintenance and update of existing datasets"
+msgstr "Pflege und Aktualisierung bestehender Datensätze"
+
+msgid "Geospatial datasets need to be regularly maintained and updated to ensure their accuracy and relevance. This involves correcting errors, adding new data, and revising existing information. Updates can be based on field surveys, remote sensing data, user-contributed data, or data from authoritative sources. Updated datasets are crucial for decision-making, disaster response, infrastructure planning, and other applications that rely on accurate geographic information."
+msgstr "Geodaten müssen regelmäßig gewartet und aktualisiert werden, um ihre Genauigkeit und Relevanz sicherzustellen. Dies umfasst die Korrektur von Fehlern, die Hinzufügung neuer Daten und die Überarbeitung bestehender Informationen. Aktualisierungen können auf Feldumfragen, Fernerkundungsdaten, nutzergenerierten Daten oder Daten aus autoritativen Quellen basieren. Aktualisierte Datensätze sind entscheidend für die Entscheidungsfindung, Katastrophenreaktion, Infrastrukturplanung und andere Anwendungen, die auf genauen geografischen Informationen basieren."
+
+msgid "Documentation of linear infrastructure networks"
+msgstr "Dokumentation linearer Infrastrukturnetze"
+
+msgid "Documentation of linear infrastructure networks involves creating detailed records of linear features like roads, railways, pipelines, and utility networks. This documentation can include attribute information such as location, type, condition, maintenance history, and more. Accurate documentation of linear infrastructure is essential for infrastructure management, asset tracking, and maintenance planning."
+msgstr "Die Dokumentation von linearen Infrastrukturnetzen beinhaltet die Erstellung detaillierter Aufzeichnungen von linearen Merkmalen wie Straßen, Eisenbahnen, Pipelines und Versorgungsnetzen. Diese Dokumentation kann attributive Informationen wie Standort, Typ, Zustand, Wartungshistorie und mehr einschließen. Eine genaue Dokumentation der linearen Infrastruktur ist entscheidend für das Infrastrukturmanagement, die Vermögensverfolgung und die Wartungsplanung."
+
+msgid "Converting analog data to digital formats for use in database and GIS applications"
+msgstr "Umwandlung analoger Daten in digitale Formate zur Verwendung in Datenbank- und GIS-Anwendungen"
+
+msgid "Converting analog data to digital formats involves transforming physical data sources, such as paper maps or photographs, into digital files that can be stored and analyzed in GIS software or databases. This process can include scanning, georeferencing, and manual or automated digitization. Digital formats allow for easier data storage, analysis, and integration into GIS systems, enabling better decision-making and information sharing."
+msgstr "Die Umwandlung von analogen Daten in digitale Formate umfasst die Transformation physischer Datenquellen, wie Papierkarten oder Fotografien, in digitale Dateien, die in GIS-Software oder Datenbanken gespeichert und analysiert werden können. Dieser Prozess kann Scannen, Georeferenzierung sowie manuelle oder automatisierte Digitalisierung umfassen. Digitale Formate ermöglichen eine einfachere Datenspeicherung, Analyse und Integration in GIS-Systeme, was zu einer verbesserten Entscheidungsfindung und Informationsfreigabe führt."
+
+msgid "Network inventory documentation"
+msgstr "Dokumentation des Netzwerkinventars"
+
+msgid "Network inventory documentation is a comprehensive record of an organizations network infrastructure, including hardware, software, and configurations. It serves as a crucial reference for IT professionals, aiding in troubleshooting, upgrades, and maintenance. Accurate and up-to-date documentation enhances efficiency, security, and overall network management."
+msgstr "Die Dokumentation des Netzwerkinventars ist eine umfassende Aufzeichnung der Netzwerkinfrastruktur einer Organisation, einschließlich Hardware, Software und Konfigurationen. Sie dient als entscheidende Referenz für IT-Profis und unterstützt bei Fehlerbehebung, Upgrades und Wartung. Eine genaue und aktuelle Dokumentation verbessert Effizienz, Sicherheit und das allgemeine Netzwerkmanagement."
+
+msgid "Digitization of cadaster analog datasets"
+msgstr "Digitalisierung von analogen Katasterdatensätzen"
+
+msgid "Digitization of cadaster analog datasets involves converting paper-based land records into digital formats. This process enhances accessibility, efficiency, and data management in land administration. By utilizing advanced technologies, such as GIS, it facilitates faster updates, improves accuracy, and supports effective decision-making in the management of cadastral information."
+msgstr "Die Digitalisierung von analogen Katasterdatensätzen beinhaltet die Umwandlung von papierbasierten Grundbuchunterlagen in digitale Formate. Dieser Prozess verbessert die Zugänglichkeit, Effizienz und Datenverwaltung in der Grundstücksverwaltung. Durch die Nutzung fortschrittlicher Technologien wie GIS ermöglicht es schnellere Aktualisierungen, verbessert die Genauigkeit und unterstützt effektive Entscheidungsfindung in der Verwaltung von Katasterinformationen."
+
+msgid "Digitization and documentation of linear infrastructure represent the core business of"
+msgstr "Die Digitalisierung und Dokumentation linearer Infrastrukturen repräsentieren das Kerngeschäft von"
+
+msgid "GeoDigit"
+msgstr "GeoDigit"
+
+msgid "from the start."
+msgstr "von Anfang an."
+
+msgid "Telecommunications networks"
+msgstr "Telekommunikationsnetze"
+
+msgid "Electric power networks"
+msgstr "Stromversorgungsnetze"
+
+msgid "GIS SOFTWARE APPLIED IN OUR DAILY WORK"
+msgstr "GIS-SOFTWARE, DIE IN UNSERER TÄGLICHEN ARBEIT ANGEWENDET WIRD"
+
+msgid "Software solutions designed for utility and telecommunications companies."
+msgstr "Softwarelösungen, entwickelt für Versorgungs- und Telekommunikationsunternehmen."
+
+msgid "Geospatial software for mapping, spatial analysis, and location data management."
+msgstr "Geografische Software für Kartierung, räumliche Analyse und das Management von Standortdaten."
+
+msgid "Comprehensive CAD software tailored for GIS mapping and infrastructure design."
+msgstr "Umfassende CAD-Software, maßgeschneidert für GIS-Kartierung und Infrastrukturdesign."
+
+msgid "Streamlines IT and telecom infrastructure with robust asset and configuration management."
+msgstr "Optimiert IT- und Telekommunikationsinfrastruktur durch robustes Vermögens- und Konfigurationsmanagement."
+
+msgid "Powerful solution for managing and analyzing spatial infrastructure data."
+msgstr "Leistungsstarke Lösung zur Verwaltung und Analyse von räumlichen Infrastrukturdaten."
+
+msgid "An advanced solution for utility network management and geospatial integration."
+msgstr "Eine fortschrittliche Lösung für das Management von Versorgungsnetzen und die geografische Integration."
+
+msgid "Free and open-source geographic information system for mapping and analysis."
+msgstr "Kostenloses und quelloffenes geografisches Informationssystem für Kartierung und Analyse."
+
+msgid "Open-source platform for creating, sharing, and managing geospatial data and maps."
+msgstr "Open-Source-Plattform zur Erstellung, gemeinsamen Nutzung und Verwaltung von geografischen Daten und Karten."
+
+
+# SERVICES - RAZVOJ GIS-a
+msgid "GIS Solution"
+msgstr "GIS-Lösung"
+
+msgid "If you need a GIS solution that will be customized according to your requirements, then GeoDigit is the right company for you."
+msgstr "Wenn Sie eine GIS-Lösung benötigen, die individuell auf Ihre Anforderungen zugeschnitten ist, dann sind Sie bei GeoDigit genau richtig."
+
+msgid "Using the latest technology combined with Opensource platforms and applications, we provide for our clients a way to obtain, with reasonable investments of time and money, a GIS solution that will be beneficial both to their company’s technical staff and to their management in making important decisions."
+msgstr "Mit modernster Technologie und Open-Source-Plattformen ermöglichen wir unseren Kunden eine kosteneffiziente GIS-Lösung. Diese unterstützt sowohl das technische Personal als auch das Management bei wichtigen Entscheidungen."
+
+msgid "App Development"
+msgstr "App-Entwicklung"
+
+msgid "We offers App Development services, creating customized software solutions that align with your goals and drive digital transformation for your business."
+msgstr "Wir entwickeln maßgeschneiderte Softwarelösungen und fördern die digitale Transformation Ihres Unternehmens durch App-Entwicklungsdienstleistungen."
+
+msgid "GIS data transformation and processing"
+msgstr "Transformation und Verarbeitung von GIS-Daten"
+
+msgid "We provide GIS data transformation and processing services, converting and enhancing geospatial data to unlock valuable insights for your projects."
+msgstr "Wir transformieren und verarbeiten GIS-Daten für wertvolle Erkenntnisse in Ihren Projekten. "
+
+msgid "Desktop and WEB solutions"
+msgstr "Desktop- und WEB-Lösungen"
+
+msgid "We create desktop and web solutions, providing versatile software applications to meet your needs, whether in the office or online."
+msgstr "Wir entwickeln Desktop- und Web-Lösungen und bieten vielseitige Softwareanwendungen, um Ihren Anforderungen gerecht zu werden, sei es im Büro oder online."
+
+msgid "Geodatabase development"
+msgstr "Geodatabase-Entwicklung"
+
+msgid "We specialize in Geodatabase development, creating and optimizing structured spatial databases management and analysis."
+msgstr "Spezialisiert auf Geodatenbankentwicklung, erstellen und optimieren wir strukturierte räumliche Datenbanken für Management und Analyse."
+
+msgid "GIS analysis"
+msgstr "GIS-Analyse"
+
+msgid "We provide GIS analysis development services, crafting custom solutions to extract valuable insights from your geospatial data."
+msgstr "Wir entwickeln maßgeschneiderte GIS-Analyselösungen zur Extraktion wertvoller Erkenntnisse aus Ihren geografischen Daten."
+
+msgid "GIS TECHNOLOGIES AND TOOLS"
+msgstr "GIS-TECHNOLOGIEN UND TOOLS"
+
+msgid "Open-source server software for sharing geospatial data online."
+msgstr "Open-Source-Serversoftware zum Teilen von geografischen Daten online."
+
+msgid "Open-source relational database management system known for its reliability."
+msgstr "Open-Source-Relationales Datenbankmanagementsystem, bekannt für seine Zuverlässigkeit."
+
+msgid "Python, JavaScript, C#, C++, and SQL are versatile programming languages used for various applications, from web development to data analysis."
+msgstr "Python, JavaScript, C#, C++ und SQL sind vielseitige Programmiersprachen, die für verschiedene Anwendungen verwendet werden, von der Webentwicklung bis zur Datenanalyse."
+
+msgid "Django and Flask are popular Python web frameworks for building dynamic, robust, and scalable web applications."
+msgstr "Django und Flask sind beliebte Python-Web-Frameworks zur Entwicklung dynamischer, robuster und skalierbarer Webanwendungen."
+
+msgid "React, Redux, jQuery, Leaflet, and OpenLayers are popular JavaScript libraries for creating interactive web maps and spatial applications with rich user experiences."
+msgstr "React, Redux, jQuery, Leaflet und OpenLayers sind beliebte JavaScript-Bibliotheken zur Erstellung interaktiver Webkarten und räumlicher Anwendungen mit einer ansprechenden Benutzererfahrung."
+
+msgid "Docker is a platform for developing, shipping, and running applications in lightweight, portable containers, streamlining deployment and scaling."
+msgstr "Docker ist eine Plattform zum Entwickeln, Bereitstellen und Ausführen von Anwendungen in leichtgewichtigen, portablen Containern, die Bereitstellung und Skalierung optimiert."
+
+msgid "Open-source GIS software for mapping, analysis, and geospatial data management."
+msgstr "Open-Source-GIS-Software für Kartierung, Analyse und das Management von geografischen Daten."
+
+msgid "Open-source platform for creating, sharing, and managing geospatial data, facilitating collaborative mapping and data sharing."
+msgstr "Open-Source-Plattform zum Erstellen, Teilen und Verwalten von geografischen Daten, erleichtert gemeinsame Kartenerstellung und Datenaustausch."
+
+msgid "Tailored GIS Solutions"
+msgstr "Maßgeschneiderte GIS-Lösungen"
+
+msgid "TELEKOM NETWORK INVENTORY FUNCTIONALITIES"
+msgstr "TELEKOM-NETZ-INVENTARFUNKTIONALITÄTEN"
+
+msgid "Georeferenced positioning of routes and technical locations"
+msgstr "​​Georeferenzierte Positionierung von Routen und technischen Standorten"
+
+msgid "Coaxial and optical cable network display"
+msgstr "Darstellung von Koax- und Glasfaserkabelnetzwerken"
+
+msgid "Pipeline network data display"
+msgstr "Darstellung der Daten des Rohrleitungsnetzes"
+
+msgid "Network Update and Maintenance (Redlining)"
+msgstr "Netzwerkaktualisierung und -wartung (Redlining)"
+
+msgid "Creating reports about network data"
+msgstr "Erstellen von Berichten über die Netzwerkdaten"
+
+msgid "GAS PIPELINE INFRASTRUCTURE DATA MANAGEMENT FUNCTIONALITIES"
+msgstr "DATENVERWALTUNGSFUNKTIONEN DER GASLEITUNGSINFRASTRUKTUR"
+
+msgid "Network data entry"
+msgstr "Netzwerkdateneingabe"
+
+msgid "End-user management"
+msgstr "Endbenutzerverwaltung"
+
+msgid "Monitoring and measuring network capacity"
+msgstr "Überwachung und Messung der Netzwerkkapazität"
+
+msgid "Reports on measurement and control of cathodic protection parameters"
+msgstr "Berichte über die Messung und Kontrolle von kathodischen Schutzparametern"
+
+msgid "Technical documentation management"
+msgstr "Technisches Dokumentationsmanagement"
+
+msgid "WEB, mobile and desktop applications"
+msgstr "WEB-, Mobil- und Desktop-Anwendungen"
+
+msgid "Management of user privileges"
+msgstr "Verwaltung von Benutzerrechten"
+
+msgid "Supply zones"
+msgstr "Versorgungszonen"
+
+msgid "Home measuring control sets"
+msgstr "Messkontrollsets für Zuhause"
+
+msgid "Flow metering stations"
+msgstr "Durchflussmessstationen"
+
+msgid "Monitoring application performance"
+msgstr "Überwachung der Anwendungsleistung"
+
+msgid "HEADEND INVENTORY MANAGEMENT SYSTEM"
+msgstr "HEADEND-BESTANDSVERWALTUNGSSYSTEM"
+
+msgid "Data Management"
+msgstr "Datenmanagement"
+
+msgid "Display of Head-ends and technical locations on the map"
+msgstr "Darstellung von Head-ends und technischen Standorten auf der Karte"
+
+msgid "Display of racks in all rooms"
+msgstr "Darstellung von Regalen in allen Räumen"
+
+msgid "Detailed list of equipment in the racks"
+msgstr "Detaillierte Liste der Geräte in den Racks"
+
+msgid "List of SLA contracts with all the necessary information"
+msgstr "Liste der SLA-Verträge mit allen notwendigen Informationen"
+
+msgid "List of cards and SFP connectors"
+msgstr "Liste der Karten und SFP-Anschlüsse"
+
+msgid "Details of contracts and leases"
+msgstr "Details zu Verträgen und Mietverträgen"
+
+msgid "Reports on the state of equipment, expiration of contracts, warranty, connections, services per clients"
+msgstr "Berichte über Gerätezustand, Vertragsablauf, Gewährleistung, Anschlüsse, Leistungen per Kunde"
+
+msgid "List of IP addresses in use"
+msgstr "Liste der verwendeten IP-Adressen"
+
+msgid "WATER SUPPLY NETWORK FUNCTIONALITIES"
+msgstr "FUNKTIONALITÄTEN DES WASSERVERSORGUNGSNETZES"
+
+msgid "Georeferenced positioning of infrastructure"
+msgstr "​​Georeferenzierte Positionierung der Infrastruktur"
+
+msgid "Display of attributes of network elements (pipes, manholes, house connections)"
+msgstr "Darstellung von Attributen von Netzelementen (Rohre, Schächte, Hausanschlüsse)"
+
+msgid "Reporting related to materials, customers …"
+msgstr "Reporting bezogen auf Materialien, Kunden …"
+
+msgid "Visualization of network objects (hydrants, fittings and manholes)"
+msgstr "Visualisierung von Netzobjekten (Hydranten, Armaturen und Schächte)"
+
+
+# SERVICES - 3D-MAPPIRANJE
+msgid "3D MAPPING SOLUTION"
+msgstr "3D MAPPING LÖSUNG"
+
+msgid "GEODESY IS OUR MAIN AND BASIC ACTIVITY FROM EDUCATION TO CREATING NEW SOLUTIONS."
+msgstr "GODÄSIE IST UNSERE HAUPT- UND BASISAKTIVITÄT, VON DER AUSBILDUNG BIS ZUR ENTWICKLUNG NEUER LÖSUNGEN."
+
+msgid "We are able to use all technologies in our industry to meet our clients needs."
+msgstr "Wir sind in der Lage, alle Technologien unserer Branche einzusetzen, um die Bedürfnisse unserer Kunden zu erfüllen."
+
+msgid "Aerial and terrestrial methods of collecting geodata."
+msgstr "Luft- und terrestrische Verfahren zur Erhebung von Geodaten."
+
+msgid "Processing of collecting data in various software."
+msgstr "Verarbeitung der gesammelten Daten in verschiedener Software."
+
+msgid "Collecting data for GIS database."
+msgstr "Sammeln von Daten für die GIS-Datenbank."
+
+msgid "Create basemaps for Urban planning."
+msgstr "Erstellung von Grundkarten für die Stadtplanung."
+
+msgid "Real estate cadastre."
+msgstr "Immobilienkataster"
+
+msgid "3D city modelling."
+msgstr "3D-Stadtmodellierung"
+
+msgid "A point cloud is a set of data that represents objects or space."
+msgstr "Eine Punktwolke ist ein Datensatz, der Objekte oder Räume darstellt."
+
+msgid "These points represent the X, Y and Z geometric coordinates of individual points on the surface to be recorded. A point cloud is a means of linking a large number of individual spatial measurements into a set of data that can then form a whole. When color information is present, the dot cloud becomes 4D."
+msgstr "Diese Punkte repräsentieren die geometrischen X-, Y- und Z-Koordinaten einzelner Punkte auf der aufzunehmenden Oberfläche. Eine Punktwolke ist ein Mittel, um eine Vielzahl von einzelnen räumlichen Messungen zu einem Datensatz zu verknüpfen, der dann ein Ganzes bilden kann. Wenn Farbinformationen vorhanden sind, wird die Punktwolke zu 4D."
+
+msgid "The point cloud is most often generated using 3D laser scanners and LiDAR technologies and techniques. Here, each point represents one measurement by laser scanning. These scans then merge, creating a complete 3D / 4D image. The point cloud thus represents a digitized and virtualized real space from which spatial information about specific objects (point, line or surface) that are the subject of the recording is then extracted. GeoDigit is doing this with specialized software that serves to process such data."
+msgstr "Die Punktwolke wird am häufigsten mit 3D-Laserscannern und LiDAR-Technologien und -Techniken erzeugt. Dabei repräsentiert jeder Punkt eine Messung durch Laserscanning. Diese Scans werden dann zusammengeführt, wodurch ein vollständiges 3D-/4D-Bild entsteht. Die Punktwolke stellt somit einen digitalisierten und virtualisierten realen Raum dar, aus dem dann räumliche Informationen über bestimmte Objekte (Punkt, Linie oder Fläche) extrahiert werden, die Gegenstand der Aufnahme sind. GeoDigit tut dies mit einer speziellen Software, die dazu dient, solche Daten zu verarbeiten."
+
+msgid "Remote sensing"
+msgstr "Fernerkundung"
+
+msgid "Remote sensing is the process of discovering the physical characteristics of the Earth’s surface by measuring the reflection and radiation on a distance from the target area."
+msgstr "Fernerkundung ist der Prozess der Entdeckung der physikalischen Eigenschaften der Erdoberfläche durch Messung der Reflexion und Strahlung in einer Entfernung vom Zielgebiet."
+
+msgid "Special cameras and satellites perform remote collection of pictures of the Earth, which are further processed by special techniques and methods."
+msgstr "Spezielle Kameras und Satelliten führen eine Fernerfassung von Bildern der Erde durch, die durch spezielle Techniken und Methoden weiterverarbeitet werden."
+
+msgid "GeoDigit, in cooperation with its partners, provides the services of recording the surface with special high-resolution cameras and processing of the recorded data, as well as processing of the existing satellite imagery that are publicly available."
+msgstr "GeoDigit bietet in Zusammenarbeit mit seinen Partnern die Dienstleistungen der Erfassung der Oberfläche mit speziellen hochauflösenden Kameras und der Verarbeitung der aufgezeichneten Daten sowie die Verarbeitung der vorhandenen öffentlich zugänglichen Satellitenbilder an."
+
+msgid "Recording, detection and high-resolution image processing"
+msgstr "Aufnahme, Erkennung und hochauflösende Bildverarbeitung"
+
+msgid "We provide the following services:"
+msgstr "Wir bieten folgende Dienstleistungen an:"
+
+msgid "Satellite image processing"
+msgstr "Satellitenbildverarbeitung"
+
+msgid "Survey and development of orthophotos"
+msgstr "Erhebung und Entwicklung von Orthophotos"
+
+msgid "Topographic mapping"
+msgstr "Topografische Kartierung"
+
+msgid "GIS data Conversion"
+msgstr "GIS-Datenkonvertierung"
+
+msgid "GIS Mapping"
+msgstr "GIS-Mapping"
+
+msgid "Map creation"
+msgstr "Kartenerstellung"
+
+
+# SERVICES - GEODETSKE USLUGE
+msgid "What are we offer our clients?"
+msgstr "Was wir unseren Kunden anbieten?"
+
+msgid "From construction layout of high-rise steel structures to 3-D laser scanning, we perform comprehensive surveying services for commercial and residential developments, buildings, highways, bridges, utilities, waterways and property acquisitions."
+msgstr "Vom Konstruktionslayout von Hochhaus-Stahlkonstruktionen bis hin zum 3-D-Laserscanning führen wir umfassende Vermessungsdienste für Gewerbe- und Wohnsiedlungen, Gebäude, Autobahnen, Brücken, Versorgungsleitungen, Wasserstraßen und Grundstücksakquisitionen durch."
+
+msgid "The following surveying services:"
+msgstr "Folgende Vermessungsleistungen:"
+
+msgid "Topographic maps"
+msgstr "Topografische Karten"
+
+msgid "Mobile mapping"
+msgstr "Mobile Kartierung"
+
+msgid "Cadaster services"
+msgstr "Katasterdienste"
+
+msgid "Boundary survey"
+msgstr "Grenzvermessung"
+
+msgid "Bathymetry survey"
+msgstr "Bathymetrievermessung"
+
+msgid "Linear infrastructure survey"
+msgstr "Lineare Infrastrukturvermessung"
+
+msgid "Drone surveying"
+msgstr "Drohnenvermessung"
+
+msgid "Aerial laser scanning"
+msgstr "Luftlaserscanning"
+
+msgid "Monitoring of construction site"
+msgstr "Überwachung von Baustellen"
+
+msgid "Utility Detection and Tracing"
+msgstr "Leitungsortung und -verfolgung"
+
+msgid "Collect geodata for GIS purpose"
+msgstr "Geodatenerfassung für GIS-Zwecke"
+
+msgid "Gallery"
+msgstr "Galerie"
+
+
+# SERVICES - PLANIRANJE I PROJEKTOVANJE
+msgid "Passive optical networks"
+msgstr "Passive optische Netzwerke"
+
+msgid "We are able to provide services in the field of designing, planning, collecting documents and permits, performing works, laying cables and splicing of all types of telecommunications networks mainly based on P2P, GPON technologies."
+msgstr "Wir sind in der Lage, Dienstleistungen im Bereich des Entwurfs, der Planung, der Einholung von Dokumenten und Genehmigungen, der Ausführung von Arbeiten, der Verlegung von Kabeln und Spleißen aller Arten von Telekommunikationsnetzen, hauptsächlich basierend auf P2P- und GPON-Technologien, anzubieten."
+
+msgid "YEARS OF EXPERIENCE IN THE FIELD OF TELECOMMUNICATION NETWORKS"
+msgstr "JAHRELANGE ERFAHRUNG IM BEREICH DER TELEKOMMUNIKATIONSNETZE"
+
+msgid "We have experience in designing and modifying telecommunications networks based on optical and coax cables. Our experienced team of engineers will provide the latest and high-quality technical solutions in accordance with the highest standards."
+msgstr "Wir haben Erfahrung in der Entwicklung und Modifikation von Telekommunikationsnetzen auf Basis von Glasfaser- und Koaxialkabel. Unser erfahrenes Team von Ingenieuren bietet die neuesten und qualitativ hochwertigsten technischen Lösungen gemäß den höchsten Standards an."
+
+msgid "WE OFFER SERVICES OF DEVELOPING:"
+msgstr "WIR BIETEN DIENSTLEISTUNGEN AN ZUR ENTWICKLUNG VON:"
+
+msgid "Preliminary design"
+msgstr "Vorläufigem Design"
+
+msgid "Main design"
+msgstr "Hauptdesign"
+
+msgid "As-built design"
+msgstr "As-Built-Design"
+
+msgid "TECHNICAL SOLUTIONS:"
+msgstr "TECHNISCHE LÖSUNGEN:"
+
+msgid "Design of main and local connecting routes with optical cables"
+msgstr "Auslegung von Haupt- und Ortsverbindungsstrecken mit Lichtwellenleitern"
+
+msgid "Calculating new network cost"
+msgstr "Berechnung neuer Netzwerkkosten"
+
+msgid "Design routes of cable ducts"
+msgstr "Entwurf von Trassen von Kabelkanälen"
+
+msgid "Design of FTTH"
+msgstr "Design von FTTH"
+
+msgid "DOCSIS technology"
+msgstr "DOCSIS-Technologie"
+
+
+# SERVICES - KONSULTING
+msgid "With GeoDigit"
+msgstr "Mit GeoDigit"
+
+msgid "GEODIGIT CONSULTING INCLUDES PROFESSIONAL, TECHNICAL, LEGAL AND ORGANIZATIONAL SUPPORT TO CLIENTS DURING PLANNING AND REALISATION OF THEIR PROJECTS."
+msgstr "GEODIGIT CONSULTING UMFASST DIE PROFESSIONELLE, TECHNISCHE, RECHTLICHE UND ORGANISATORISCHE UNTERSTÜTZUNG FÜR DIE KUNDEN BEI DER PLANUNG UND UMSETZUNG IHRER PROJEKTE."
+
+msgid "We have extensive experience in consulting activities, from project assignment, conceptual solutions, urban planning, design and audit, to inspection and technical consulting."
+msgstr "Wir verfügen über umfangreiche Erfahrung in Beratungstätigkeiten, vom Projektauftrag, konzeptionellen Lösungen, Stadtplanung, Design und Audit bis hin zu Inspektion und technischer Beratung."
+
+msgid "The high level of qualifications, competencies and quality possessed by the expert team of GeoDigit ensures the success of project implementation in the field of geodesy, geoinformation, construction and telecommunications."
+msgstr "Die hohe Qualifikation, Kompetenz und Qualität des Expertenteams von GeoDigit sichert den Erfolg der Projektumsetzung in den Bereichen Geodäsie, Geoinformation, Bauwesen und Telekommunikation."
+
+msgid "Project development and management"
+msgstr "Projektentwicklung und -management"
+
+msgid "Control and quality assurance"
+msgstr "Kontrolle und Qualitätssicherung"
+
+msgid "GIS consulting"
+msgstr "GIS-Beratung"
+
+msgid "Feasibility study"
+msgstr "Machbarkeitsstudie"
+
+msgid "Training"
+msgstr "Ausbildung"
+
+
+# BLOG
+msgid "Type Keywords"
+msgstr "Schlüsselwörter eingeben"
+
+msgid "Popular Category"
+msgstr "Beliebte Kategorie"
+
+msgid "Popular Posts"
+msgstr "Beliebte Beiträge"
+
+msgid "PREVIOUS POST"
+msgstr "VORHERIGEN POST"
+
+msgid "NEXT POST"
+msgstr "NÄCHSTER POST"
+
+msgid "comment"
+msgstr "Kommentar"
+
+msgid "comments"
+msgstr "Kommentare"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Create New Comment"
+msgstr "Neuen Kommentar erstellen"
+
+msgid "There are no comments for this post."
+msgstr "Es gibt keine Kommentare zu diesem Beitrag."
+
+msgid "Name"
+msgstr "Vor-und Nachname"
+
+msgid "Content"
+msgstr "Kommentar"
+
+msgid "SEND MESSAGE"
+msgstr "NACHRICHT SENDEN"
+
+msgid "Archive Posts"
+msgstr "Archivbeiträge"
+
+# BLOG - ARCHIVE
+msgid "Archive for"
+msgstr "Archiv für"
+
+
+# KONTAKT
+msgid "Contact Details"
+msgstr "Kontaktdetails"
+
+msgid "Message"
+msgstr "Nachricht"
+
+msgid "Office Address"
+msgstr "Büro adresse"
+
+msgid "Mail Us"
+msgstr "Mailen Sie uns"
+
+msgid "Telephone"
+msgstr "Telefon"
+
+msgid "GET A QUOTE"
+msgstr "EIN ANGEBOT BEKOMMEN"
+
+msgid "Message sent successfully!"
+msgstr "Nachricht erfolgreich gesendet!"
+
+

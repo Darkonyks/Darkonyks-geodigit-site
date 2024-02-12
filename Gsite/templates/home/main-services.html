@@ -1,0 +1,105 @@
+{% load static %}
+{% load i18n %}
+<section id="archx-project-2" data-background="{% static 'img/services/01_GisService.jpg' %}">
+    <div id="main-service">
+        <div class="archx-section-title headline-2">
+            <span class="title-serial title-serial-service" style="padding-left: 200px;">{% translate 'Services' %}</span>
+        </div>
+    </div>
+    <div class="archx-project-slider-area">
+        <div class="arck-service-content">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-xxl-2 col-md-6 no-padding wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="arck-service-item text-center position-relative">
+                        <div class="hover-img position-absolute">
+                            <img src="{% static 'img/services/01_GisService.jpg' %}" alt="">
+                        </div>
+                        <div class="inner-icon position-relative">
+                            <img class="icon-services" src="{% static 'icon/location.png' %}" alt="" width="92" height="92">
+                        </div>
+                        <div class="arck-inner-text service-inner-text headline pera-content">
+                            <h3 class="oldsite-font-service"><a href="{% url 'gis-services' %}">{% translate 'GIS Services' %}</a></h3>
+                            <p>{% translate 'GIS services involve the use of spatial data for mapping, analysis, and support in various areas, utility line infrastructure urban planning to environmental conservation.' %}</p>
+                            <a class="btn-more" href="{% url 'gis-services' %}">{% translate 'READ MORE' %} <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xxl-2 col-md-6 no-padding wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="arck-service-item text-center position-relative">
+                        <div class="hover-img position-absolute">
+                            <img class="lozad" data-src="{% static 'img/services/02_GisDev.jpg' %}" alt="">
+                        </div>
+                        <div class="inner-icon position-relative">
+                            <img class="icon-services" src="{% static 'icon/development.png' %}" alt="" width="92" height="92">
+                        </div>
+                        <div class="arck-inner-text service-inner-text headline pera-content">
+                            <h3 class="oldsite-font-service"><a href="{% url 'gis-development' %}">{% translate 'GIS Development' %}</a></h3>
+                            <p>{% translate 'GIS development involves creating and enhancing systems for efficient management, analysis, and visualization of spatial data.' %}</p>
+                            <a class="btn-more" href="{% url 'gis-development' %}">{% translate 'READ MORE' %} <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xxl-2 col-md-6 no-padding wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="arck-service-item text-center position-relative">
+                        <div class="hover-img position-absolute">
+                            <img class="lozad" data-src="{% static 'img/services/03_3d-map_2.jpg' %}" alt="">
+                        </div>
+                        <div class="inner-icon position-relative">
+                            <img class="icon-services" src="{% static 'icon/3d.png' %}" alt="" width="92" height="92">
+                        </div>
+                        <div class="arck-inner-text service-inner-text headline pera-content">
+                            <h3 class="oldsite-font-service"><a href="{% url '3d-mapping' %}">{% translate '3D Mapping' %}</a></h3>
+                            <p>{% translate '3D mapping is the representation of real-world objects in a three-dimensional space, allowing for a detailed depiction and better understanding of the environment.' %}</p>
+                            <a class="btn-more text-uppercase" href="{% url '3d-mapping' %}">{% translate 'READ MORE' %} <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xxl-2 col-md-6 no-padding wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="arck-service-item text-center position-relative">
+                        <div class="hover-img position-absolute">
+                            <img class="lozad" data-src="{% static 'img/services/04_Surveying.jpg' %}" alt="" >
+                        </div>
+                        <div class="inner-icon position-relative">
+                            <img class="icon-services" src="{% static 'icon/laser-level.png' %}" alt="" width="92" height="92">
+                        </div>
+                        <div class="arck-inner-text service-inner-text headline pera-content">
+                            <h3 class="oldsite-font-service"><a href="{% url 'surveying' %}">{% translate 'Surveying' %}</a></h3>
+                            <p>{% translate 'Surveying is the process of measuring and mapping land, providing essential data for construction projects, land management, and infrastructure development.' %}</p>
+                            <a class="btn-more text-uppercase" href="{% url 'surveying' %}">{% translate 'READ MORE' %} <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xxl-2 col-md-6 no-padding wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div class="arck-service-item text-center position-relative">
+                        <div class="hover-img position-absolute">
+                            <img class="lozad" data-src="{% static 'img/services/05_Planning.jpg' %}" alt="">
+                        </div>
+                        <div class="inner-icon position-relative">
+                            <img class="icon-services" src="{% static 'icon/simulation.png' %}" alt="" width="92" height="92">
+                        </div>
+                        <div class="arck-inner-text service-inner-text headline pera-content">
+                            <h3 class="oldsite-font-service"><a href="{% url 'planning-design' %}">{% translate 'Planning and Design' %}</a></h3>
+                            <p>{% translate 'Optical passive network planning for residential and business users. We provide services for the development of preliminary, main and as-built design. We design optical access and long-distance networks.' %}</p>
+                            <a class="btn-more text-uppercase" href="{% url 'planning-design' %}">{% translate 'READ MORE' %} <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xxl-2 col-md-6 no-padding wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div class="arck-service-item text-center position-relative">
+                        <div class="hover-img position-absolute">
+                            <img class="lozad" data-src="{% static 'img/services/consulting_3_1.jpg' %}" alt="">
+                        </div>
+                        <div class="inner-icon position-relative">
+                            <img class="icon-services" src="{% static 'icon/meeting.png' %}" alt="" width="92" height="92">
+                        </div>
+                        <div class="arck-inner-text service-inner-text headline pera-content">
+                            <h3 class="oldsite-font-service"><a href="{% url 'consulting' %}">{% translate 'Consulting' %}</a></h3>
+                            <p>{% translate 'Consulting involves providing professional, technical, legal, and organizational support to clients during the planning and implementation of their projects.' %}</p>
+                            <a class="btn-more text-uppercase" href="{% url 'consulting' %}">{% translate 'READ MORE' %} <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>	

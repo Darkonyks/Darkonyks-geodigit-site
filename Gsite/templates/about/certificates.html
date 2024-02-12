@@ -1,0 +1,115 @@
+{% load static %}
+{% load i18n %}
+<section id="arck-service-2" class="arck-service-section-2">
+        <div class="pb-5 mb-3">
+                <div class="oldsite-font-h1 cl-green wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+                    <h2 class="d-flex justify-content-center header-certificates" style="font-size: 2.5rem;"><span class="text-decoration-underline mainpage-blog-headline "style="line-height: 1.5;">{% translate 'Certificates and Standards' %}</span></h2>
+                    <span class="border-line-left wow slideInLeft" style="visibility: visible; animation-duration: 2000ms; animation-delay: 800ms; animation-name: slideInLeft;"></span>
+                    <span class="border-line-right wow slideInRight" style="visibility: visible; animation-duration: 2100ms; animation-delay: 500ms; animation-name: slideInRight;"></span>
+                 </div>
+            </div>
+            <div class="row justify-content-center m-0">
+                <div class="certificate-cards">
+                    <div class="arck-service-item-2 position-relative d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center certificate-cards-img">
+                            <img class="lozad" style="border-radius: 50%; width: 125px" data-src="{% static 'img/certificates/Tuv_Nord_f.png' %}" alt="Tuv Nord">
+                        </div>
+                        <div class="headline d-flex flex-column flex-grow-1">
+                            <h3 class="oldsite-font font-16 cl-green text-center pt-1">{% translate 'QUALITY MANAGEMENT SYSTEM' %}</h3>
+                            <b class="cert-nums">ISO 9001:2015 Cert. no: 44 100 22430276</b>
+                            <div style="padding-top: 45px;flex-grow: 1;">
+                                <p class="cert-text cl-blue" style="padding-top: 20px;">
+                                    {% translate 'Guided by its mission and vision, GeoDigit has harmonized its quality system with internationally recognized standards, which confirm the dedication and commitment of the organization towards achieving the objectives of ensuring the quality of services.' %}
+                                </p>
+                            </div>
+                            <button class="show-overlay-button certificate-button" data-overlay="overlay-1">{% translate 'CERTIFICATE' %} <i class="fal fa-long-arrow-right"></i></button>
+                        </div>
+                        <div class="image-overlay overlay-1">
+                            <img class="lozad" data-src="{% static 'img/certificates/Sertifikat_iso_9001.png' %}" alt="Certificate ISO 9001:2015">
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-cards">
+                    <div class="arck-service-item-2 position-relative d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center certificate-cards-img">
+                            <img class="lozad" src="{% static 'img/certificates/cert2.jpg' %}" alt="ISOQAR">
+                        </div>
+                        <div class="headline d-flex flex-column flex-grow-1">
+                            <h3 class="oldsite-font font-16 cl-green text-center">{% translate 'INFORMATION SECURITY MANAGEMENT SYSTEM' %}</h3>
+                            <b class="cert-nums">SRPS ISO 27001:2014 Cert. no: 13370</b>
+                            <div style="padding-top: 23px;flex-grow: 1;">
+                                <p class="cert-text cl-blue">
+                                    {% translate 'One of the main priorities of the company is to ensure the safety and security of data and informations. Nowadays, the key aspect of professionalism is the way of dealing with confidential information’s. GeoDigit is an organization that has its own security system raised to the highest level as evidenced by the internationally recognized certificate.' %}
+                                </p>
+                            </div>
+                            <button class="certificate-button show-overlay-button" data-overlay="overlay-2">{% translate 'CERTIFICATE' %} <i class="fal fa-long-arrow-right"></i></button>
+                        </div>
+                        <div class="image-overlay overlay-2">
+                            <img class="lozad" data-src="{% static 'img/certificates/13370-ISMS-recert-cert.jpg' %}" alt="Certificate SRPS ISO 27001">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-cards col-lg-3 col-md-6 col-sm-6">
+                    <div class="arck-service-item-2 position-relative d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center certificate-cards-img">
+                            <img class="lozad" style="width: 130px" data-src="{% static 'img/certificates/cert3.jpg' %}" alt="ISOQAR">
+                        </div>
+                        <div class="headline d-flex flex-column flex-grow-1">
+                            <h3 class="oldsite-font font-16 cl-green text-center">{% translate 'MANAGEMENT SYSTEM FOR HEALTH AND SAFETY AT WORK' %}</h3>
+                            <b class="cert-nums">SRPS OHSAS 45001:2018 Cert. no 13370</b>
+                            <div style="padding-top: 23px;flex-grow: 1;">
+                                <p class="cert-text cl-blue">
+                                    {% translate 'Our team is our strength. Employees are the highest value of our organization, and we employ all available methods to protect them in their work. Through comprehensive safety measures, we safeguard both our employees and the organization.' %}
+                                </p>
+                            </div>
+                            <button class="show-overlay-button certificate-button .oldsite-font-h3" data-overlay="overlay-3">{% translate 'CERTIFICATE' %} <i class="fal fa-long-arrow-right"></i></button>
+                        </div>
+                        <div class="image-overlay overlay-3">
+                            <img class="lozad" data-src="{% static 'img/certificates/13370-OHS-recert-and-migration-cert.jpg' %}" alt="Certificate SRPS OHSAS 45001">
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-cards">
+                    <div class="arck-service-item-2 position-relative d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center certificate-cards-img">
+                            <img class="lozad" style="width: 130px" data-src="{% static 'img/certificates/cert4.jpg' %}" alt="ISOQAR">
+                        </div>
+                        <div class="headline d-flex flex-column flex-grow-1">
+                            <h3 class="oldsite-font font-16 cl-green text-center">{% translate 'MANAGEMENT SYSTEM FOR ENVIRONMENTAL PROTECTION' %}</h3>
+                            <b class="cert-nums">SRPS ISO 14001:2015 Cert. no 13370</b>
+                            <div style="padding-top: 23px;flex-grow: 1;">
+                                <p class="cert-text cl-blue">
+                                    {% translate 'GeoDigit and its employees are socially responsible and aware of the necessity and importance of environmental protection. International standard is just a proof of commitment to maintaining our planet clean and safe.' %}
+                                </p>
+                            </div>
+                            <button class="show-overlay-button certificate-button .oldsite-font-h3" data-overlay="overlay-4">{% translate 'CERTIFICATE' %} <i class="fal fa-long-arrow-right"></i></button>
+                        </div>
+                        <div class="image-overlay overlay-4">
+                            <img class="lozad" data-src="{% static 'img/certificates/13370-E15-recert-cert.jpg' %}" alt="Certificate SRPS ISO 14001">
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-cards">
+                    <div class="arck-service-item-2 position-relative d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center certificate-cards-img">
+                            <img class="lozad" style="width: 135px" data-src="{% static 'img/certificates/cert5.png' %}" alt="ISOQAR">
+                        </div>
+                        <div class="headline d-flex flex-column flex-grow-1">
+                            <h3 class="oldsite-font font-16 cl-green text-center">{% translate 'BUSINESS CONTINUITY MANAGEMENT SYSTEMS' %}</h3>
+                            <b class="cert-nums">SRPS ISO 22301:2020 Cert. no: 13370-BCI-001</b>
+                            <div style="padding-top: 23px;flex-grow: 1;">
+                                <p class="cert-text cl-blue">
+                                    {% translate 'ISO 22301 is the internationally recognized standard for Business Continuity Management Systems (BCMS). In a world where cyberattacks, data breaches, and natural disasters can disrupt business continuity and quickly damage reputation, organizations need to implement, maintain, and continually refine their Business Continuity Management System (BCMS).' %}
+                                </p>
+                            </div>
+                            <button class="show-overlay-button certificate-button .oldsite-font-h3" data-overlay="overlay-5">{% translate 'CERTIFICATE' %} <i class="fal fa-long-arrow-right"></i></button>
+                        </div>
+                        <div class="image-overlay overlay-5">
+                            <img class="lozad" data-src="{% static 'img/certificates/Certificate-ISO-22301.jpg' %}" alt="Certificate SRPS ISO 22301">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>	

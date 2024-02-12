@@ -1,0 +1,43 @@
+{% load static %}
+{% load i18n %}
+<div class="container pt-5 pb-5">
+    <div class="arck-project-details-img-text">
+        <div class="row"> 
+            <div class="col-lg-6 col-md-12">
+                <div class="gd-career arck-project-details-text headline pera-content ul-li-block">
+                    <h4 class="oldsite-font cl-green">{% translate 'Career at GeoDigit' %}</h4>
+                    <p class="cl-blue">{% translate 'GeoDigit engages different employee profiles. Depending on the project, profiles of employees that are required change, but in order to be engaged by the company, it is essential that the candidates have the following virtues:' %}
+                    <div class="row"> 
+                        <div class="col-lg-6 col-md-6 career-list">
+                            <ul style="color:#09a9ac; line-height: 1.9" >
+                                <li>{% translate 'Commitment' %}</li>
+                                <li>{% translate 'Organization' %}</li>
+                                <li>{% translate 'Ambition' %}</li>
+                                <!-- <li>{% translate 'Analyticity' %}</li> -->
+                                <li>{% translate 'Systematicity' %}</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 career-list">
+                            <ul style="color:#09a9ac; line-height: 1.9">
+                                <li>{% translate 'Persistence' %}</li>
+                                <li>{% translate 'Meticulousness and precision' %}</li>
+                                <li>{% translate 'Punctuality' %}</li>
+                                <li>{% translate 'Computer literacy' %}</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="pt-5 cl-blue">
+                        {% translate 'Send us your CV with a picture and motivation letter to the e-mail address' %}  
+                        <span class="cl-green text-decoration-underline"><a href="mailto:posao@geodigit.rs">posao@geodigit.rs</a></span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="archx-contact-img position-relative wow fadeInUp">
+                    <img class="lozad" style="border-radius: 10px;" data-src="{% static 'img/about/job-interview.jpg' %}" alt="job-interview">       
+                    <span class="img-shape"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

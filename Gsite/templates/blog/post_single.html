@@ -1,0 +1,207 @@
+{% extends "home.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}Blog - {{post.title}}{% endblock %}
+
+{% block content %}
+
+{% include "base/navbar.html" %}
+{% include "base/page-title.html" with page_title_default="BLOG" %}
+
+<section id="arck-blog-details" class="arck-blog-details-section inner-page-padding">
+    <div class="container">
+        <div class="arck-blog-details-content">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="arck-blog-details-main-content">
+                        <div class="arck-blog-details-img">
+                            <img src="{{ post.image.url }}" alt="">
+                        </div>
+                        <div class="arck-blog-details-text-wrap headline pera-content ul-li-block">
+                            <div class="blog-meta">
+                                <a href="{{ category_url }}"><span class="blog-cat text-uppercase">{{post.category}}</span></a>	
+                                <span class="date px-2"><i class="far fa-calendar-alt"></i> {{post.publish|date:"D. | d M. Y"}}</span>
+                                <span class="author px-2"><i class="far fa-user-circle"></i> {{post.author}}</span>
+                                <span class="click-count px-2"><i class="far fa-eye"></i> {{ post.click_count }}</span>
+                            </div>
+                            <h2>{{post.title}}</h2>
+                            <p>{{post.content|safe}}</p>
+                            <blockquote>
+                                {{post.excerpt|safe}}
+                            </blockquote>
+                            <p>{{post.content_second|safe}}</p>
+                            <div class="arck-blog-details-img-wrap-2">
+                                <div class="row">
+                                    {% if post.image_content  %}
+                                    <div class="col-md-6">
+                                        <img src="{{ post.image_content.url }}" alt="">
+                                    </div>
+                                    {% else %}
+                                        <div></div>
+                                    {% endif %}
+                                    {% if post.image_content_second  %}
+                                    <div class="col-md-6">
+                                        <img src="{{ post.image_content_second.url }}" alt="">
+                                    </div>
+                                    {% else %}
+                                        <div class="blog-line"></div>
+                                    {% endif %}
+                                    </div>
+                                </div>
+                                <p>{{post.content_final|safe}}</p>
+                            </div>
+                        <div class="arck-blog-share-tag d-flex justify-content-between ul-li align-items-center">
+                            <div class="blog-share d-flex align-items-center">
+                                <ul>
+                                    <li><a href="https://www.instagram.com/geodigit_company/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/geodigit" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arck-project-next-prev-btn d-flex text-uppercase justify-content-between">
+                        {% if previous_post %}
+                            <a href="{% url 'post_single' post=previous_post.slug %}">
+                                <i class="far fa-long-arrow-left"></i> 
+                                {% translate 'PREVIOUS POST' %}
+                            </a>
+                        {% endif %}
+
+                        {% if next_post %}
+                            <a href="{% url 'post_single' post=next_post.slug %}">
+                                {% translate 'NEXT POST' %} 
+                                <i class="far fa-long-arrow-right"></i></a>
+                        {% endif %}
+                    </div>
+                    <div class="arck-blog-author d-flex justify-content-evenly align-items-center">
+                        <div class="inner-img">
+                            <img src="{{ author_bio.image.url }}" alt="{{ author_bio.name }}">
+                        </div>
+                        <div class="inner-text headline pera-content">
+                            <h4>{% translate 'Author' %} {{ author_bio }}</h4>
+                            <p>{{ author_bio.bio }}</p>
+                            <div class="inner-social">
+                                <a href="https://www.instagram.com/geodigit_company/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/company/geodigit"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_comment_box headline">
+                        {% with comments.count as total_comments %}  
+                        <h3>
+                        {% if total_comments == 1 %}
+                            {{ total_comments }} {% translate 'comment' %}
+                        {% else %}
+                            {{ total_comments }} {% translate 'comments' %} 
+                        {% endif %}                      
+                        </h3>
+                        {% endwith %}
+
+                        
+                        <div class="comment_box_area ul-li-block">
+                            <ul class="comment_itemlist">
+                                {% for comment in comments %}
+                                <li>
+                                    <div class="comment_element d-flex position-relative">
+                                        <div class="comment_img"> 
+                                            <img src="{{ comment.image.url}}" alt="">
+                                        </div>
+                                        <div class="comment_content pera-content">
+                                            <h4>{{ comment.name }}</h4>
+                                            <span>{{comment.publish|date:"D. | d M. Y"}}</span>
+                                            <p>{{ comment.content }}</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% empty %}
+                                <p>
+                                    {% translate 'There are no comments for this post.' %}
+                                </p>
+                                {% endfor%}
+                            </ul>
+                        </div>
+                        <h3>{% translate 'Create New Comment' %}</h3>
+                        <div class="comment_formfield arck-contact-page-form">
+                            <div class="arck-appointment-form-wrap">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        {{ comment_form.as_p }}
+                                        {% csrf_token %}
+                                    </div>
+                                    <button class="mt-5" type="submit">{% translate 'SEND COMMENT' %}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4">
+                    <div class="arck-blog-sidebar top-sticky-sidebar">
+                        <div class="arck-side-bar-widget headline">
+                            <div class="search-widget">
+                                <form hx-get="search/" hx-trigger="submit" id="search-form" hx-target="#search-results">
+                                    <input id="search-input" type="text" name="q" placeholder="{% translate 'Type Keywords' %}" required>
+                                    <button type="submit"><i class="far fa-search"></i></button>
+                                </form>
+                            </div>
+                            <!-- SideBar Start -->
+                            <div id="search-results">
+                                <!-- Rezultati pretrage će biti prikazani -->
+                            </div>
+                        </div>
+                        <div class="arck-side-bar-widget headline ul-li-block">
+                            <div class="category-widget">
+                                <h3 class="widget-title">{% translate 'Popular Category' %}</h3>
+                                <ul>
+                                    {% for category_count in category_counts %}
+                                        <li class="blog-cat text-uppercase">
+                                            <a href="category/{{category_count.category__name}}/">{{ category_count.category__name|title }}
+                                                <span>
+                                                    {{ category_count.count }}
+                                                </span>
+                                            </a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="arck-side-bar-widget headline">
+                            <div class="recent-post-widget">
+                                <h3 class="widget-title">{% translate 'Popular Posts' %}</h3>
+                                <div class="recent-post-wrap">
+                                    <div class="recent-post-wrap">
+                                        {% for post in popular_posts %}
+                                            <div class="recent-blog-img-text d-flex align-items-center">
+                                                <div class="recent-blog-img">
+                                                    <img src="{{ post.image.url }}" alt="">
+                                                </div>
+                                                <div class="recent-blog-text headline">
+                                                    <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h3>
+                                                    <span><i class="far fa-calendar-alt"></i> {{ post.publish|date:"D. | d M. Y" }}</span>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arck-side-bar-widget headline ul-li-block">
+                            <div class="category-widget">
+                            <h3 class="widget-title">{% translate 'Archive Posts' %}</h3>
+                                <ul>
+                                    {% for year in years %}
+                                        <li class="blog-cat text-uppercase"><a href="{% url 'blog_archive' year=year|date:'Y' %}">{{ year|date:"Y" }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include "contact/contact-map.html" %}
+{% include "base/footer.html" %}
+
+{% endblock %}

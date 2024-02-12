@@ -1,0 +1,183 @@
+{% load static %}
+{% load i18n %}
+<section id="archx-about-2" class="archx-about-section-2  position-relative">
+    <div class="container">
+        <div class="archx-about-content-2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span class="archx-about-counter-img position-absolute">
+                        <img class="mapping-background-img" src="{% static 'img/3d-mapping/7178727_11902.svg' %}" alt="Image by kjpargeter on Freepik">
+                    </span>
+                    <h1 class="oldsite-font font-36 cl-green pb-3">{% translate '3D MAPPING SOLUTION' %}</h1>
+                    <h4 class="oldsite-font font-18 cl-blue pb-3">{% translate 'GEODESY IS OUR MAIN AND BASIC ACTIVITY FROM EDUCATION TO CREATING NEW SOLUTIONS.' %}</h4>
+                    <p class="font-20 cl-blue">
+                        {% translate 'We are able to use all technologies in our industry to meet our clients needs.' %}
+                    </p>
+                    <div class="arck-project-details-text headline pera-content ul-li-block">
+                        <ul class="d-flex justify-content-center align-items-start flex-column gap-3 font-18 cl-blue"> 
+                            <li>
+                                {% translate 'Aerial and terrestrial methods of collecting geodata.' %}
+                            </li>
+                            <li>
+                                {% translate 'Processing of collecting data in various software.' %}
+                            </li>
+                            <li>
+                                {% translate 'Collecting data for GIS database.' %}
+                            </li>
+                            <li>
+                                {% translate 'Create basemaps for Urban planning.' %}
+                            </li>
+                            <li>
+                                {% translate 'Real estate cadastre.' %}
+                            </li>
+                            <li>
+                                {% translate '3D city modelling.' %}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5">
+                    <div id="my_nanogallery2" data-nanogallery2>
+                      <a href="{% static 'img/3d-mapping/QgisInventory.png' %}" data-ngthumb="{% static 'img/3d-mapping/QgisInventory.png' %}" data-ngdesc=""></a>
+                      <a href="{% static 'img/3d-mapping/3d-map.png' %}" data-ngthumb="{% static 'img/3d-mapping/3d-map.png' %}" data-ngdesc=""></a>
+                      <a href="{% static 'img/3d-mapping/3d-map-2.png' %}" data-ngthumb="{% static 'img/3d-mapping/3d-map-2.png' %}" data-ngdesc=""></a>
+                      <a href="{% static 'img/3d-mapping/Aerial.png' %}" data-ngthumb="{% static 'img/3d-mapping/Aerial.png' %}" data-ngdesc=""></a>
+                      <a href="{% static 'img/3d-mapping/Cadastre.jpg' %}" data-ngthumb="{% static 'img/3d-mapping/Cadastre.jpg' %}" data-ngdesc=""></a>
+                      <a href="{% static 'img/3d-mapping/3dmodel.jpg' %}" data-ngthumb="{% static 'img/3d-mapping/3dmodel.jpg' %}" data-ngdesc=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>		
+<section class="logo-software">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="d-flex justify-content-evenly align-items-center">
+                    <div class="text-center headline-2 pera-content">
+                        <img src="{% static 'img/3d-mapping/autodesk.png' %}" alt="" width="100px">
+                    </div>
+                    <div class="text-center headline-2 pera-content">
+                        <img src="{% static 'img/3d-mapping/Bentley.png' %}" alt="" width="200px">
+                    </div>
+                    <div class="text-center headline-2 pera-content">
+                        <img src="{% static 'img/3d-mapping/topoprogram.png' %}" alt="" width="100px">
+                    </div>
+                    <div class="ext-center headline-2 pera-content">
+                        <img src="{% static 'img/3d-mapping/Esri.png' %}" alt="" width="160px">
+                    </div>
+                    <div class="text-center headline-2 pera-content">
+                        <img src="{% static 'img/3d-mapping/leica.png' %}" alt="" width="120px">
+                    </div>
+                    <div class="text-center headline-2 pera-content">
+                        <img src="{% static 'img/3d-mapping/Trimble.png' %}" alt="" width="160px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="arck-working-skill-section">
+    <div class="container" >
+        <div class="arck-working-skill-content">
+            <div class="row mt-5">
+                <div class="col-lg-6 ">
+                    <div class="arck-working-skill-img position-relative mt-4">
+                        <img style="border-radius: 10px;" src="{% static 'img/3d-mapping/point-cloud.jpg' %}" alt="" >
+                        <img class="img-dot-background" src="{% static 'img/about/dot-shape.png' %}" alt="" >
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="arck-section-title headline pera-content">
+                        <h2 class="oldsite-font-h2 mb-4">Point Cloud</h2>
+                        <h4 class="font-20 cl-blue pb-4">{% translate 'A point cloud is a set of data that represents objects or space.' %}</h4>
+                        <p class="font-16 cl-blue pb-4">
+                            {% translate 'These points represent the X, Y and Z geometric coordinates of individual points on the surface to be recorded. A point cloud is a means of linking a large number of individual spatial measurements into a set of data that can then form a whole. When color information is present, the dot cloud becomes 4D.' %}
+                        </p>
+                        <p class="font-16 cl-blue pb-4">
+                            {% translate 'The point cloud is most often generated using 3D laser scanners and LiDAR technologies and techniques. Here, each point represents one measurement by laser scanning. These scans then merge, creating a complete 3D / 4D image. The point cloud thus represents a digitized and virtualized real space from which spatial information about specific objects (point, line or surface) that are the subject of the recording is then extracted. GeoDigit is doing this with specialized software that serves to process such data.' %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>	
+<section class="arck-working-skill-section">
+    <div class="container">
+        <div class="arck-working-skill-content">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <div class="arck-section-title headline pera-content">
+                        <h2 class="oldsite-font-h2 pb-4">{% translate 'Remote sensing' %}</h2>
+                        <p class="font-18 cl-blue pb-4">
+                            {% translate 'Remote sensing is the process of discovering the physical characteristics of the Earth’s surface by measuring the reflection and radiation on a distance from the target area.' %}
+                        </p>
+                        <p class="font-18 cl-blue pb-4">
+                            {% translate 'Special cameras and satellites perform remote collection of pictures of the Earth, which are further processed by special techniques and methods.' %} 
+                        </p>
+                        <p class="font-18 cl-blue">
+                            {% translate 'GeoDigit, in cooperation with its partners, provides the services of recording the surface with special high-resolution cameras and processing of the recorded data, as well as processing of the existing satellite imagery that are publicly available.' %}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="gd-rs-flex d-flex justify-content-start align-items-center gap-2">
+                        <img class="gd-rs-images" src="{% static 'img/3d-mapping/RS1.png' %}" alt="" >
+                        <img class="gd-rs-images" src="{% static 'img/3d-mapping/RS4.png' %}" alt="" >
+                    </div>
+                    <div class="gd-rs-flex d-flex justify-content-start align-items-center">
+                        <img class="gd-rs-images"  src="{% static 'img/3d-mapping/RS3.png' %}" alt="" >
+                        <img class="gd-rs-image-diff" src="{% static 'img/3d-mapping/RS2.png' %}" alt="" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="arck-working-skill-section mb-5">
+    <div class="container">
+        <div class="arck-working-skill-content">
+            <div class="row">
+                <div class="col-lg-6 py-5">
+                    <div class="arck-working-skill-img position-relative">
+                        <img src="{% static 'img/3d-mapping/recording.jpg' %}" alt="" >
+                        <img class="img-dot-background" src="{% static 'img/about/dot-shape.png' %}" alt="" >
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                        <div class="arck-section-title headline pera-content">
+                            <h3 class="oldsite-font-h2 py-4">{% translate 'Recording, detection and high-resolution image processing' %}</h3>
+                            <h4 class="font-20 cl-blue pb-4">{% translate 'We provide the following services:' %}</h4>
+                            <div class="arck-project-details-text headline pera-content ul-li-block">
+                                <ul class="font-18 cl-blue d-flex justify-content-center align-items-start flex-column gap-2"> 
+                                    <li>
+                                        {% translate 'Satellite image processing' %}
+                                    </li>
+                                    <li>
+                                        {% translate 'Survey and development of orthophotos' %}
+                                    </li>
+                                    <li>
+                                        {% translate 'Topographic mapping' %}
+                                    </li>
+                                    <li>
+                                        {% translate 'GIS data Conversion' %}
+                                    </li>
+                                    <li>
+                                        {% translate 'GIS Mapping' %}
+                                    </li>
+                                    <li>
+                                        {% translate 'Remote sensing' %}
+                                    </li>
+                                    <li>
+                                        {% translate 'Map creation' %}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

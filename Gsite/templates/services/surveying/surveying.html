@@ -1,0 +1,123 @@
+{% extends "home.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate 'Surveying' %}{% endblock %}
+
+{% block content %}
+
+{% include "base/navbar.html" %}
+{% translate 'SURVEYING' as surveying_title %}
+{% include "base/page-title.html" with page_title_default=surveying_title %}
+
+<section id="arck-service-2" class="container pb-5">
+    <div class="d-flex justify-content-start pb-4 pt-5">
+        <div class="archx-section-title headline-2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+            <h2 class="d-flex justify-content-start" style="font-size: 32px;"><span class="certificate-h2-span"style="line-height: 1.5;">{% translate 'What are we offer our clients?' %}</span></h2>
+            <span class="survay-line-right wow slideInRight" style="visibility: visible; animation-duration: 2700ms; animation-delay: 200ms; animation-name: slideInRight;"></span>
+         </div>
+    </div>
+    <div class="row arck-project-details-text headline pera-content ul-li-block">
+        <div class="survay-text col-lg-6 pb-5">
+            <p class="font-18 cl-blue">
+                {% translate 'From construction layout of high-rise steel structures to 3-D laser scanning, we perform comprehensive surveying services for commercial and residential developments, buildings, highways, bridges, utilities, waterways and property acquisitions.' %}
+            </p> 
+            <p class="font-20 cl-blue">
+                {% translate 'The following surveying services:' %}  
+            </p> 
+            <div class="row font-18 cl-blue"> 
+                <div class="col-lg-6 col-md-6 p-0">
+                    <ul style="line-height: 1.9">
+                        <li>
+                            {% translate 'Topographic maps' %}  
+                        </li>
+                        <li>
+                           {% translate 'Mobile mapping' %} 
+                        </li>
+                        <li>
+                            {% translate 'Cadaster services' %}
+                        </li>
+                        <li>
+                            {% translate 'Boundary survey' %}
+                        </li>
+                        <li>
+                           {% translate 'Bathymetry survey' %} 
+                        </li>
+                        <li>
+                            {% translate 'Linear infrastructure survey' %}
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 p-0">
+                    <ul style="line-height: 1.9">
+                        <li>
+                            {% translate 'Drone surveying' %}
+                        </li>
+                        <li>
+                            {% translate 'Aerial laser scanning' %}
+                        </li>
+                        <li>
+                            {% translate 'Monitoring of construction site' %}
+                        </li>
+                        <li>
+                            {% translate 'Utility Detection and Tracing' %}
+                        </li>
+                        <li>
+                            {% translate 'Collect geodata for GIS purpose' %}
+                        </li>
+                    </ul>
+                </div>
+            </div>          
+        </div>
+        <div class="col-lg-6">
+            <div class="arck-about-img-wrapper position-relative wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInRight;">
+                <span class="shape1 position-absolute"><img src="{% static 'img/about/dot-shape.png' %}" alt=""></span>
+                <div id="arck-slider-main_1" class="arck-slider-area" style="background: white;">
+                    <div class="arck-main-slider-item position-relative">
+                        <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/surveying/Rotation_1.jpg' %}"></div>
+                    </div>
+                    <div class="arck-main-slider-item position-relative">
+                        <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/surveying/Rotation_2.jpg' %}"></div>
+                    </div>
+                    <div class="arck-main-slider-item position-relative">
+                        <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/surveying/Rotation_3.jpg' %}"></div>
+                    </div>
+                    <div class="arck-main-slider-item position-relative">
+                        <div class="arck-main-slider-img position-absolute img-zooming" data-background="{% static 'img/surveying/Rotation_4.jpg' %}"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>	
+<section id="arck-project-feed" class="arck-project-feed-section inner-page-padding">
+    <div class="d-flex justify-content-center pb-4 gallery-line">
+        <div class="archx-section-title headline-2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+            <h2 class="d-flex justify-content-center" style="font-size: 48px;"><span class="certificate-h2-span"style="line-height: 1.5;">{% translate 'Gallery' %}</span></h2>
+            <span class="gallery-line-left wow slideInLeft" style="visibility: visible; animation-duration: 2000ms; animation-delay: 800ms; animation-name: slideInLeft;"></span>
+            <span class="gallery-line-right wow slideInRight" style="visibility: visible; animation-duration: 2100ms; animation-delay: 500ms; animation-name: slideInRight;"></span>
+         </div>
+    </div>
+    <div class="container">
+        <div class="archx-section-title headline-2 wow fadeInUp pb-4" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+            <div id="my_nanogallery1">
+                <img src="{% static 'img/surveying/Surveying_1.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_1.jpg' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_2.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_2.jpg' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_4.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_4.jpg' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_5.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_5.jpg' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_6.png' %}" data-ngsrc="{% static 'img/surveying/Surveying_6.png' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_7.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_7.jpg' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_8.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_8.jpg' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_9.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_9.jpg' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_10.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_10.jpg' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/surveying/Surveying_11.jpg' %}" data-ngsrc="{% static 'img/surveying/Surveying_11.jpg' %}" data-nanogallery2-lightbox />
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "contact/contact-map.html" %}
+{% include "base/footer.html" %}
+
+{% endblock %}

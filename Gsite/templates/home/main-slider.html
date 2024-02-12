@@ -1,0 +1,42 @@
+{% load static %}
+{% load i18n %}
+<section class="hero-slider hero-style">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div id="bg-main" class="slide-inner slide-bg-image" data-background="{% static 'img/slider/bg-main.jpg' %}">
+            <div class="container">
+              <div data-swiper-parallax="300" class="slide-title">
+                <h2 class="oldsite-font wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">{% translate 'WE’RE GEOSPATIAL DATA MANAGEMENT SPECIALISTS' %}</h2>
+              </div>
+              <div data-swiper-parallax="300" class="slide-title">
+                <h3 class="oldsite-font-h3 oldsite-font-h3-slider pb-3 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">{% translate 'GEOINFORMATION SERVICES' %}</h3>
+              </div>
+              <div data-swiper-parallax="400" class="slide-text">
+                <p class=" wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
+                  {% translate 'We are analyzing and capturing any datasets into geoinformation systems (GIS), specially data of linear infrastructure (telecommunication networks, power networks, gas line networks etc.) Our GIS solutions for storing and visualization of datasets are developed according to the needs of our clients. We are offering surveying services which can be used in a GIS context or 3D mapping products.' %}								
+                  </p>
+              </div>
+              <div class="clearfix"></div>
+              <div data-swiper-parallax="500" class="slide-btns wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <a class="smooth-scroll" href="#main-service" class="theme-btn-s2">{% translate 'TAKE A TOUR' %}</a>
+              </div>
+              <div class="lines_wrapper">
+                <svg width="985" height="230" viewBox="0 0 985 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5.5" cy="91.5" r="5.5" fill="#00AAAD"></circle>
+                    <path class="st0" fill="#044B94" fill-opacity="0" stroke="#000000" stroke-miterlimit="10" d="M985 229H648.768C616.407 229 594.162 196.471 605.901 166.314L670.25 1H395.492C389.44 1 383.982 4.63601 381.65 10.22L354.944 74.1747C350.435 84.9704 339.882 92 328.183 92H6" stroke-width="2"></path>
+                </svg>
+              </div>
+            <div class="lines_wrapper lines_wrapper2">
+
+            <svg width="781" height="207" viewBox="0 0 781 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="st1" d="M6.00002 5.49998L223.605 5.49998C227.859 5.49998 230.762 9.80354 229.168 13.7475L151.5 206L211.792 206C237.135 206 259.927 190.576 269.348 167.049L293.981 105.539C295.805 100.985 300.216 98 305.121 98L781 98" stroke="white" stroke-width="2" stroke-dasharray="4 4"></path>
+                    <circle cx="5.5" cy="5.5" r="5.5" fill="white"></circle>
+                </svg>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,109 @@
+{% load static %}
+{% load i18n %}
+<header id="archx-header" class="archx-header-section">
+    <div class="container">
+        <div class="header-top-content d-flex justify-content-between position-relative">
+            <div class="header-top-cta ul-li">
+                <ul>
+                    <li><i class="fal fa-map-marker-alt"></i>  Promenada 13, 22000 Sremska Mitrovica, {% translate 'Serbia' %}</li>
+                    <li><i class="fal fa-envelope"></i>  office@geodigit.rs </li>
+                    <li><i class="fal fa-phone-office"></i> +381 22 62 45 83 </li>
+                    <li><i class="fal fa-phone"></i> +381 22 21 50 240 </li>
+                </ul>
+            </div>
+            <div class="header-language-select-social d-flex">
+                <div class="language-switcher">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                  
+                    {% for lang in languages %}
+                      <a href="/{{ lang.code }}/" class="language-link" id="language-{{ lang.code }}">
+                        <img src="{% static 'img/flags/' %}{{ lang.code }}.png" alt="{{ lang.name_translated }}">
+                      </a>
+                    {% endfor %}
+                  </div>
+            </div>
+        </div>
+        
+        <div class="header-main-menu-wrapper d-flex justify-content-between align-items-center position-relative">
+            <div class="archx-side-bar-button navSidebar-button" style="visibility: hidden">
+                <span ></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header-cta-btn-wrapper d-flex align-items-center" style="margin-right:auto">
+                <img width="208" height="43" data-src="{% static 'img/logo/logo.svg'%}" class=" lazyloaded" src="{% static 'img/logo/logo.svg'%}">
+            </div>
+            <div class="archx-side-bar-menu-wrapper d-flex">
+                <div class="archx-main-navigation-wrap">
+                    <nav class="main-navigation clearfix ul-li">
+                        <ul id="main-nav" class="nav navbar-nav clearfix">
+                            <li class="dropdown">
+                                <a href="{% url 'home' %}">{% translate 'HOME' %}</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="{% url 'about' %}">{% translate 'ABOUT' %}</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="link-element" href="{% url 'gis-services' %}">{% translate 'SERVICES' %}</a>
+                                <ul class="dropdown-menu clearfix">
+                                    <li><a href="{% url 'gis-services' %}">{% translate 'GIS SERVICES' %}</a></li>
+                                    <li><a href="{% url 'gis-development' %}">{% translate 'GIS DEVELOPMENT' %}</a></li>
+                                    <li><a href="{% url '3d-mapping' %}">{% translate '3D MAPPING' %}</a></li>
+                                    <li><a href="{% url 'surveying' %}">{% translate 'SURVEYING' %}</a></li>
+                                    <li><a href="{% url 'planning-design' %}">{% translate 'PLANNING AND DESIGN' %}</a></li>
+                                    <li><a href="{% url 'consulting' %}">{% translate 'CONSULTING' %}</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="{% url 'references' %}">{% translate 'REFERENCES' %}</a>
+                            </li>
+                            <li class="dropdown">
+                                <a id="blog-link" href="{% url 'blog' %}">BLOG</a>
+                            </li>
+                            <li><a href="{% url 'contact' %}">{% translate 'CONTACT' %}</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mobile_menu">
+                <div class="mobile_menu_button open_mobile_menu">
+                    <i class="fal fa-bars"></i>
+                </div>
+                <div class="mobile_menu_wrap">
+                    <div class="mobile_menu_overlay open_mobile_menu"></div>
+                    <div class="mobile_menu_content">
+                        <div class="mobile_menu_close open_mobile_menu">
+                            <i class="fal fa-times"></i>
+                        </div>
+                        <div class="m-brand-logo">
+                            <a  href="/"><img src="{% static 'img/logo/logo.svg' %}" alt=""></a>
+                        </div>
+                        <nav class="mobile-main-navigation  clearfix ul-li">
+                            <ul id="m-main-nav" class="nav navbar-nav clearfix">
+                                <li><a href="{% url 'home' %}">{% translate 'Home' %}</a></li>
+                                <li><a href="{% url 'about' %}">{% translate 'About' %}</a></li>
+                                <li class="dropdown">
+                                    <a id="services-link" href="{% url 'gis-services' %}">{% translate 'Services' %}</a>
+                                    <ul class="dropdown-menu clearfix">
+                                        <li><a href="{% url 'gis-services' %}">{% translate 'GIS Services' %}</a></li>
+                                        <li><a href="{% url 'gis-development' %}">{% translate 'GIS Development' %}</a></li>
+                                        <li><a href="{% url '3d-mapping' %}">{% translate '3D Mapping' %}</a></li>
+                                        <li><a href="{% url 'surveying' %}">{% translate 'Surveying' %}</a></li>
+                                        <li><a href="{% url 'planning-design' %}">{% translate 'Planning and Design' %}</a></li>
+                                        <li><a href="{% url 'consulting' %}">{% translate 'Consulting' %}</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{% url 'references' %}">{% translate 'References' %}</a></li>
+                                <li> <a id="blog-link" href="{% url 'blog' %}">Blog</a>
+                                </li>
+                                <li><a href="{% url 'contact' %}">{% translate 'Contact' %}</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

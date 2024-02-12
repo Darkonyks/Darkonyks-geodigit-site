@@ -1,0 +1,55 @@
+<svg width="100" height="102" viewBox="0 0 81 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M80.3737 33.3784H63.3129C62.8433 34.748 61.552 35.7262 60.0259 35.6871C59.9477 35.6871 59.8694 35.6871 59.7912 35.6871L49.1477 62.4131C49.4999 62.7653 49.7738 63.1958 49.9303 63.6653H73.7216C78.2998 57.0914 80.9998 49.1088 80.9998 40.5393C80.9998 38.0741 80.8042 35.6871 80.3737 33.3784Z" fill="#214F87">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.5s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.5s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M62.2563 29.465C62.6868 29.8563 63.039 30.365 63.2737 30.9128H79.865C78.1041 23.6345 74.3476 17.0998 69.2215 11.9346L66.5607 18.5867L62.2563 29.465Z" fill="#00A0A7">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.6s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.6s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M46.7607 68.4L41.7129 81C53.8824 80.6478 64.7215 74.8956 71.9215 66.0913H49.9694C49.4998 67.4217 48.2477 68.4 46.7607 68.4Z" fill="#00A0A7">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.7s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.7s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M47.0347 15.9261H65.0738L67.3433 10.1739C62.726 6.10433 57.1694 3.05217 51.0651 1.40869L45.8999 14.3608C46.4086 14.7521 46.7999 15.3 47.0347 15.9261Z" fill="#214F87">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.8s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.8s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M34.0825 30.913C34.5521 29.5434 35.8434 28.5651 37.3695 28.6043C38.8565 28.6434 40.1086 29.5825 40.6173 30.913H47.7782H56.7782C57.2477 29.5434 58.4999 28.6043 60.026 28.6043L64.1347 18.313H47.113C46.6434 19.6826 45.3521 20.6608 43.826 20.6217C42.3391 20.5825 41.0869 19.6434 40.5782 18.313H21.913L17.4521 29.5825C17.8435 29.9738 18.1565 30.4043 18.3521 30.9521H34.0825V30.913Z" fill="#00A0A7">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.9s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.9s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M46.7217 61.3171C46.8 61.3171 46.8782 61.3171 46.9565 61.3171L57.5999 34.591C57.2478 34.2389 56.9739 33.8084 56.8173 33.3389H49.6565L43.0435 50.0475H34.1609C33.6913 51.4171 32.4 52.3954 30.8739 52.3562H30.8348L26.2957 63.6258H43.4348C43.9043 62.2562 45.1956 61.3171 46.7217 61.3171Z" fill="#214F87">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.4s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.4s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M49.1479 62.3738L59.7913 35.6478C59.8696 35.6478 59.9478 35.6478 60.0261 35.6478C61.5522 35.6869 62.8435 34.7087 63.3131 33.3391H80.3739C80.2174 32.5174 80.0609 31.6956 79.8652 30.913H63.2739C63.0783 30.3652 62.7261 29.8565 62.2565 29.4652L66.6 18.6261L69.2609 11.9739C68.6348 11.3478 68.0087 10.7609 67.3435 10.1739L65.0739 15.9261H47.0348C46.8001 15.3 46.4087 14.7522 45.9001 14.3609L51.0653 1.40873C50.2827 1.21308 49.5 1.01743 48.6783 0.821777L43.5914 13.5783C42.1435 13.6174 40.9696 14.5957 40.5001 15.887H22.8914L28.5262 1.80004C27.5088 2.11308 26.4914 2.46525 25.474 2.89569L20.4262 15.5739L15.2218 28.6043C15.1827 28.6043 15.1436 28.6043 15.1436 28.6043C13.6175 28.5652 12.3262 29.5435 11.8566 30.913H1.13492C0.939264 31.6956 0.782742 32.5174 0.626221 33.3391H11.8566C12.3653 34.6695 13.6175 35.6478 15.1045 35.6478C16.6305 35.6869 17.9218 34.7087 18.3914 33.3391H34.1218C34.3566 33.9652 34.7479 34.4739 35.2566 34.8652L31.0696 45.2739C31.0305 45.2739 30.9523 45.2739 30.874 45.2739C29.3479 45.2347 28.0566 46.213 27.587 47.5826H0.626221C0.782742 48.4043 0.939264 49.226 1.13492 50.0086H27.6262C27.8218 50.5565 28.174 51.026 28.6044 51.4173L23.7131 63.5869H7.27838C7.86534 64.4086 8.45229 65.2304 9.11751 66.013H22.6957L19.174 74.9347C19.8784 75.3651 20.5827 75.7956 21.2871 76.1869L25.3566 66.0912H43.4348C43.6305 66.6782 44.0218 67.1478 44.4522 67.5391L39.1305 80.9999C39.6001 80.9999 40.0696 81.039 40.5392 81.039C40.9305 81.039 41.3609 81.039 41.7522 80.9999L46.7609 68.3999C48.2479 68.3999 49.5392 67.4217 50.0087 66.0912H71.9609C72.587 65.3086 73.2131 64.4869 73.8 63.6651H50.0087C49.774 63.1564 49.5 62.726 49.1479 62.3738ZM21.9131 18.3522H40.5392C41.0479 19.6826 42.3001 20.6609 43.787 20.6609C45.3131 20.7 46.6044 19.7217 47.074 18.3522H64.0957L59.987 28.6435C58.5 28.6435 57.2087 29.6217 56.7392 30.9522H47.7392H40.5783C40.0696 29.6217 38.8175 28.6826 37.3305 28.6435C35.8044 28.6043 34.5131 29.5826 34.0436 30.9522H18.3523C18.1566 30.4435 17.8436 29.9739 17.4523 29.5826L21.9131 18.3522ZM37.5262 35.6869C38.974 35.6478 40.187 34.7087 40.6175 33.3782H46.9957L41.3218 47.6217H34.1218C33.9262 47.113 33.6522 46.6826 33.2609 46.3304L37.5262 35.6869ZM30.8349 52.3565C30.8349 52.3565 30.874 52.3565 30.8349 52.3565C32.4001 52.3956 33.6914 51.4173 34.1609 50.0478H43.0044L49.6174 33.3391H56.7783C56.9739 33.8087 57.2479 34.2391 57.5609 34.5913L46.9566 61.3565C46.8783 61.3565 46.8001 61.3565 46.7218 61.3565C45.1957 61.3173 43.9044 62.2956 43.4348 63.6651H26.2957L30.8349 52.3565Z" fill="white"/>
+    <path d="M40.4998 15.9261C40.9303 14.5956 42.1433 13.6565 43.5911 13.6174L48.6781 0.860868C46.0172 0.273913 43.3172 0 40.4998 0C36.3129 0 32.2825 0.626086 28.4868 1.8L22.8521 15.8869H40.4998V15.9261Z" fill="#214F87">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.3s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.3s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M41.3607 47.6219L47.0346 33.3784H40.6564C40.2259 34.7089 39.0129 35.648 37.5651 35.6871L33.2607 46.3306C33.6129 46.6827 33.926 47.1523 34.1216 47.6219H41.3607Z" fill="#214F87">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.7s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.7s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M43.4347 66.0913H25.3174L21.2478 76.1869C26.6087 79.0435 32.6739 80.7652 39.1304 81L44.4912 67.5391C44.0217 67.1478 43.6695 66.6391 43.4347 66.0913Z" fill="#00A0A7">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.9s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.9s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M30.8739 45.3132C30.9521 45.3132 30.9912 45.3132 31.0695 45.3132L35.2173 34.9045C34.7086 34.5132 34.3173 33.9654 34.0825 33.3784H18.3913C17.9217 34.748 16.6304 35.7262 15.1043 35.6871C13.6174 35.648 12.3652 34.7089 11.8565 33.3784H0.626086C0.195652 35.6871 0 38.0741 0 40.5001C0 42.9262 0.195652 45.3132 0.626086 47.6219H27.5869C28.0565 46.2523 29.3478 45.274 30.8739 45.3132Z" fill="#00A0A7">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.2s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.2s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M28.5651 51.4565C28.1347 51.0652 27.8217 50.5957 27.5869 50.0479H1.13477C2.34781 54.9783 4.42172 59.5957 7.27823 63.6261H23.713L28.5651 51.4565Z" fill="#214F87">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.6s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.6s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M15.1043 28.6042C15.1434 28.6042 15.1826 28.6042 15.1826 28.6042L20.3869 15.5346L25.4738 2.89551C13.4217 7.70854 4.22606 18.1172 1.13477 30.9128H11.8174C12.2869 29.5433 13.5782 28.565 15.1043 28.6042Z" fill="#214F87">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.8s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.8s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+    <path d="M9.07812 66.0913C11.8955 69.5739 15.2999 72.587 19.1346 74.9348L22.6955 66.0913H9.07812Z" fill="#00A0A7">
+        <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="0.8s" repeatCount="indefinite" begin="0s; path2.end+0.25s"/>
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="0.8s" repeatCount="indefinite" begin="path2.end+0.25s"/>
+    </path>
+</svg>

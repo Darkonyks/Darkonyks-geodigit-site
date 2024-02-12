@@ -1,0 +1,126 @@
+{% load static %}
+{% load livereload_tags %}
+{% load i18n %}
+<section id="archx-service" class="archx-about-section">
+    <div class="container">
+        <div class="archx-service-content">
+            <div class="row">
+                <div class="col-xxl-4 col-xl-4 col-lg-12 col-sm-12">
+                    <div class="archx-service-text-area">
+                        <div class="archx-section-title headline-2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <span class="title-serial">{% translate 'About' %}</span>
+                            <h2 class="oldsite-font-h2">{% translate 'Why' %} <span>GeoDigit</span>?
+                            </h2>
+                        </div>
+                        <div class="archx-about-sub-text headline-2 pera-content wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                            <h4 class="about-h4 oldsite-font-h4-blue">{% translate 'Because we have everything necessary to ensure successful cooperation:' %}</h4>
+                            <span class="border-line wow slideInLeft" data-wow-delay="500ms" data-wow-duration="3000ms"></span>
+                        </div>
+
+                        <div class="archx-service-list-wraper ul-li-block wow fadeInUp d-flex justify-content-between" data-wow-delay="400ms" data-wow-duration="1000ms">
+                            <ul class="oldsite-font-about">
+                                <li><span class="li-number"><lottie-player class="lottie_checkbox wow fadeIn" data-wow-delay="500ms" src="{% static 'icon/check-lottie.json' %}"  background="transparent" speed="0.4" autoplay></lottie-player></span> {% translate 'Knowledge' %}</li>
+                                <li><span class="li-number"><lottie-player class="lottie_checkbox wow fadeIn" data-wow-delay="750ms" src="{% static 'icon/check-lottie.json' %}"  background="transparent" speed="0.4"  autoplay></lottie-player></span> {% translate 'Capacity' %}</li>
+                                <li><span class="li-number"><lottie-player class="lottie_checkbox wow fadeIn" data-wow-delay="1000ms" src="{% static 'icon/check-lottie.json' %}"  background="transparent" speed="0.4"  autoplay></lottie-player></span> {% translate 'Quality' %}</li>
+                                <li><span class="li-number"><lottie-player class="lottie_checkbox wow fadeIn" data-wow-delay="1250ms" src="{% static 'icon/check-lottie.json' %}"  background="transparent" speed="0.4"  autoplay></lottie-player></span> {% translate 'Scalability' %}</li>
+
+                            </ul>
+                            <ul class="oldsite-font-about">
+                                <li><span class="li-number"><lottie-player class="lottie_checkbox wow fadeIn" data-wow-delay="600ms" src="{% static 'icon/check-lottie.json' %}"  background="transparent" speed="0.4"  autoplay></lottie-player></span> {% translate 'Confidence' %}</li>
+                                <li><span class="li-number"><lottie-player class="lottie_checkbox wow fadeIn" data-wow-delay="850ms" src="{% static 'icon/check-lottie.json' %}"  background="transparent" speed="0.4"  autoplay></lottie-player></span> {% translate 'Technology' %}</li>
+                                <li><span class="li-number"><lottie-player class="lottie_checkbox wow fadeIn" data-wow-delay="1150ms" src="{% static 'icon/check-lottie.json' %}"  background="transparent" speed="0.4"  autoplay></lottie-player></span> {% translate 'Expertise' %}</li>
+                                <li><span class="li-number"><lottie-player class="lottie_checkbox wow fadeIn" data-wow-delay="1400ms" src="{% static 'icon/check-lottie.json' %}"  background="transparent" speed="0.4"  autoplay></lottie-player></span> {% translate 'Competitive pricing' %}</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span class="border-line-2 wow slideInLeft2" data-wow-delay="800ms" data-wow-duration="2000ms"></span>
+                </div>
+                <div class="col-xxl-5 col-xl-5 col-lg-6 col-sm-12">
+                    <div class="about-geodigit-wrapper">
+                        <!-- <span class="about-bg position-relative wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <img class="position-absolute about-pic" src="{% static 'img/background/wave.jpg' %}" alt="">
+                        </span> -->
+                        <div class="archx-section-title headline-2 wow fadeInUp about-header" data-wow-delay="200ms" data-wow-duration="1000ms">						
+                            <h4 class="oldsite-font font-20">
+                                <span class="cl-green">
+                                    {% translate 'GEODIGIT IS A COMPANY SPECIALIZED IN GEOINFORMATION TECHNOLOGY AND GEOSPATIAL DATA MANAGEMENT.' %} 
+                                </span>
+                            </h4>
+                        </div>
+                        <div  class="archx-service-list-wraper  ul-li-block wow fadeInUp d-flex justify-content-between" data-wow-delay="400ms" data-wow-duration="1000ms">
+                            <p class="newsite-font cl-blue about-p">
+                                {% translate 'We have years of experience in the field of geodesy, geoinformation systems, as well as all kinds of processing of spatial data. Knowledge of project management has been developed at the local and international market. Our experts will help you design your system so that it can become technically feasible and sustainable, and our operations will lead your projects to their completion.' %}  
+                            </p>
+                        </div>
+                        <div class="archx-about-service-area border-0 w-100 text-center pt-5">
+                            <div class="about-service-btn text-center ">
+                                <a class="d-flex align-items-center justify-content-center px-5 py-1 oldsite-font-side-about" href="{% url 'about' %}">{% translate 'More Info' %}</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-sm-12 geodigit-service-about">
+                    <div class="archx-about-service-content d-flex justify-content-end">
+                        <div class="archx-about-service-area wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2000ms">
+                            <div class="archx-about-service">
+                                <div class="about-servcie-icon-title d-flex align-items-center justify-content-center">
+                                    <div class="about-service-icon">
+                                        <img src="{% static 'icon/responsive.gif' %}" style="width:105px; height: 105px;">
+                                    </div>
+                                    <div class="about-service-title headline-2 pera-content oldsite-font">
+                                        <h3>GeoDigit {% translate 'Services' %}</h3>
+                                        <p>(10+ {% translate 'Services' %})</p>
+                                    </div>
+                                </div>
+                                <div class="archx-service-list-item ul-li-block about-geodigit-service">
+                                    <ul class="font-14">
+                                        <li class="cl-blue">
+                                            <a href="{% url 'gis-services' %}" class="icon-link location-link" 
+                                            data-src-default="{% static 'icon/location-static.png' %}" data-src-hover="{% static 'icon/location.gif' %}">
+                                                <img id="location-icon" src="{% static 'icon/location-static.png' %}" alt="" width="38px"> {% translate 'Geodata survey' %}
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'gis-services' %}" class="icon-link location-link" 
+                                            data-src-default="{% static 'icon/gps.png' %}" data-src-hover="{% static 'icon/gps.gif' %}">
+                                                <img id="gps-icon" src="{% static 'icon/gps.png' %}" alt="" width="38px"> {% translate 'GIS development' %}
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'gis-services' %}" class="icon-link location-link" 
+                                            data-src-default="{% static 'icon/laptop.png' %}" data-src-hover="{% static 'icon/laptop.gif' %}">
+                                                <img id="laptop-icon"src="{% static 'icon/laptop.png' %}" alt="" width="38px"> {% translate 'Datasets implementation' %}
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'gis-services' %}" class="icon-link location-link" 
+                                            data-src-default="{% static 'icon/world.png' %}" data-src-hover="{% static 'icon/world.gif' %}">
+                                                <img id="world-icon" src="{% static 'icon/world.png' %}" alt="" width="38px"> {% translate 'Analog data digitization' %}
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'gis-services' %}" class="icon-link location-link" 
+                                            data-src-default="{% static 'icon/save.png' %}" data-src-hover="{% static 'icon/save.gif' %}">
+                                                <img id="save-icon" src="{% static 'icon/save.png' %}" alt="" width="38px"> {% translate 'Inventory documentation' %}
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'consulting' %}" class="icon-link location-link" 
+                                            data-src-default="{% static 'icon/maintenance.png' %}" data-src-hover="{% static 'icon/maintenance.gif' %}">
+                                                <img id="maintenance-icon" src="{% static 'icon/maintenance.png' %}" alt="" width="38px"> {% translate 'Maintenance and update' %}
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-service-btn text-center oldsite-font-side-about">
+                                <a class="d-flex align-items-center justify-content-center" href="{% url 'gis-services' %}">{% translate 'More Details' %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>		
+        </div>		
+    </div>
+</section>

@@ -1,0 +1,18 @@
+{% extends "home.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate 'About' %}{% endblock %}
+
+{% block content %}
+
+{% include "base/navbar.html" %}
+{% translate 'ABOUT' as about_title %}
+{% include "base/page-title.html" with page_title_default=about_title %}
+{% include "about/company.html" %}
+{% include "about/certificates.html" %}
+{% include "about/career.html" %}
+{% include "contact/contact-map.html" %}
+{% include "base/footer.html" %}
+
+{% endblock %}

@@ -1,0 +1,88 @@
+{% load static %}
+{% load i18n %}
+<footer id="archx-footer" class="archx-footer-section position-relative" data-background="{% static 'img/footer/footer-bg.jpg' %}">
+    <span class="archx-footer-mail position-absolute">office@geodigit.rs</span>
+    <span class="archx-footer-address  position-absolute">Promenada 13, <b>Sremska Mitrovica, </b>{% translate 'Serbia' %}</span>
+    <div class="container">
+        <div class="archx-footer-content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="archx-footer-widget headline-2">
+                        <div class="logo-widget">
+                            <div class="brand-logo">
+                                <a href="/"><img src="{% static 'img/footer/geodigit-logo-1line-white.png' %}" alt="" width="230px"></a>
+                            </div>
+                            <div class="logo-text oldsite-font-p">
+                                Geodigit {% translate 'is a company specialized in geoinformation technology and geospatial data management.' %} 
+                            </div>
+                            <div class="logo-cta-info ul-li-block">
+                                <ul>
+                                    <li><i class="fal fa-phone-office"></i>+381 22 62 45 83</li>
+                                    <li><i class="fas fa-phone-alt"></i>+381 22 21 50 240</li>
+                                    <li><span class="font-isotope" style="color: #B4B4B4">{% translate 'VAT' %}:</span> 106929803</li>
+                                    <li><span class="font-isotope" style="color: #B4B4B4">{% translate 'Reg. Number' %}:</span> 20707950</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 pt-3">
+                    <div class="archx-footer-widget headline-2 oldsite-font-p">
+                        <div class="menu-widget ul-li-block">
+                            <h3 class="widget-title">{% translate 'Prominent' %}</h3>
+                            <ul>
+                                <li><a href="{% url 'home' %}">{% translate 'Home' %}</a></li>
+                                <li><a href="{% url 'about' %}">{% translate 'About Us' %}</a></li>
+                                <li><a href="{% url 'gis-services' %}">{% translate 'Services' %}</a></li>
+                                <li><a href="{% url 'references' %}">{% translate 'References' %}</a></li>
+                                <li><a href="{% url 'blog' %}">Blog</a></li>
+                                <li><a href="{% url 'contact' %}">{% translate 'Contact' %}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 pt-3">
+                    <div class="archx-footer-widget headline-2 oldsite-font-p">
+                        <div class="menu-widget ul-li-block">
+                            <h3 class="widget-title">{% translate 'Services' %}</h3>
+                            <ul>
+                                <li><a href="{% url 'gis-services' %}">{% translate 'GIS Services' %}</a></li>
+                                <li><a href="{% url 'gis-development' %}">{% translate 'GIS Development' %}</a></li>
+                                <li><a href="{% url '3d-mapping' %}">{% translate '3D Mapping' %}</a></li>
+                                <li><a href="{% url 'surveying' %}">{% translate 'Surveying' %}</a></li>
+                                <li><a href="{% url 'planning-design' %}">{% translate 'Planning and Design' %}</a></li>
+                                <li><a href="{% url 'consulting' %}">{% translate 'Consulting' %}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 pt-3">
+                    <div class="archx-footer-widget headline-2">
+                        <div class="award-widget oldsite-font-p">
+                            <h3 class="widget-title">{% translate 'Social Pages' %}</h3>
+                            <div class="aw-instagram-wrap ul-li">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.instagram.com/geodigit_company/" target="_blank"><img src="{% static 'img/footer/instagram.jpg'%}" alt="instagram" style="width: 112px; border-radius: 10px;">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/geodigit" target="_blank"><img src="{% static 'img/footer/linkedin.jpg'%}" alt="linkedin" style="width: 112px; border-radius: 10px;" alt=""> 
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="archx-footer-copyright d-flex justify-content-center align-items-center">
+            <div class="archx-footer-copyright-text">
+                All Rights Reserved © Geodigit d.o.o 
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,75 @@
+{% load i18n %}
+<div class="container">
+    <div class="row">
+        <section id="archx-contact" class="archx-contact-section col-lg-6">
+            <div class="container">
+                <div class="archx-contact-content">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="archx-contact-form-wrapper">
+                                <div class="headline-2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                    <h2 class="oldsite-font-h2 text-decoration-underline mainpage-blog-headline" style="padding-bottom: 15px;">
+                                       <span>{% translate 'CONTACT US' %}</span> 
+                                    </h2>
+                                    <p class="newsite-font cl-green">{% translate 'Contact us and make an appointment. Ask us a question or give your suggestion.' %}</p>
+                                </div>
+                                <div class="archx-contact-form wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                    <form action="#" method="get">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <input type="text" name="name" placeholder="{% translate 'Enter your name*' %}">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="email" name="name" placeholder="{% translate 'Enter your email*' %}">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <textarea name="message" placeholder="{% translate 'Enter your message*' %}"></textarea>
+                                            </div>
+                                            <div class="col-md-12 oldsite-font-p">
+                                                <button type="submit">{% translate 'Send us a Messege' %}<i class="fal fa-long-arrow-right"></i></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>	
+        <section id="archx-map" class="archx-map-section position-relative col-lg-6">
+        <div class="archx-map-wrap">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.930953642748!2d19.605158020780376!3d44.965396257538636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ba4d5f61d6f03%3A0x7a6b7a006b9c6e4b!2sPromenada%2013%2C%20Sremska%20Mitrovica%2022000%2C%20Serbia!5e0!3m2!1sen!2sus!4v1688555279430!5m2!1sen!2sus"width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="container">
+            <div class="archx-map-info">
+                <div class="archx-map-contact-info headline-2 pera-content">
+                    <div class="archx-map-info-item">
+                        <div class="info-title d-flex align-items-center">
+                            <span><i class="fas fa-building"></i></span>
+                            <h3>{% translate 'Our Address' %}</h3>
+                        </div>
+                        <div class="info-text">
+                            Promenada 13<br>
+                            22000 Sremska Mitrovica<br>
+                            Serbia
+                        </div>
+                    </div>
+                    <div class="archx-map-info-item">
+                        <div class="info-title d-flex align-items-center">
+                            <span><i class="fas fa-address-book"></i></span>
+                            <h3>{% translate 'Contact Way' %}</h3>
+                        </div>
+                        <div class="info-text ul-li-block">
+                            <ul>
+                                <li><i class="fas fa-comments"></i> office@geodigit.rs</li>
+                                <li><i class="fas fa-phone-alt"></i>+381 22 62 45 83</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+</div>

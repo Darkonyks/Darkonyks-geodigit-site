@@ -1,0 +1,99 @@
+{% extends "home.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate 'Contact' %}{% endblock %}
+
+{% block content %}
+
+{% include "base/navbar.html" %}
+{% translate 'CONTACT' as contact_title %}
+{% include "base/page-title.html" with page_title_default=contact_title %}
+<section id="arck-contact-page" class="arck-contact-page-section inner-page-padding">
+    <div class="container">
+        <div class="arck-contact-page-content">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="arck-contact-page-cta position-relative" style="margin-top: 60px;">
+                        <div class="contact-cta-inner-img position-relative">
+                            <img style="height: 660px; border-radius: 10px;" src="{% static 'img/contact/two-business-men.jpg' %}" alt="" >
+                        </div>
+                        <div class="contact-cta-inner-text position-absolute headline pera-content contact-img-effect">
+                            <h3>{% translate 'Contact Details' %}</h3>
+                            <div class="arck-video-cta-wrap">
+                                <div class="video-cta-item d-flex">
+                                    <div class="inner-icon">
+                                        <img src="{% static 'img/contact/icon-house.png' %}" alt="">
+                                    </div>
+                                    <div class="inner-text headline pera-content">
+                                        <h3>{% translate 'Office Address' %}:</h3>
+                                        <p>Promenada 13 <br>22000 Sremska Mitrovica
+                                            <br> {% translate 'Serbia' %}
+                                       </p>
+                                    </div>
+                                </div>
+                                <div class="video-cta-item d-flex">
+                                    <div class="inner-icon">
+                                        <img src="{% static 'img/contact/icon-mail.png' %}" alt="" style="width: 44px">
+                                    </div>
+                                    <div class="inner-text headline pera-content">
+                                        <h3>{% translate 'Mail Us' %}:</h3>
+                                        <p>office@geodigit.rs</p>
+                                        <p>posao@geodigit.rs</p>
+                                    </div>
+                                </div>
+                                <div class="video-cta-item d-flex">
+                                    <div class="inner-icon">
+                                        <img src="{% static 'img/contact/icon-phone.png' %}" alt="">
+                                    </div>
+                                    <div class="inner-text headline pera-content">
+                                        <h3>{% translate 'Telephone' %}:</h3>
+                                        <p>+381 22 62 45 83</p>
+                                        <p>+381 22 21 50 240</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="arck-contact-page-form">
+                        <div class="arck-appointment-form-wrap">
+                            <div class="arck-section-title headline pera-content">
+                                <span class="sub-title text-uppercase cl-green">{% translate 'GET A QUOTE' %}</span>
+                                <h2 class="oldsite-font font-18 cl-blue">{% translate 'CONTACT US' %}</h2>
+                                <div class="font-20 cl-green">
+                                    {% translate 'Contact us and make an appointment. Ask us a question or give your suggestion.' %}
+                                </div>
+                                {% if messages %}
+                                <ul class="messages cl-blue font-18 mt-3">
+                                    {% for message in messages %}
+                                    <li  {% if message.tags %} class=" {{ message.tags }} " {% endif %}> {% blocktranslate %}{{ message }}{% endblocktranslate %} </li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </div>
+                            <div class="comment_formfield arck-contact-page-form">
+                                <div class="arck-appointment-form-wrap gd-contact-form">
+                                    <form action="#" method="post">
+                                        <div class="row">
+                                            {% csrf_token %}
+                                            {{ form.as_p }}               
+                                        </div>
+                                        <button type="submit" class="mt-4">{% translate 'SEND MESSAGE' %}</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include "contact/contact-map.html" %}
+{% include "base/footer.html" %}
+
+{% endblock %}
+
+

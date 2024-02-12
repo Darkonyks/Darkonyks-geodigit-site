@@ -1,0 +1,20 @@
+{% load static %}
+<br>
+<div class="arck-side-bar-widget headline ul-li-block">
+    <div class="category-widget">
+        <ul>
+            {% if result_count > 0 %}
+                <p>Broj pronađenih postova: {{ result_count }}</p>
+                {% for post in results %}
+                    <li>
+                        <a href="{% url 'post_single' post.slug %}">{{ post.title }}</a>
+                    </li>
+                {% endfor %}
+            {% else %}
+                <p>Nema rezultata pretrage.</p>
+            {% endif %}
+        </ul>
+    </div>
+</div>
+
+

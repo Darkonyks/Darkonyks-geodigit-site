@@ -1,0 +1,71 @@
+$("#my_nanogallery1").nanogallery2({
+    "thumbnailL1BorderHorizontal": 0,
+    "thumbnailL1BorderVertical": 0,
+    "thumbnailDisplayTransition":"slideUp2",
+    "thumbnailDisplayTransitionDuration": 600, 
+    "thumbnailWaitImageLoaded":true, 
+    "thumbnailDisplayInterval":400,
+    "thumbnailDisplayTransitionEasing":"easeOutQuart",
+    "thumbnailHoverEffect2": "image_brightness_100%_55%|image_scale_1.00_1.05_500",
+    "thumbnailHeight":  "300",
+    "thumbnailWidth":   "400",
+    "thumbnailAlignment": "fillWidth",
+    "thumbnailGutterWidth": 50,
+    "thumbnailGutterHeight": 50,
+    "galleryTheme": "light",
+    "eventsDebounceDelay": 10,
+    "galleryLastRowFull": true,
+    
+});
+
+$("#my_nanogallery2").nanogallery2({
+    galleryTheme: {
+        thumbnail : { background: '#FFF', borderColor: '#ccc', borderRadius: '3px'},
+    },
+    "thumbnailL1BorderHorizontal": 1,
+    "thumbnailL1BorderVertical": 1,
+    "thumbnailGutterWidth": 30,
+    "thumbnailGutterHeight": 30,
+    "thumbnailDisplayTransition":"scaleUp",
+    "thumbnailDisplayTransitionDuration":1000,  
+    "thumbnailDisplayInterval":30,
+    "thumbnailHoverEffect2":"imageGrayOn",
+    "thumbnailHeight":  "300",
+    "thumbnailWidth":   "300",
+});
+
+$("#my_nanogallery3").nanogallery2({
+    "thumbnailL1BorderHorizontal": 0,
+    "thumbnailL1BorderVertical": 0,
+    "thumbnailDisplayTransition":"slideUp2",
+    "thumbnailDisplayTransitionDuration": 600, 
+    "thumbnailWaitImageLoaded":true, 
+    "thumbnailDisplayInterval":400,
+    "thumbnailDisplayTransitionEasing":"easeOutQuart",
+    "thumbnailHoverEffect2": "image_brightness_100%_55%|image_scale_1.00_1.05_500",
+    "thumbnailHeight":  "300",
+    "thumbnailWidth":   "400",
+    "thumbnailAlignment": "fillWidth",
+    "thumbnailGutterWidth": 50,
+    "thumbnailGutterHeight": 50,
+    "galleryTheme": "light",
+    "eventsDebounceDelay": 10,
+});
+
+$("#my_nanogallery4").nanogallery2({
+    "thumbnailL1BorderHorizontal": 0,
+    "thumbnailL1BorderVertical": 0,
+    "thumbnailDisplayTransition":"slideUp2",
+    "thumbnailDisplayTransitionDuration": 600, 
+    "thumbnailWaitImageLoaded":true, 
+    "thumbnailDisplayInterval":400,
+    "thumbnailDisplayTransitionEasing":"easeOutQuart",
+    "thumbnailHoverEffect2": "image_brightness_100%_55%|image_scale_1.00_1.05_500",
+    "thumbnailHeight":  "400",
+    "thumbnailWidth":   "500",
+    "thumbnailAlignment": "fillWidth",
+    "thumbnailGutterWidth": 50,
+    "thumbnailGutterHeight": 50,
+    "galleryTheme": "light",
+    "eventsDebounceDelay": 10,
+});

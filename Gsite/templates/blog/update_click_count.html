@@ -1,0 +1,4 @@
+<a href="{% url 'update_click_count' post.slug %}">
+    {{ post.title }}
+</a>
+<span class="click-count" id="click-count-{{ post.id }}">{{ post.click_count }}</span>

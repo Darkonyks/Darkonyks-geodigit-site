@@ -1,0 +1,39 @@
+{% load i18n %}
+<section id="archx-blog" class="archx-blog-section">
+    <div class="container">
+        <div class="text-center text-decoration-underline mainpage-blog-headline headline-2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <h2 class="oldsite-font-h2 pb-5 pt-3" style="line-height: 1.4;">{% translate 'Please Read & know about our blogs leatest news' %} 
+            </h2>
+        </div>
+        <div class="archx-blog-content">
+            <div class="row">
+                {% for post in last_posts %}
+                    <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="archx-blog-item">
+                            <div class="blog-img position-relative">
+                                <img src="{{ post.image.url }}" alt="" style="height:295px">
+                                <span class="blog-category d-flex justify-content-center align-items-center text-uppercase position-absolute">
+                                    <a class="oldsite-font-white" href="{% url 'update_click_count' post.slug %}">Story</a>
+                                </span>
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-meta ul-li">
+                                    <ul>
+                                        <li><i class="fal fa-calendar-alt"></i> {{ post.publish|date:"D. | d M. Y" }}</li>
+                                        <li><i class="fal fa-comment"></i>{% translate 'Comments' %} ({{ post.comment_count }})</li>
+                                    </ul>
+                                </div>
+                                <div class="blog-title headline-2 oldsite-font-p">
+                                    <h3><a href="{% url 'update_click_count' post.slug %}">{{post.title}}</a></h3>
+                                </div>
+                                <div class="blog-read-more oldsite-font-p">
+                                    <a href="{% url 'update_click_count' post.slug %}">{% translate 'Read More' %} <i class="fal fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor  %}
+            </div>
+        </div>
+    </div>
+</section>	

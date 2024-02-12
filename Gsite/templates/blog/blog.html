@@ -1,0 +1,164 @@
+{% extends "home.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+
+{% include "base/navbar.html" %}
+{% include "base/page-title.html" with page_title_default="BLOG" %}
+
+<section id="arck-blog-feed" class="arck-blog-feed-section inner-page-padding">
+    <div class="container">
+        <div class="arck-blog-feed-content-wrap">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div>
+                        <div class="arck-blog-feed-content">
+                            {% for post in posts %}
+                            <div class="arck-blog-item-2 wow fadeInUp" data-wow-delay="1000" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0; animation-name: fadeInUp;" >
+                                <div class="inner-img">
+                                    <img src="{{ post.image.url }}" alt="">
+                                </div>
+                                <div class="inner-text headline pera-content">
+                                    <div class="blog-meta">
+                                        <a href="#"><span class="blog-cat text-uppercase">{{ post.category }}</span></a>	
+                                        <a href="#"><span class="date"><i class="far fa-calendar-alt"></i> {{ post.publish|date:"D. | d M. Y" }}</a>
+                                        <a href="#"><span class="author"><i class="far fa-user-circle"></i> {{ post.author }}</span></a>
+                                        {% if post.click_count > 0 %}
+                                            <a href="{{ post.get_absolute_url }}" id="post-click-link"><span class="click-count"><i class="far fa-eye"></i> {{ post.click_count }}</span></a>
+                                        {% endif %}
+                                        
+                                    </div>
+                                    <h3><a href="{% url 'update_click_count' post.slug %}">{{ post.title }}</a></h3>
+                                    <p>{{ post.excerpt|safe }}</p>
+                                    <a class="read-more-btn text-uppercase" href="{% url 'update_click_count' post.slug %}"> {% translate 'READ MORE' %} <i class="fal fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="arck-pagination ul-li">
+                        <ul>
+                            <li>
+                                <a class="paginate_button" 
+                                   href="?page=1" 
+                                   hx-get="?page=1" 
+                                   hx-trigger="click"
+                                   hx-target="#posts-content"
+                                   id="prev-page-link" 
+                                   hx-swap="outerHTML transition:true"
+                                >
+                                    <i class="far fa-angle-double-left"></i>
+                                </a>
+                            </li>
+                            {% for i in posts.paginator.page_range %}
+                            <li>
+                                <a class="paginate_button{% if i == request.session.current_page %} active{% endif %}"
+                                   href="?page={{ i }}"
+                                   hx-get="?page={{ i }}"
+                                   hx-trigger="load, click delay:1s"
+                                   hx-target="#posts-content"
+                                   id="page-{{ i }}"
+                                   hx-swap="outerHTML transition:true"
+                                >
+                                    {{ i }}
+                                </a>
+                            </li>
+                            {% endfor %}
+                            <li>
+                                <a class="paginate_button" 
+                                   href="?page={{ posts.paginator.num_pages }}" 
+                                   hx-get="?page={{ posts.paginator.num_pages }}" 
+                                   hx-trigger="click" 
+                                   hx-target="#posts-content"
+                                   id="last-page-link"
+                                   hx-swap="outerHTML transition:true"
+                                >
+                                    <i class="far fa-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="arck-blog-sidebar  top-sticky-sidebar">
+                        <div class="arck-side-bar-widget headline">
+                            <div class="search-widget">
+                                <form hx-get="search/" hx-trigger="submit" id="search-form" hx-target="#search-results">
+                                    <input id="search-input" type="text" name="q" placeholder="{% translate 'Type Keywords'%}" required>
+                                    <button type="submit"><i class="far fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div id="search-results">
+                                <!-- Rezultati pretrage će biti prikazani -->
+                            </div>
+                            
+                            <div hx-target="#search-blog-results">
+                                <hx-get data-_="true" hx-vals="#search-form input[name='q']" hx-trigger="submit" href="{% url 'search' %}">
+                                        <ul>
+                                            {% for post in results %}
+                                                <li>
+                                                    <a href="{% url 'post_single' post.slug %}">{{ post.title }}</a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                </hx-get>
+                            </div>
+                        </div>
+                        <div class="arck-side-bar-widget headline ul-li-block">
+                            <div class="category-widget">
+                                <h3 class="widget-title">{% translate 'Popular Category' %}</h3>
+                                <ul>
+                                    {% for category_count in category_counts %}
+                                        <li class="blog-cat text-uppercase">
+                                            <a href="category/{{category_count.category__name}}/">{{ category_count.category__name|title }}
+                                                <span>
+                                                    {{ category_count.count }}
+                                                </span>
+                                            </a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="arck-side-bar-widget headline">
+                            <div class="recent-post-widget">
+                                <h3 class="widget-title">{% translate 'Popular Posts' %}</h3>
+                                <div class="recent-post-wrap">
+                                    {% for post in popular_posts %}
+                                        <div class="recent-blog-img-text d-flex align-items-center">
+                                            <div class="recent-blog-img">
+                                                <img src="{{ post.image.url }}" alt="">
+                                            </div>
+                                            <div class="recent-blog-text headline">
+                                                <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h3>
+                                                <span><i class="far fa-calendar-alt"></i> {{ post.publish|date:"D. | d M. Y" }}</span>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arck-side-bar-widget headline ul-li-block">
+                            <div class="category-widget">
+                            <h3 class="widget-title">{% translate 'Archive Posts' %}</h3>
+                                <ul>
+                                    {% for year in years %}
+                                        <li class="blog-cat text-uppercase"><a href="{% url 'blog_archive' year=year|date:'Y' %}">{{ year|date:"Y" }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include "contact/contact-map.html" %}
+{% include "base/footer.html" %}
+
+{% endblock %}

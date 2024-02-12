@@ -1,0 +1,58 @@
+{% extends "home.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate 'References' %}{% endblock %}
+
+{% block content %}
+
+{% include "base/navbar.html" %}
+{% translate 'REFERENCES' as references_title %}
+{% include "base/page-title.html" with page_title_default=references_title %}
+<section id="arck-sponsor" class="arck-sponsor-section wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2000ms">
+    <div class="d-flex justify-content-center mb-5">
+        <div class="archx-section-title headline-2  wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <h2 class="d-flex justify-content-center" style="font-size: 48px;"><span style="line-height: 1.5;">{% translate 'OUR CLIENTS AND PARTNERS' %}</span></h2>
+            <p class="text-center oldsite-font-p">{% translate 'Our long-term satisfied clients are proof of our quality and expertise.' %}</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-evenly align-items-center client-logos mt-3 mb-3 card-ref wow fadeInUp" data-wow-delay="200ms" data-wow-duration="2000ms">
+                <img style="width: 160px;" src="{% static 'img/clients/03_vodafone.png' %}" alt="" >
+                <img style="width: 170px;" src="{% static 'img/clients/01_kabelbw.svg' %}" alt="" >
+                <img style="width: 150px;" src="{% static 'img/clients/02_unitymedia.svg' %}" alt="" >
+                <img style="width: 160px;" src="{% static 'img/clients/15_entega.png' %}" alt="" >
+                <img style="width: 170px;" src="{% static 'img/clients/18_Logo_klenk_und_Sohn.png' %}" alt="" >
+                <img style="width: 200px;" src="{% static 'img/clients/Logo_NetCom_BW.svg.png' %}" alt="" >
+
+            </div>
+            <div class="col-lg-12 col-lg-12 d-flex justify-content-evenly align-items-center client-logos mt-3 mb-3 card-ref wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms"">
+                <img style="width: 220px;" src="{% static 'img/clients/07_TelekomSrbija.svg' %}" alt="" >
+                <img style="width: 220px;" src="{% static 'img/clients/08_EPS.svg' %}" alt="" >
+                <img style="width: 200px;" src="{% static 'img/clients/13_srem-gas.png' %}" alt="" >
+                <img style="width: 170px;" src="{% static 'img/clients/17_beograd.png' %}" alt=""  >
+                
+                <img style="width: 90px;" src="{% static 'img/clients/11_A1.svg' %}" alt="">
+                <img style="width: 120px;" src="{% static 'img/clients/09_MCDonalds.svg' %}" alt="">
+            </div>
+            <div class="col-lg-12 d-flex justify-content-evenly align-items-center client-logos mt-3 mb-3 card-ref wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms"">
+                <img style="width: 200px;" src="{% static 'img/clients/04_wesernetz.svg' %}" alt="" >
+                <img style="width: 180px;" src="{% static 'img/clients/05_tdcGroup.svg' %}" alt="" >
+                <img style="width: 130px;" src="{% static 'img/clients/06_roaming.svg' %}" alt="" >
+                
+                <img style="width: 170px;" src="{% static 'img/clients/16_buhn_netzinfo.png' %}" alt="" >
+                <img style="width: 170px;" src="{% static 'img/clients/12_sremska_mitrovica.png' %}" alt="" >            
+                
+                <img style="width: 90px;" src="{% static 'img/clients/10_Europetrol.svg' %}" alt="">
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</section>
+{% include "references/traka.html" %}
+{% include "contact/contact-map.html" %}
+{% include "base/footer.html" %}
+
+{% endblock %}

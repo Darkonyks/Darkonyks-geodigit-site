@@ -1,0 +1,98 @@
+{% extends "home.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{% block title %}{% translate 'Planning and Design' %}{% endblock %}
+
+{% block content %}
+
+{% include "base/navbar.html" %}
+{% translate 'PLANNING AND DESIGN' as planning_design_title %}
+{% include "base/page-title.html" with page_title_default=planning_design_title %}
+<section>
+    <div class="d-flex justify-content-center pb-4 pt-5">
+        <div class="archx-section-title headline-2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+            <h2 class="d-flex justify-content-center"><span class="certificate-h2-span"style="line-height: 1.5;">{% translate 'Passive optical networks' %} (PON)</span></h2>
+            <span class="planning-line-left wow slideInLeft" style="visibility: visible; animation-duration: 2000ms; animation-delay: 800ms; animation-name: slideInLeft;"></span>
+            <span class="planning-line-right wow slideInRight" style="visibility: visible; animation-duration: 2100ms; animation-delay: 500ms; animation-name: slideInRight;"></span>
+        </div>
+    </div>
+    <div>
+    <div class="container">
+        <div class="arck-project-details-text ul-li-block">
+        <p class="font-18 cl-blue pb-4">
+            {% translate 'We are able to provide services in the field of designing, planning, collecting documents and permits, performing works, laying cables and splicing of all types of telecommunications networks mainly based on P2P, GPON technologies.' %}
+        </p>
+        <h3 class="oldsite-font-h3-blue text-center pb-3">
+            {% translate 'YEARS OF EXPERIENCE IN THE FIELD OF TELECOMMUNICATION NETWORKS' %}
+        </h3>
+        <p class="font-18 cl-blue">
+            {% translate 'We have experience in designing and modifying telecommunications networks based on optical and coax cables. Our experienced team of engineers will provide the latest and high-quality technical solutions in accordance with the highest standards.' %}
+        </p>
+        <div class="row pb-2"> 
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h5 class="oldsite-font cl-blue pb-1 pt-3">{% translate 'WE OFFER SERVICES OF DEVELOPING:' %}</h5>
+                <ul class="font-18 cl-blue" style="line-height: 1.9" >
+                    <li>
+                        {% translate 'Preliminary design' %}
+                    </li>
+                    <li>
+                        {% translate 'Main design' %}
+                    </li>
+                    <li>
+                        {% translate 'As-built design' %}
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h5 class="oldsite-font cl-blue pb-1 pt-3">{% translate 'TECHNICAL SOLUTIONS:' %}</h5>
+                <ul class="font-18 cl-blue" style="line-height: 1.9">
+                    <li>
+                        {% translate 'Design of main and local connecting routes with optical cables' %}
+                    </li>
+                    <li>
+                        {% translate 'Calculating new network cost' %}
+                    </li>
+                    <li>
+                        {% translate 'Design routes of cable ducts' %}
+                    </li>
+                    <li>
+                        {% translate 'Design of FTTH' %}
+                    </li>
+                    <li>
+                        {% translate 'DOCSIS technology' %}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="d-flex justify-content-center pb-3 pt-5 gallery-line">
+        <div class="archx-section-title headline-2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+            <h2 class="d-flex justify-content-center" style="font-size: 48px;"><span class="certificate-h2-span"style="line-height: 1.5;">{% translate 'Gallery' %}</span></h2>
+            <span class="gallery-line-left wow slideInLeft" style="visibility: visible; animation-duration: 2000ms; animation-delay: 800ms; animation-name: slideInLeft;"></span>
+            <span class="gallery-line-right wow slideInRight" style="visibility: visible; animation-duration: 2100ms; animation-delay: 500ms; animation-name: slideInRight;"></span>
+         </div>
+    </div>
+    <div class="container pt-5 pb-5">
+        <div class="archx-section-title headline-2 wow fadeInUp pb-5" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+            <div id="my_nanogallery3">
+                <img src="{% static 'img/planning_design/1.png' %}" data-ngsrc="{% static 'img/planning_design/1.png' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/planning_design/2.png' %}" data-ngsrc="{% static 'img/planning_design/2.png' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/planning_design/3.png' %}" data-ngsrc="{% static 'img/planning_design/3.png' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/planning_design/4.png' %}" data-ngsrc="{% static 'img/planning_design/4.png' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/planning_design/5.png' %}" data-ngsrc="{% static 'img/planning_design/5.png' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/planning_design/6.png' %}" data-ngsrc="{% static 'img/planning_design/6.png' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/planning_design/7.png' %}" data-ngsrc="{% static 'img/planning_design/7.png' %}" data-nanogallery2-lightbox />
+                <img src="{% static 'img/planning_design/8.png' %}" data-ngsrc="{% static 'img/planning_design/8.png' %}" data-nanogallery2-lightbox />
+
+            </div>
+        </div>
+    </div>
+</section>
+{% include "contact/contact-map.html" %}
+{% include "base/footer.html" %}
+
+{% endblock %}
