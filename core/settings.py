@@ -131,6 +131,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'Gsite/static'),
 ]
+STATIC_ROOT = [os.path.join(BASE_DIR, 'Gsite/static')]
 
 MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
