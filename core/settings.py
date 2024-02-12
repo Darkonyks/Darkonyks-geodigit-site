@@ -15,9 +15,9 @@ from pathlib import Path
 from django.utils.translation import gettext_lazy  as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-# BASE_DIR = Path(__file__).resolve().parent.parent
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-CORE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# CORE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(CORE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
@@ -127,20 +127,18 @@ LANGUAGES = (
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale/')]
 
-STATIC_FOLDER = 'Gsite'
+STATIC_URL = 'static/'
 
-STATIC_ROOT = os.path.join(CORE_DIR, STATIC_FOLDER, 'staticfiles')
 
-# STATIC_ROOT = [
-#     os.path.join(BASE_DIR, 'Gsite/static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'Gsite/', 'static')
+
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),
 # ]
-
-STATICFILES_DIRS = [
-    os.path.join(CORE_DIR, 'Gsite/static')
-]
+ 
 
 
-MEDIA_ROOT =  [os.path.join (CORE_DIR, 'media')]
+MEDIA_ROOT =  [os.path.join (BASE_DIR, 'media')]
 MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
