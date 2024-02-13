@@ -13,7 +13,7 @@ django-recaptcha==4.0.0
 exceptiongroup==1.2.0
 fastapi==0.104.1
 fastapi-socketio==0.0.10
-gunicorn==21.2.0
+# gunicorn==21.2.0
 h11==0.14.0
 htmx==0.0.0
 httpcore==1.0.2
@@ -53,3 +53,5 @@ vbuild==0.8.2
 watchfiles==0.21.0
 websockets==12.0
 wsproto==1.2.0
+gunicorn
+psycopg2
