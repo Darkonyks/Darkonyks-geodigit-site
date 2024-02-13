@@ -20,7 +20,7 @@ venv/
 local_settings.py
 
 # Media and static files (if using Django storage backends)
-media/posts/
+# media/posts/
 # static/
 
 # Log files
