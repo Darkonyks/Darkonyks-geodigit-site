@@ -40,7 +40,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 # ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost', '159.223.243.74', 'geodigit.net', 'www.geodigit.net', 'sea-lion-app-86bt6.ondigitalocean.app').split(',')
 
 # ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost, https://www.geodigit.net/, https://geodigit.net, www.geodigit.net, https://sea-lion-app-86bt6.ondigitalocean.app/').split(',')
-ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost, https://sea-lion-app-86bt6.ondigitalocean.app/').split(',')
+ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost').split(',')
 # Application definition
 
 INSTALLED_APPS = [
