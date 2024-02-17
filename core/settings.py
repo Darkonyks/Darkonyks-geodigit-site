@@ -37,7 +37,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', get_random_secret_key())
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['127.0.0.1, localhost', 'geodigit.net', 'www.geodigit.net', 'https://www.geodigit.net/', 'https://geodigit.net','www.geodigit.net', 'sea-lion-app-86bt6.ondigitalocean.app']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'geodigit.net', 'www.geodigit.net', 'https://www.geodigit.net/', 'https://geodigit.net','www.geodigit.net', 'sea-lion-app-86bt6.ondigitalocean.app']
 
 # ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost, geodigit.net, https://www.geodigit.net/, https://geodigit.net, www.geodigit.net, https://sea-lion-app-86bt6.ondigitalocean.app/').split(',')
 # ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost, geodigit.net, sea-lion-app-86bt6.ondigitalocean.app').split(',')
