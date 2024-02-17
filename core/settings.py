@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 # DATABASE_URL = ''
 
-DEVELOPMENT_MODE = os.getenv("DEFELOPMENT_MODE", 'False') == 'True'
+DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", 'False') == 'True'
 
 if DEVELOPMENT_MODE is True:
 
