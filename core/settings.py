@@ -40,7 +40,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 # ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost', '159.223.243.74', 'geodigit.net', 'www.geodigit.net', 'sea-lion-app-86bt6.ondigitalocean.app').split(',')
 
 # ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost, https://www.geodigit.net/, https://geodigit.net, www.geodigit.net, https://sea-lion-app-86bt6.ondigitalocean.app/').split(',')
-ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost').split(',')
+ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost', 'geodigit.net').split(',')
 # Application definition
 
 INSTALLED_APPS = [
@@ -98,30 +98,30 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DEVELOPMENT_MODE = os.getenv("DEFELOPMENT_MODE", 'False') == 'True'
 
-# if DEVELOPMENT_MODE is True:
+if DEVELOPMENT_MODE is True:
 
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         }
-#     }
-# elif len(sys.argv) > 0 and sys.argv[1] != 'collectstatic':
-#     if os.getenv("DATABASE_URL", None)is None:
-#         raise Exception("DATABASE_URL environment variable not defined")
-#     DATABASES = {
-#         "default": dj_database_url.parse(os.environ.get("DATABASE_URL")),
-#     }
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+elif len(sys.argv) > 0 and sys.argv[1] != 'collectstatic':
+    if os.getenv("DATABASE_URL", None)is None:
+        raise Exception("DATABASE_URL environment variable not defined")
+    DATABASES = {
+        "default": dj_database_url.parse(os.environ.get("DATABASE_URL")),
+    }
 
 
 # kada se lokalno pokrece kod koji kreira bazui i radi na DigitalOcenu potrebno je zakomentaristai kor iznad
 # i postaviti samo ovo ispod:
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 
