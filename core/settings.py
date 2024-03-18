@@ -10,28 +10,39 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os
+import sys
 from decouple import config
 from pathlib import Path
 from django.utils.translation import gettext_lazy  as _
+from django.core.management.utils import get_random_secret_key
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# CORE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
-SECRET_KEY = config('SECRET_KEY')
+# SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', get_random_secret_key())
+
 # SECRET_KEY = 'django-insecure-!ng&=a646&z26l(lr0pywc@anl-+w$qu=&4+ol7@vqvgsj74aq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = config('DEBUG', default=False, cast=bool)
+# DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = []
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'geodigit.net', 'www.geodigit.net', 'https://www.geodigit.net/', 'https://geodigit.net','www.geodigit.net', 'sea-lion-app-86bt6.ondigitalocean.app']
+
+# ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost, geodigit.net, https://www.geodigit.net/, https://geodigit.net, www.geodigit.net, https://sea-lion-app-86bt6.ondigitalocean.app/').split(',')
+# ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1, localhost, geodigit.net, sea-lion-app-86bt6.ondigitalocean.app').split(',')
 # Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -84,14 +95,36 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'core.wsgi.application'
 
+# DATABASE_URL = ''
 
+DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", 'False') == 'True'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if DEVELOPMENT_MODE is True:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
     }
-}
+elif len(sys.argv) > 0 and sys.argv[1] != 'collectstatic':
+    if os.getenv("DATABASE_URL", None)is None:
+        raise Exception("DATABASE_URL environment variable not defined")
+    DATABASES = {
+        "default": dj_database_url.parse(os.environ.get("DATABASE_URL")),
+    }
+
+
+# kada se lokalno pokrece kod koji kreira bazui i radi na DigitalOcenu potrebno je zakomentaristai kor iznad
+# i postaviti samo ovo ispod:
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+
 
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -128,14 +161,20 @@ LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale/')]
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'Gsite/static'),
-]
 
-MEDIA_ROOT = BASE_DIR / 'media'
-MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'Gsite/', 'static')
+
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),
+# ]
+ 
+
+
+MEDIA_ROOT =  [os.path.join (BASE_DIR, 'media')]
+MEDIA_URL = 'media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 RECAPTCHA_PUBLIC_KEY=config('RECAPTCHA_PUBLIC_KEY')
 RECAPTCHA_PRIVATE_KEY=config('RECAPTCHA_PRIVATE_KEY')
+

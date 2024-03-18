@@ -9,7 +9,7 @@ venv/
 .idea/
 
 # Database
-db.sqlite3
+# db.sqlite3
 
 # Compiled Python files
 *.pyc
@@ -20,7 +20,7 @@ db.sqlite3
 local_settings.py
 
 # Media and static files (if using Django storage backends)
-media/posts/
+# media/posts/
 # static/
 
 # Log files
