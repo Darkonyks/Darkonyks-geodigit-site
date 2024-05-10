@@ -154,7 +154,7 @@ USE_TZ = True
 LANGUAGES = (
     ('sr', _('Serbian')),
     ('en', _('English')),
-    # ('de', _('German')),
+    ('de', _('German')),
 )
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale/')]
