@@ -2076,7 +2076,7 @@ msgstr "Softver za server koji omogućava deljenje geoprostornih podataka putem 
 msgid "Open-source relational database management system known for its reliability."
 msgstr "Sistem za upravljanje relacionim bazama podataka poznat po svojoj pouzdanosti."
 
-msgid "Python, JavaScript, C#, C++, and SQL are versatile programming languages used for various applications, from web development to data analysis."
+msgid "Python, JavaScript, C#, C++ and SQL are versatile programming languages used for various applications, from web development to data analysis."
 msgstr "Python, JavaScript, C#, C++ i SQL su raznovrsni programski jezici koji se koriste za različite aplikacije, od razvoja web stranica do analize podataka."
 
 msgid "Django and Flask are popular Python web frameworks for building dynamic, robust, and scalable web applications."

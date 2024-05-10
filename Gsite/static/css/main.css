@@ -9073,7 +9073,7 @@ body {
 
 .cert-text {
   /* text-align:justify; */
-  padding: 20px;
+  padding: 10px;
 }
 
 .gis_digitalisation h4{
@@ -10461,4 +10461,10 @@ body {
     width: 20% !important;
   }
 
+}
+
+
+.main-services-p {
+  margin-bottom: auto !important; 
+  margin-top: 20px;
 }

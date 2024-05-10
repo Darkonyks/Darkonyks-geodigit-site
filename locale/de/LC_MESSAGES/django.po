@@ -1627,7 +1627,7 @@ msgstr ""
 
 # NAVIGATOR I PANEL
 msgid "HOME"
-msgstr "ANFANGSSEITE"
+msgstr "HOME"
 
 msgid "ABOUT"
 msgstr "ÜBER UNS"
@@ -1636,7 +1636,7 @@ msgid "SERVICES"
 msgstr "DIENSTLEINSTUNGEN"
 
 msgid "GIS SERVICES"
-msgstr "GEOINFORMATIONSDIENSTE"
+msgstr "GIS-DIENSTLEISTUNGEN"
 
 msgid "GIS DEVELOPMENT"
 msgstr "GIS ENTWICKLUNG"
@@ -1645,10 +1645,13 @@ msgid "3D MAPPING"
 msgstr "3D-MAPPING-LÖSUNG"
 
 msgid "SURVEYING"
-msgstr "GEODÄTISCHE DIENSTLEISTUNGEN"
+msgstr "VERMESSUNG"
 
 msgid "PLANNING AND DESIGN"
-msgstr "PLANUNG UND PROJEKTENTWICKLUNG"
+msgstr "PLANUNG UND DESIGN"
+
+msgid "CONSULTING"
+msgstr "CONSULTING"
 
 msgid "REFERENCES"
 msgstr "REFERENZEN"
@@ -1658,16 +1661,17 @@ msgstr "KONTAKT"
 
 # MAIN SLIDER
 msgid "WE’RE GEOSPATIAL DATA MANAGEMENT SPECIALISTS"
-msgstr "WIR SIND SPEZIALISTEN FÜR GEOSPATIAL DATA MANAGEMENT​"
+msgstr "WIR SIND SPEZIALISTEN FÜR GEODATENMANAGEMENT"
+
 
 msgid "GEOINFORMATION SERVICES"
-msgstr "GEOINFORMATIONSDIENSTE"
+msgstr "GEOINFORMATIONSDIENSTLEISTUNGEN"
 
-msgid "We are analyzing and capturing any datasets into geoinformation systems (GIS), specially data of linear infrastructure (telecommunication networks, power networks, gas line networks etc.) Our GIS solutions for storing and visualization of datasets are developed in Open Source platforms according to the needs of our clients. We are offering surveying services which can be used in a GIS context or 3D mapping products."
-msgstr "Wir analysieren und erfassen Datensätze in Geoinformationssystemen (GIS), insbesondere Daten linearer Infrastruktur (Telekommunikationsnetze, Stromnetze, Gasleitungsnetze etc.). Unsere GIS-Lösungen zur Speicherung und Visualisierung von Datensätzen werden in Open-Source-Plattformen nach den Bedürfnissen unserer Kunden entwickelt. Wir bieten Vermessungsdienste an, die in einem GIS-Kontext oder 3D-Mapping-Produkten verwendet werden können.​"
+msgid "We are analyzing and capturing any datasets into geoinformation systems (GIS), specially data of linear infrastructure (telecommunication networks, power networks, gas line networks etc.) Our GIS solutions for storing and visualization of datasets are developed according to the needs of our clients. We are offering surveying services which can be used in a GIS context or 3D mapping products."
+msgstr "Wir analysieren und erfassen Datensätze in Geoinformationssystemen (GIS), insbesondere Daten linearer Infrastruktur (Telekommunikationsnetze, Stromnetze, Gasleitungsnetze usw.). Unsere GIS-Lösungen zur Speicherung und Visualisierung von Datensätzen werden entsprechend den Anforderungen unserer Kunden entwickelt . Wir bieten Vermessungsdienstleistungen an, die im GIS-Kontext oder in 3D-Kartierungsprodukten verwendet werden können.​"
 
 msgid "TAKE A TOUR"
-msgstr "MACHEN SIE EINE TOUR​"
+msgstr "LESEN SIE MEHR​"
 
 msgid "About"
 msgstr "Über uns"
@@ -1676,7 +1680,7 @@ msgid "Why"
 msgstr "Warum"
 
 msgid "Because we have everything necessary to ensure successful cooperation:"
-msgstr "Weil wir Alles haben, was für eine erfolgreiche Zusammenarbeit notwendig ist:"
+msgstr "Weil wir über alles Notwendige verfügen, um eine erfolgreiche Zusammenarbeit zu sichern:"
 
 msgid "Knowledge"
 msgstr "Wissen"
@@ -1691,7 +1695,7 @@ msgid "Technology"
 msgstr "Technologie"
 
 msgid "Expertise"
-msgstr "Sachverstand"
+msgstr "Fachkenntnis"
 
 msgid "Quality"
 msgstr "Qualität"
@@ -1706,13 +1710,13 @@ msgid "IS A COMPANY SPECIALIZED IN"
 msgstr "IST EIN UNTERNEHMEN, DAS AUF"
 
 msgid "GEODIGIT IS A COMPANY SPECIALIZED IN GEOINFORMATION TECHNOLOGY AND GEOSPATIAL DATA MANAGEMENT."
-msgstr "GEODIGIT IST EIN UNTERNEHMEN, DAS AUF GEOINFORMATIONSTECHNOLOGIE UND GEODATENVERWALTUNG SPEZIALISIERT IST."
+msgstr "GEODIGIT IST EIN UNTERNEHMEN, DAS AUF GEOINFORMATIONSTECHNOLOGIE UND VERWALTUNG VON GEODATEN SPEZIALISIERT IST."
 
-msgid "We have years of experience in the field of geodesy, geoinformation systems, as well as all kinds of processing of spatial data. Knowledge of project management has been developed at the local and international market. Our experts will help you design your system so that it can become technically feasible and sustainable, and our strong operations will lead your projects to their completion."
-msgstr "Wir verfügen über langjährige Erfahrung im Bereich der Geodäsie, Geoinformationssysteme sowie aller Arten der Verarbeitung von Geodaten. Kenntnisse im Projektmanagement wurden auf dem lokalen und internationalen Markt erlangt. Unsere Experten helfen Ihnen, Ihr System technisch operativ und nachhaltig zu gestalten, und mit unserer Unterstützung helfen wir Ihnen Ihre Projekte zu ihrem Abschluss zu führen."
+msgid "We have years of experience in the field of geodesy, geoinformation systems, as well as all kinds of processing of spatial data. Knowledge of project management has been developed at the local and international market. Our experts will help you design your system so that it can become technically feasible and sustainable, and our operations will lead your projects to their completion."
+msgstr "Wir verfügen über langjährige Erfahrung im Bereich der Geodäsie, Geoinformationssysteme sowie der Verarbeitung von Geodaten aller Art. Kenntnisse im Projektmanagement wurden auf dem lokalen und internationalen Markt entwickelt. Unsere Experten helfen Ihnen dabei, Ihr System so zu gestalten, dass es technisch machbar und nachhaltig ist und wir führen Ihre Projekte bis zur Fertigstellung."
 
 msgid "More Info"
-msgstr "Weitere Informationen"
+msgstr "Mehr Info"
 
 msgid "More Details"
 msgstr "Weitere Einzelheiten"
@@ -1721,7 +1725,7 @@ msgid "Services"
 msgstr "Dienstleistungen"
 
 msgid "Geodata survey"
-msgstr "Geodatenerhebung"
+msgstr "Vermessung"
 
 msgid "GIS development"
 msgstr "GIS-Entwicklung"
@@ -1733,14 +1737,14 @@ msgid "Analog data digitization"
 msgstr "Digitalisierung analoger Daten"
 
 msgid "Inventory documentation"
-msgstr "Bestandsdokumentation"
+msgstr "Inventardokumentation"
 
 msgid "Maintenance and update"
 msgstr "Wartung und Aktualisierung"
 
 # SERVICES USLUGE
 msgid "GIS Services"
-msgstr "Geoinformationsdienste"
+msgstr "GIS-Dienstleistungen"
 
 msgid "READ MORE"
 msgstr "MEHR LESEN"
@@ -1749,38 +1753,41 @@ msgid "Read More"
 msgstr "Mehr lesen"
 
 msgid "GIS services involve the use of spatial data for mapping, analysis, and support in various areas, utility line infrastructure urban planning to environmental conservation."
-msgstr "Die GIS-Dienstleistungen umfassen die Verwendung räumlicher Daten für Kartierung, Analyse und Unterstützung in verschiedenen Bereichen, von der Infrastruktur der kommunalen Wasserleitungen und Stadtplanung bis zum Umweltschutz."
+msgstr "GIS-Dienste umfassen die Nutzung räumlicher Daten zur Kartierung, Analyse und Unterstützung in verschiedenen Bereichen, von der Planung der Versorgungsleitungsinfrastruktur bis hin zum Umweltschutz."
 
 msgid "GIS Development"
-msgstr "GIS Entwicklung"
+msgstr "GIS-Entwicklung"
 
 msgid "GIS development involves creating and enhancing systems for efficient management, analysis, and visualization of spatial data."
-msgstr "Die Entwicklung von GIS umfasst die Schaffung und Verbesserung von Systemen für effizientes Management, Analyse und Visualisierung von räumlichen Daten."
+msgstr "Die GIS-Entwicklung umfasst die Erstellung und Verbesserung von Systemen zur effizienten Verwaltung, Analyse und Visualisierung räumlicher Daten."
 
 msgid "3D Mapping"
-msgstr "3D-Mapping-Lösung"
+msgstr "3D-Mapping"
 
 msgid "3D mapping is the representation of real-world objects in a three-dimensional space, allowing for a detailed depiction and better understanding of the environment."
-msgstr "3D-Kartierung ist die Darstellung realer Objekte im dreidimensionalen Raum, was eine detaillierte Abbildung und ein besseres Verständnis der Umgebung ermöglicht."
+msgstr "Beim 3D-Mapping handelt es sich um die Darstellung realer Objekte in einem dreidimensionalen Raum, was eine detaillierte Darstellung und ein besseres Verständnis der Umgebung ermöglicht."
 
 msgid "Surveying"
-msgstr "Geodätische Dienstleistungen"
+msgstr "Vermessung"
 
 msgid "Surveying is the process of measuring and mapping land, providing essential data for construction projects, land management, and infrastructure development."
-msgstr "Vermessung ist der Prozess des Messens und Kartierens von Land, der wesentliche Daten für Bauprojekte, Landmanagement und Infrastrukturentwicklung bereitstellt."
+msgstr "Vermessung umfasst die Vermessung und Kartierung von Land, ein Prozess welcher wesentliche Daten für Bauprojekte, Landmanagement und Infrastrukturentwicklung liefert."
 
 msgid "Planning and Design"
-msgstr "Planung und Projektentwicklung"
+msgstr "Planung und Design"
 
 msgid "Optical passive network planning for residential and business users. We provide services for the development of preliminary, main and as-built design. We design optical access and long-distance networks."
-msgstr "Die Planung von optischen passiven Netzwerken für Wohn- und Geschäftsnutzer. Wir bieten Dienstleistungen für die Entwicklung von Vor-, Haupt- und Ausführungsdesign an. Wir entwerfen optische Zugangs- und Fernnetzwerke."
+msgstr "Optische passive Netzwerkplanung für Privat- und Geschäftsverbraucher. Wir bieten Dienstleistungen für die Entwicklung von Vor-, Haupt- und Bestandskonstruktionen an. Wir konzipieren optische Zugangs- und Fernnetze."
+
+msgid "Consulting"
+msgstr "Beratung"
 
 msgid "Consulting involves providing professional, technical, legal, and organizational support to clients during the planning and implementation of their projects."
-msgstr "Consulting umfasst die Bereitstellung von professioneller, technischer, rechtlicher und organisatorischer Unterstützung für Kunden während der Planung und Umsetzung ihrer Projekte."
+msgstr "Beratung umfasst die fachliche, technische, rechtliche und organisatorische Unterstützung der Kunden bei der Planung und Umsetzung ihrer Projekte."
 
 # SERVICES USLUGE
 msgid "OUR CLIENTS AND PARTNERS"
-msgstr "KUNDEN UND PARTNER"
+msgstr "UNSERE KUNDEN UND PARTNER"
 
 msgid "Our long-term satisfied clients are proof of our quality and expertise."
 msgstr "Unsere langjährigen zufriedenen Kunden sind der Beweis für unsere Qualität und Kompetenz."
@@ -1789,7 +1796,7 @@ msgid "See Our References"
 msgstr "Sehen Sie unsere Referenzen"
 
 msgid "Please Read & know about our blogs leatest news"
-msgstr "Lesen Sie unsere Blogs und aktuelle Nachrichten."
+msgstr "Die neusten Informationen und Neuigkeiten können Sie auf unserem Blog finden."
 
 msgid "Comments"
 msgstr "Kommentare"
@@ -1825,7 +1832,7 @@ msgstr "Serbien"
 
 # FOOTER
 msgid "is a company specialized in geoinformation technology and geospatial data management."
-msgstr "ist ein Unternehmen, das auf Geoinformationstechnologie und Geodatenverwaltung spezialisiert ist."
+msgstr "ist ein Unternehmen, das auf Geoinformationstechnologie und Verwaltung von Geodaten spezialisiert ist."
 
 msgid "VAT"
 msgstr "VAT"
@@ -1834,10 +1841,10 @@ msgid "Reg. Number"
 msgstr "Registrierungsnummer"
 
 msgid "Prominent"
-msgstr "Prominent"
+msgstr "Hervorgehoben"
 
 msgid "Home"
-msgstr "Anfangsseite"
+msgstr "Home"
 
 msgid "About Us"
 msgstr "Über uns"
@@ -1857,7 +1864,7 @@ msgid "Years of Existence"
 msgstr "Jahre des Bestehens"
 
 msgid "Years Expiriance Working"
-msgstr "Jahre Erfahrung in der Arbeit"
+msgstr "Jahre der Arbeitserfahrung"
 
 msgid "Certificates and Standards"
 msgstr "Zertifikate und Standards"
@@ -1869,111 +1876,109 @@ msgid "INFORMATION SECURITY MANAGEMENT SYSTEM"
 msgstr "INFORMATIONSSICHERHEITS–MANAGEMENTSSYSTEM"
 
 msgid "MANAGEMENT SYSTEM FOR HEALTH AND SAFETY AT WORK"
-msgstr "GESUNDHEITSSCHUTZ UND SICHERHEITSMANAGEMENTSYSTEM AM ARBEITSPLATZ"
+msgstr "MANAGEMENTSYSTEM FÜR SICHERHEIT UND GESUNDHEIT AM ARBEITSPLATZ"
 
 msgid "MANAGEMENT SYSTEM FOR ENVIRONMENTAL PROTECTION"
 msgstr "UMWELTSCHUTZ–MANAGEMENTSYSTEM"
 
 msgid "BUSINESS CONTINUITY MANAGEMENT SYSTEMS"
-msgstr "SYSTEME FÜR DAS KONTINUIERLICHE GESCHÄFTSMANAGEMENT"
+msgstr "MANAGEMENTSYSTEME FÜR DIE GESCHÄFTSKONTINUITÄT"
 
 msgid "Guided by its mission and vision, GeoDigit has harmonized its quality system with internationally recognized standards, which confirm the dedication and commitment of the organization towards achieving the objectives of ensuring the quality of services."
-msgstr "Seine Mission und Vision fortführend hat das Unternehmen GeoDigit sein Qualitätssystem auf einen international anerkannten Standard ausgerichtet, der das Engagement und die Entschlossenheit der Organisation bestätigt, die Ziele der Qualitätssicherung bei der Erbringung von Dienstleistungen zu erreichen."
+msgstr "Geleitet von seiner Mission und Vision hat GeoDigit sein Qualitätssystem mit international anerkannten Standards harmonisiert, die das Engagement und die Verpflichtung der Organisation zur Erreichung der Ziele der Gewährleistung der Qualität der Dienstleistungen bestätigen."
 
 msgid "One of the main priorities of the company is to ensure the safety and security of data and informations. Nowadays, the key aspect of professionalism is the way of dealing with confidential information’s. GeoDigit is an organization that has its own security system raised to the highest level as evidenced by the internationally recognized certificate."
-msgstr "Eine der obersten Prioritäten des Unternehmens ist die Gewährleistung der Sicherheit von Daten und Informationen. Heutzutage stellt der Umgang mit vertraulichen Informationen ein Hauptthema der Geschäftlichkeit dar. GeoDigit ist eine Organisation, die ihr Sicherheitssystem auf das höchste Niveau gebracht hat, was durch ein international anerkanntes Zertifikat belegt wird."
+msgstr "Eine der Hauptprioritäten des Unternehmens ist die Sicherheit von Daten und Informationen zu gewährleisten. Heutzutage ist der Umgang mit vertraulichen Informationen der entscheidende Aspekt der Professionalität. GeoDigit ist eine Organisation, die ihr eigenes Sicherheitssystem  auf das höchste Niveau gebracht hat, was durch das international anerkannte Zertifikat belegt wurde."
 
 msgid "Our team is our strength. Employees are the highest value of our organization, and we employ all available methods to protect them in their work. Through comprehensive safety measures, we safeguard both our employees and the organization."
-msgstr "Unser Team ist unsere Stärke. Mitarbeiter sind der höchste Wert unserer Organisation, und wir setzen alle verfügbaren Methoden ein, um sie bei ihrer Arbeit zu schützen. Durch umfassende Sicherheitsmaßnahmen schützen wir sowohl unsere Mitarbeiter als auch die Organisation."
+msgstr "Unser Team ist unsere Stärke. Die Mitarbeiter sind der höchste Wert unserer Organisation und wir setzen alle verfügbaren Maßnahmen ein, um sie bei ihrer Arbeit zu schützen. Durch umfassende Sicherheitsmaßnahmen schützen wir sowohl unsere Mitarbeiter als auch die Organisation."
 
 msgid "GeoDigit and its employees are socially responsible and aware of the necessity and importance of environmental protection. International standard is just a proof of commitment to maintaining our planet clean and safe."
-msgstr "Das Unternehmen GeoDigit und seine Mitarbeiter sind sozial verantwortlich und wissen um die Notwendigkeit und Wichtigkeit des Umweltschutzes. Der internationale Standard ist nur ein Beweis für die Verpflichtung, unseren Planeten sauber und sicher zu halten."
+msgstr "GeoDigit und seine Mitarbeiter sind sozial verantwortlich und sich der Notwendigkeit und Bedeutung des Umweltschutzes bewusst. Der internationale Standard ist nur ein Beweis für das Engagement, unseren Planeten sauber und sicher zu halten."
 
 msgid "ISO 22301 is the internationally recognized standard for Business Continuity Management Systems (BCMS). In a world where cyberattacks, data breaches, and natural disasters can disrupt business continuity and quickly damage reputation, organizations need to implement, maintain, and continually refine their Business Continuity Management System (BCMS)."
-msgstr "ISO 22301 ist der international anerkannte Standard für Business Continuity Management Systeme (BCMS). In einer Welt mit Cyberangriffen, Datenschutzverletzungen und Naturkatastrophen müssen Organisationen ihr BCMS implementieren, warten und verfeinern, um Geschäftskontinuität und Ruf zu schützen."
+msgstr "ISO 22301 ist der international anerkannte Standard für Business Continuity Management Systems (BCMS). In einer Welt, in der Cyberangriffe, Datenleaks und Naturkatastrophen die Geschäftskontinuität stören und schnell den Ruf schädigen können, ist es für Unternehmen notwendig ihr Business Continuity Management System (BCMS) zu implementieren,  zu warten und kontinuierlich weiterzuentwickeln."
 
 msgid "CERTIFICATE"
-msgstr "ZERTIFIKATE"
+msgstr "ZERTIFIKAT"
 
 msgid "Career at GeoDigit"
 msgstr "Karriere bei GeoDigit"
 
 msgid "GeoDigit engages different employee profiles. Depending on the project, profiles of employees that are required change, but in order to be engaged by the company, it is essential that the candidates have the following virtues:"
-msgstr "GeoDigit beschäftigt verschiedene Mitarbeiterprofile. Je nach Bedürfnissen des jeweiligen Projekts, ändern sich die Profile der Arbeitskräfte, die gesucht werden, aber für die Anstellung in unserem Unternehmen ist es in jedem Fall notwendig, dass die Kandidaten folgende Stärken besitzen:"
+msgstr "GeoDigit engagiert verschiedene Mitarbeiterprofile. Abhängig vom Projekt, ändern sich die Anforderungen an die Profile die gebraucht werden, jedoch um vom Unternehmen engagiert zu werden ist es notwendig, dass die Kandidaten über folgenden Eigenschaften verfügen:"
 
 msgid "Commitment"
-msgstr "Hingabe"
+msgstr "Engagement"
 
 msgid "Persistence"
-msgstr "Beharrlichkeit"
+msgstr "Ausdauer"
 
 msgid "Organization"
-msgstr "Organisationssinn"
+msgstr "Organisationsfähigkeit"
 
 msgid "Meticulousness and precision"
-msgstr "Ordentlichkeit und Präzision"
+msgstr "Genauigkeit und Präzision"
 
 msgid "Ambition"
-msgstr "Ehrgeiz"
+msgstr "Ambition"
 
 msgid "Punctuality"
-msgstr "Genauigkeit"
-
-msgid "Analyticity"
-msgstr "Analytisches Denken"
+msgstr "Pünktlichkeit"
 
 msgid "Computer literacy"
-msgstr "Computerkenntnisse"
+msgstr "EDV- Kenntnisse"
 
 msgid "Systematicity"
-msgstr "Systematisches Denken"
+msgstr "Systematische Arbeitsweise"
 
-msgid "If you believe that you own the said virtues, send us your CV with a picture and motivation letter to the e-mail address"
-msgstr "Wenn Sie glauben, dass Sie diese Stärken besitzen, senden Sie uns bitte Ihren Lebenslauf mit Bild und einem Motivationsschreiben an die E-Mail-Adresse"
+msgid "Send us your CV with a picture and motivation letter to the e-mail address"
+msgstr "Senden Sie uns Ihren Lebenslauf mit Photo und dem Anschreiben per e-Mail an die Adresse"
 
 
 # SERVICES - USLUGE GIS-a
+
 msgid "DIGITIZATION AND DOCUMENTATION"
 msgstr "DIGITALISIERUNG UND DOKUMENTATION"
 
 msgid "KNOW HOW"
-msgstr "FACHWISSEN"
+msgstr "KNOW HOW"
 
 msgid "Digitization of geodata"
 msgstr "Digitalisierung von Geodaten"
 
 msgid "Digitization involves the process of converting physical maps, drawings, or other analog data into digital formats. This is done to create digital representations of geographic features and information. There are various methods for digitizing geodata, including manual digitization using digitizing tablets, heads-up digitization in GIS software, and automated methods like satellite and aerial imagery analysis. Digitized geodata can be used for mapping, analysis, and visualization in GIS applications, urban planning, environmental monitoring, and more."
-msgstr "Digitalisierung umfasst den Prozess der Umwandlung physischer Karten, Zeichnungen oder anderer analoger Daten in digitale Formate. Dies wird durchgeführt, um digitale Darstellungen geografischer Merkmale und Informationen zu erstellen. Es gibt verschiedene Methoden zur Digitalisierung von Geodaten, darunter manuelle Digitalisierung mit Digitalisierungstabletts, Heads-Up-Digitalisierung in GIS-Software und automatisierte Methoden wie die Analyse von Satelliten- und Luftbildern. Digitalisierte Geodaten können für Kartierung, Analyse und Visualisierung in GIS-Anwendungen, Stadtplanung, Umweltüberwachung und mehr verwendet werden."
+msgstr "Bei der Digitalisierung werden physische Karten, Zeichnungen oder andere analoge Daten in digitale Formate umgewandelt. Dies wird gemacht, um digitale Darstellungen geografischer Merkmale und Informationen zu erstellen. Es gibt verschiedene Methoden zur Digitalisierung von Geodaten, darunter die manuelle Digitalisierung mit Digitalisierungstabletts, die Heads-up-Digitalisierung in GIS-Software und automatisierte Methoden wie die Analyse von Satelliten- und Luftbildern. Digitalisierte Geodaten können zur Kartierung, Analyse und Visualisierung in GIS-Anwendungen, bei Stadtplanung oder Umweltüberwachung und mehr verwendet werden."
 
 msgid "Maintenance and update of existing datasets"
-msgstr "Pflege und Aktualisierung bestehender Datensätze"
+msgstr "Wartung und Aktualiserung von Bestandsdaten"
 
 msgid "Geospatial datasets need to be regularly maintained and updated to ensure their accuracy and relevance. This involves correcting errors, adding new data, and revising existing information. Updates can be based on field surveys, remote sensing data, user-contributed data, or data from authoritative sources. Updated datasets are crucial for decision-making, disaster response, infrastructure planning, and other applications that rely on accurate geographic information."
-msgstr "Geodaten müssen regelmäßig gewartet und aktualisiert werden, um ihre Genauigkeit und Relevanz sicherzustellen. Dies umfasst die Korrektur von Fehlern, die Hinzufügung neuer Daten und die Überarbeitung bestehender Informationen. Aktualisierungen können auf Feldumfragen, Fernerkundungsdaten, nutzergenerierten Daten oder Daten aus autoritativen Quellen basieren. Aktualisierte Datensätze sind entscheidend für die Entscheidungsfindung, Katastrophenreaktion, Infrastrukturplanung und andere Anwendungen, die auf genauen geografischen Informationen basieren."
+msgstr "Geodatensätze müssen regelmäßig gepflegt und aktualisiert werden, um ihre Genauigkeit und Relevanz sicherzustellen. Dabei geht es darum, Fehler zu korrigieren, neue Daten hinzuzufügen und bestehende Informationen zu überarbeiten. Aktualisierungen können auf Felduntersuchungen, Fernerkundungsdaten, von Benutzern bereitgestellten Daten oder Daten aus maßgeblichen Quellen basieren. Aktualisierte Datensätze sind für die Entscheidungsfindung, Katastrophenhilfe, Infrastrukturplanung und andere Anwendungen, die auf genauen geografischen Informationen beruhen, von entscheidender Bedeutung."
 
 msgid "Documentation of linear infrastructure networks"
-msgstr "Dokumentation linearer Infrastrukturnetze"
+msgstr "Dokumentation von linearen Infrastrukturnetzen"
 
 msgid "Documentation of linear infrastructure networks involves creating detailed records of linear features like roads, railways, pipelines, and utility networks. This documentation can include attribute information such as location, type, condition, maintenance history, and more. Accurate documentation of linear infrastructure is essential for infrastructure management, asset tracking, and maintenance planning."
-msgstr "Die Dokumentation von linearen Infrastrukturnetzen beinhaltet die Erstellung detaillierter Aufzeichnungen von linearen Merkmalen wie Straßen, Eisenbahnen, Pipelines und Versorgungsnetzen. Diese Dokumentation kann attributive Informationen wie Standort, Typ, Zustand, Wartungshistorie und mehr einschließen. Eine genaue Dokumentation der linearen Infrastruktur ist entscheidend für das Infrastrukturmanagement, die Vermögensverfolgung und die Wartungsplanung."
+msgstr "Die Dokumentation linearer Infrastrukturnetze umfasst die Erstellung detaillierter Aufzeichnungen linearer Merkmale wie Straßen, Eisenbahnen, Pipelines und Versorgungsnetze. Diese Dokumentation kann Attributinformationen wie Standort, Typ, Zustand, Wartungsverlauf und mehr enthalten. Eine genaue Dokumentation der linearen Infrastruktur ist für das Infrastrukturmanagement, die Anlagenverfolgung und die Wartungsplanung unerlässlich."
 
 msgid "Converting analog data to digital formats for use in database and GIS applications"
-msgstr "Umwandlung analoger Daten in digitale Formate zur Verwendung in Datenbank- und GIS-Anwendungen"
+msgstr "Konvertieren linearer Daten in digitale Formate zur Verwendung in Datenbank- und GIS-Anwendungen"
 
 msgid "Converting analog data to digital formats involves transforming physical data sources, such as paper maps or photographs, into digital files that can be stored and analyzed in GIS software or databases. This process can include scanning, georeferencing, and manual or automated digitization. Digital formats allow for easier data storage, analysis, and integration into GIS systems, enabling better decision-making and information sharing."
-msgstr "Die Umwandlung von analogen Daten in digitale Formate umfasst die Transformation physischer Datenquellen, wie Papierkarten oder Fotografien, in digitale Dateien, die in GIS-Software oder Datenbanken gespeichert und analysiert werden können. Dieser Prozess kann Scannen, Georeferenzierung sowie manuelle oder automatisierte Digitalisierung umfassen. Digitale Formate ermöglichen eine einfachere Datenspeicherung, Analyse und Integration in GIS-Systeme, was zu einer verbesserten Entscheidungsfindung und Informationsfreigabe führt."
+msgstr "Bei der Konvertierung analoger Daten in digitale Formate werden physische Datenquellen wie Papierkarten oder Fotos in digitale Dateien umgewandelt, die in GIS-Software oder Datenbanken gespeichert und analysiert werden können. Dieser Prozess kann Scannen, Georeferenzierung und manuelle oder automatisierte Digitalisierung umfassen. Digitale Formate ermöglichen eine einfachere Datenspeicherung, Analyse und Integration in GIS-Systeme und ermöglichen so eine bessere Entscheidungsfindung und einen besseren Informationsaustausch."
 
 msgid "Network inventory documentation"
 msgstr "Dokumentation des Netzwerkinventars"
 
 msgid "Network inventory documentation is a comprehensive record of an organizations network infrastructure, including hardware, software, and configurations. It serves as a crucial reference for IT professionals, aiding in troubleshooting, upgrades, and maintenance. Accurate and up-to-date documentation enhances efficiency, security, and overall network management."
-msgstr "Die Dokumentation des Netzwerkinventars ist eine umfassende Aufzeichnung der Netzwerkinfrastruktur einer Organisation, einschließlich Hardware, Software und Konfigurationen. Sie dient als entscheidende Referenz für IT-Profis und unterstützt bei Fehlerbehebung, Upgrades und Wartung. Eine genaue und aktuelle Dokumentation verbessert Effizienz, Sicherheit und das allgemeine Netzwerkmanagement."
+msgstr "Bei der Netzwerkinventardokumentation handelt es sich um eine umfassende Aufzeichnung der Netzwerkinfrastruktur eines Unternehmens, einschließlich Hardware, Software und Konfigurationen. Es dient als wichtige Referenz für IT-Experten und hilft bei der Fehlerbehebung, Upgrades und Wartung. Eine genaue und aktuelle Dokumentation verbessert die Effizienz, Sicherheit und das gesamte Netzwerkmanagement."
 
 msgid "Digitization of cadaster analog datasets"
-msgstr "Digitalisierung von analogen Katasterdatensätzen"
+msgstr "Digitalisierung analoger Katasterdaten"
 
 msgid "Digitization of cadaster analog datasets involves converting paper-based land records into digital formats. This process enhances accessibility, efficiency, and data management in land administration. By utilizing advanced technologies, such as GIS, it facilitates faster updates, improves accuracy, and supports effective decision-making in the management of cadastral information."
-msgstr "Die Digitalisierung von analogen Katasterdatensätzen beinhaltet die Umwandlung von papierbasierten Grundbuchunterlagen in digitale Formate. Dieser Prozess verbessert die Zugänglichkeit, Effizienz und Datenverwaltung in der Grundstücksverwaltung. Durch die Nutzung fortschrittlicher Technologien wie GIS ermöglicht es schnellere Aktualisierungen, verbessert die Genauigkeit und unterstützt effektive Entscheidungsfindung in der Verwaltung von Katasterinformationen."
+msgstr "Bei der Digitalisierung analoger Katasterdatensätze werden papierbasierte Grundbucheinträge in digitale Formate umgewandelt. Dieser Prozess verbessert die Zugänglichkeit, Effizienz und Datenverwaltung in der Landverwaltung. Durch den Einsatz fortschrittlicher Technologien wie GIS werden schnellere Aktualisierungen ermöglicht, die Genauigkeit verbessert und eine effektive Entscheidungsfindung bei der Verwaltung von Katasterinformationen unterstützt."
 
 msgid "Digitization and documentation of linear infrastructure represent the core business of"
 msgstr "Die Digitalisierung und Dokumentation linearer Infrastrukturen repräsentieren das Kerngeschäft von"
@@ -1985,37 +1990,37 @@ msgid "from the start."
 msgstr "von Anfang an."
 
 msgid "Telecommunications networks"
-msgstr "Telekommunikationsnetze"
+msgstr "Telekommunkitaionsnetzwerke"
 
 msgid "Electric power networks"
 msgstr "Stromversorgungsnetze"
 
 msgid "GIS SOFTWARE APPLIED IN OUR DAILY WORK"
-msgstr "GIS-SOFTWARE, DIE IN UNSERER TÄGLICHEN ARBEIT ANGEWENDET WIRD"
+msgstr "GIS-SOFTWARE, DIE WIR BEI DER TÄGLICHEN ARBEIT BENUTZEN"
 
 msgid "Software solutions designed for utility and telecommunications companies."
-msgstr "Softwarelösungen, entwickelt für Versorgungs- und Telekommunikationsunternehmen."
+msgstr "Softwarelösungen für Versorgungs- und Telekommunikationsunternehmen."
 
 msgid "Geospatial software for mapping, spatial analysis, and location data management."
-msgstr "Geografische Software für Kartierung, räumliche Analyse und das Management von Standortdaten."
+msgstr "Geodatensoftware für Kartierung, räumliche Analyse und Standortdatenverwaltung."
 
 msgid "Comprehensive CAD software tailored for GIS mapping and infrastructure design."
-msgstr "Umfassende CAD-Software, maßgeschneidert für GIS-Kartierung und Infrastrukturdesign."
+msgstr "Umfassende CAD-Software, maßgeschneidert für GIS-Kartierung und Infrastrukturdesign"
 
 msgid "Streamlines IT and telecom infrastructure with robust asset and configuration management."
-msgstr "Optimiert IT- und Telekommunikationsinfrastruktur durch robustes Vermögens- und Konfigurationsmanagement."
+msgstr "Optimiert die IT- und Telekommunikationsinfrastruktur mit robustem Asset- und Konfigurationsmanagement."
 
 msgid "Powerful solution for managing and analyzing spatial infrastructure data."
-msgstr "Leistungsstarke Lösung zur Verwaltung und Analyse von räumlichen Infrastrukturdaten."
+msgstr "Leistungsstarkes Tool zur Verwaltung und Analyse räumlicher Infrastrukturdaten."
 
 msgid "An advanced solution for utility network management and geospatial integration."
-msgstr "Eine fortschrittliche Lösung für das Management von Versorgungsnetzen und die geografische Integration."
+msgstr "Eine fortschrittliche Lösung für die Verwaltung von Versorgungsnetzen und die Geodatenintegration."
 
 msgid "Free and open-source geographic information system for mapping and analysis."
-msgstr "Kostenloses und quelloffenes geografisches Informationssystem für Kartierung und Analyse."
+msgstr "Kostenloses und open source geografisches Informationssystem für Kartierung und Analyse."
 
 msgid "Open-source platform for creating, sharing, and managing geospatial data and maps."
-msgstr "Open-Source-Plattform zur Erstellung, gemeinsamen Nutzung und Verwaltung von geografischen Daten und Karten."
+msgstr "Open-Source-Plattform zum Erstellen, Teilen und Verwalten von Geodaten und Karten."
 
 
 # SERVICES - RAZVOJ GIS-a
@@ -2023,52 +2028,52 @@ msgid "GIS Solution"
 msgstr "GIS-Lösung"
 
 msgid "If you need a GIS solution that will be customized according to your requirements, then GeoDigit is the right company for you."
-msgstr "Wenn Sie eine GIS-Lösung benötigen, die individuell auf Ihre Anforderungen zugeschnitten ist, dann sind Sie bei GeoDigit genau richtig."
+msgstr "Wenn Sie eine GIS-Lösung benötigen, die Ihren Anforderungen angepasst ist, dann ist GeoDigit das richtige Unternehmen für Sie."
 
-msgid "Using the latest technology combined with Opensource platforms and applications, we provide for our clients a way to obtain, with reasonable investments of time and money, a GIS solution that will be beneficial both to their company’s technical staff and to their management in making important decisions."
-msgstr "Mit modernster Technologie und Open-Source-Plattformen ermöglichen wir unseren Kunden eine kosteneffiziente GIS-Lösung. Diese unterstützt sowohl das technische Personal als auch das Management bei wichtigen Entscheidungen."
+msgid "Using the latest technology, we provide for our clients a way to obtain, with reasonable investments of time and money, a GIS solution that will be beneficial both to their company’s technical staff and to their management in making important decisions."
+msgstr "Wir wenden die neuste Technologie an, um unseren Kunden die Möglichkeit anzubieten, mit angemessenem Zeit- und Geldaufwand eine GIS-Lösung zu erhalten, die eine große Hilfe, sowohl für das technische Personal ihres Unternehmens als auch für ihr Management bei wichtigen Entscheidungen, sein kann."
 
 msgid "App Development"
 msgstr "App-Entwicklung"
 
 msgid "We offers App Development services, creating customized software solutions that align with your goals and drive digital transformation for your business."
-msgstr "Wir entwickeln maßgeschneiderte Softwarelösungen und fördern die digitale Transformation Ihres Unternehmens durch App-Entwicklungsdienstleistungen."
+msgstr "Wir bieten App-Entwicklungsdienste an und erstellen maßgeschneiderte Softwarelösungen, die Ihren Zielen entsprechen und die digitale Transformation Ihres Unternehmens vorantreiben."
 
 msgid "GIS data transformation and processing"
-msgstr "Transformation und Verarbeitung von GIS-Daten"
+msgstr "GIS-Datentransformation und -verarbeitung"
 
 msgid "We provide GIS data transformation and processing services, converting and enhancing geospatial data to unlock valuable insights for your projects."
-msgstr "Wir transformieren und verarbeiten GIS-Daten für wertvolle Erkenntnisse in Ihren Projekten. "
+msgstr "Wir bieten GIS-Datentransformations- und -verarbeitungsdienste an und konvertieren und verbessern Geodaten, um wertvolle Erkenntnisse für Ihre Projekte zu gewinnen."
 
 msgid "Desktop and WEB solutions"
 msgstr "Desktop- und WEB-Lösungen"
 
 msgid "We create desktop and web solutions, providing versatile software applications to meet your needs, whether in the office or online."
-msgstr "Wir entwickeln Desktop- und Web-Lösungen und bieten vielseitige Softwareanwendungen, um Ihren Anforderungen gerecht zu werden, sei es im Büro oder online."
+msgstr "Wir erstellen Desktop- und Weblösungen und bieten vielseitige Softwareanwendungen nach Ihren Anforderungen an, egal ob diese für die Nutzung im Büro oder online vorgesehen sind."
 
 msgid "Geodatabase development"
-msgstr "Geodatabase-Entwicklung"
+msgstr "Entwicklung einer Geodatenbank"
 
 msgid "We specialize in Geodatabase development, creating and optimizing structured spatial databases management and analysis."
-msgstr "Spezialisiert auf Geodatenbankentwicklung, erstellen und optimieren wir strukturierte räumliche Datenbanken für Management und Analyse."
+msgstr "Wir sind auf die Entwicklung von Geodatenbanken sowie auf die Erstellung und Optimierung, der Verwaltung und Analyse strukturierter räumlicher Datenbanken spezialisiert."
 
 msgid "GIS analysis"
 msgstr "GIS-Analyse"
 
 msgid "We provide GIS analysis development services, crafting custom solutions to extract valuable insights from your geospatial data."
-msgstr "Wir entwickeln maßgeschneiderte GIS-Analyselösungen zur Extraktion wertvoller Erkenntnisse aus Ihren geografischen Daten."
+msgstr "Wir bieten GIS-Analyseentwicklungsdienste an und entwickeln maßgeschneiderte Lösungen, um wertvolle Erkenntnisse aus Ihren Geodaten zu gewinnen."
 
 msgid "GIS TECHNOLOGIES AND TOOLS"
-msgstr "GIS-TECHNOLOGIEN UND TOOLS"
+msgstr "GIS TECHNOLOGIEN UND WERKZEUGE"
 
 msgid "Open-source server software for sharing geospatial data online."
-msgstr "Open-Source-Serversoftware zum Teilen von geografischen Daten online."
+msgstr "Open-Source-Serversoftware zum Online-Austausch von Geodaten."
 
 msgid "Open-source relational database management system known for its reliability."
-msgstr "Open-Source-Relationales Datenbankmanagementsystem, bekannt für seine Zuverlässigkeit."
+msgstr "Open-Source-Managementsystem für relationale Datenbanken, das für seine Zuverlässigkeit bekannt ist."
 
-msgid "Python, JavaScript, C#, C++, and SQL are versatile programming languages used for various applications, from web development to data analysis."
-msgstr "Python, JavaScript, C#, C++ und SQL sind vielseitige Programmiersprachen, die für verschiedene Anwendungen verwendet werden, von der Webentwicklung bis zur Datenanalyse."
+msgid "Python, JavaScript, C#, C++ and SQL are versatile programming languages used for various applications, from web development to data analysis."
+msgstr "Python, JavaScript, C#, C ++ und SQL sind vielseitige Programmiersprachen, die für verschiedene Anwendungen verwendet werden, von der Webentwicklung bis zur Datenanalyse."
 
 msgid "Django and Flask are popular Python web frameworks for building dynamic, robust, and scalable web applications."
 msgstr "Django und Flask sind beliebte Python-Web-Frameworks zur Entwicklung dynamischer, robuster und skalierbarer Webanwendungen."
@@ -2077,13 +2082,13 @@ msgid "React, Redux, jQuery, Leaflet, and OpenLayers are popular JavaScript libr
 msgstr "React, Redux, jQuery, Leaflet und OpenLayers sind beliebte JavaScript-Bibliotheken zur Erstellung interaktiver Webkarten und räumlicher Anwendungen mit einer ansprechenden Benutzererfahrung."
 
 msgid "Docker is a platform for developing, shipping, and running applications in lightweight, portable containers, streamlining deployment and scaling."
-msgstr "Docker ist eine Plattform zum Entwickeln, Bereitstellen und Ausführen von Anwendungen in leichtgewichtigen, portablen Containern, die Bereitstellung und Skalierung optimiert."
+msgstr "Docker ist eine Plattform für den Versand und Betrieb von Anwendungen in leichten, tragbaren Containern, die die Bereitstellung und Skalierung rationalisiert."
 
 msgid "Open-source GIS software for mapping, analysis, and geospatial data management."
 msgstr "Open-Source-GIS-Software für Kartierung, Analyse und das Management von geografischen Daten."
 
 msgid "Open-source platform for creating, sharing, and managing geospatial data, facilitating collaborative mapping and data sharing."
-msgstr "Open-Source-Plattform zum Erstellen, Teilen und Verwalten von geografischen Daten, erleichtert gemeinsame Kartenerstellung und Datenaustausch."
+msgstr "Open-Source-Plattform zum Erstellen, Teilen und Verwalten von Geodaten, die die gemeinsame Kartierung und Datenaustausch erleichtert."
 
 msgid "Tailored GIS Solutions"
 msgstr "Maßgeschneiderte GIS-Lösungen"
@@ -2091,17 +2096,17 @@ msgstr "Maßgeschneiderte GIS-Lösungen"
 msgid "TELEKOM NETWORK INVENTORY FUNCTIONALITIES"
 msgstr "TELEKOM-NETZ-INVENTARFUNKTIONALITÄTEN"
 
-msgid "Georeferenced positioning of routes and technical locations"
+msgid "Georeferenced positions of routes and technical locations"
 msgstr "​​Georeferenzierte Positionierung von Routen und technischen Standorten"
 
-msgid "Coaxial and optical cable network display"
-msgstr "Darstellung von Koax- und Glasfaserkabelnetzwerken"
+msgid "Cable network overview"
+msgstr "Übersicht über Kabelnetze"
 
-msgid "Pipeline network data display"
-msgstr "Darstellung der Daten des Rohrleitungsnetzes"
+msgid "Pipeline network overview"
+msgstr "Übersicht über das Pipeline-Netzwerk"
 
-msgid "Network Update and Maintenance (Redlining)"
-msgstr "Netzwerkaktualisierung und -wartung (Redlining)"
+msgid "Update and Maintenance Network Documentations (Redlining)"
+msgstr "Update- und Wartungsnetzwerkdokumentationen (Redlining)"
 
 msgid "Creating reports about network data"
 msgstr "Erstellen von Berichten über die Netzwerkdaten"
@@ -2148,8 +2153,8 @@ msgstr "HEADEND-BESTANDSVERWALTUNGSSYSTEM"
 msgid "Data Management"
 msgstr "Datenmanagement"
 
-msgid "Display of Head-ends and technical locations on the map"
-msgstr "Darstellung von Head-ends und technischen Standorten auf der Karte"
+msgid "Overview of racks in all rooms"
+msgstr "Übersicht der Racks in allen Räumen"
 
 msgid "Display of racks in all rooms"
 msgstr "Darstellung von Regalen in allen Räumen"
@@ -2190,52 +2195,55 @@ msgstr "Visualisierung von Netzobjekten (Hydranten, Armaturen und Schächte)"
 
 # SERVICES - 3D-MAPPIRANJE
 msgid "3D MAPPING SOLUTION"
-msgstr "3D MAPPING LÖSUNG"
+msgstr "3D-MAPPING-LÖSUNG"
 
 msgid "GEODESY IS OUR MAIN AND BASIC ACTIVITY FROM EDUCATION TO CREATING NEW SOLUTIONS."
-msgstr "GODÄSIE IST UNSERE HAUPT- UND BASISAKTIVITÄT, VON DER AUSBILDUNG BIS ZUR ENTWICKLUNG NEUER LÖSUNGEN."
+msgstr "GEODÄSIE IST UNSERE HAUPT- UND GRUNDLEGENDE TÄTIGKEIT, VON DER AUSBILDUNG BIS ZUR ENTWICKLUNG NEUER LÖSUNGEN."
 
 msgid "We are able to use all technologies in our industry to meet our clients needs."
-msgstr "Wir sind in der Lage, alle Technologien unserer Branche einzusetzen, um die Bedürfnisse unserer Kunden zu erfüllen."
+msgstr "Wir sind in der Lage, alle Technologien unserer Branche zu nutzen, um die Bedürfnisse unserer Kunden zu erfüllen."
 
 msgid "Aerial and terrestrial methods of collecting geodata."
-msgstr "Luft- und terrestrische Verfahren zur Erhebung von Geodaten."
+msgstr "Luft- und terrestrische Methoden zur Erfassung von Geodaten."
 
 msgid "Processing of collecting data in various software."
-msgstr "Verarbeitung der gesammelten Daten in verschiedener Software."
+msgstr "Verarbeitung von erfassten Daten in verschiedenen Softwareprogrammen."
 
 msgid "Collecting data for GIS database."
 msgstr "Sammeln von Daten für die GIS-Datenbank."
 
 msgid "Create basemaps for Urban planning."
-msgstr "Erstellung von Grundkarten für die Stadtplanung."
+msgstr "Erstellung von  Grundkarten für die Stadtplanung."
 
 msgid "Real estate cadastre."
-msgstr "Immobilienkataster"
+msgstr "Immobilienkataster."
 
 msgid "3D city modelling."
 msgstr "3D-Stadtmodellierung"
+
+msgid "Point Cloud"
+msgstr "Punktwolke"
 
 msgid "A point cloud is a set of data that represents objects or space."
 msgstr "Eine Punktwolke ist ein Datensatz, der Objekte oder Räume darstellt."
 
 msgid "These points represent the X, Y and Z geometric coordinates of individual points on the surface to be recorded. A point cloud is a means of linking a large number of individual spatial measurements into a set of data that can then form a whole. When color information is present, the dot cloud becomes 4D."
-msgstr "Diese Punkte repräsentieren die geometrischen X-, Y- und Z-Koordinaten einzelner Punkte auf der aufzunehmenden Oberfläche. Eine Punktwolke ist ein Mittel, um eine Vielzahl von einzelnen räumlichen Messungen zu einem Datensatz zu verknüpfen, der dann ein Ganzes bilden kann. Wenn Farbinformationen vorhanden sind, wird die Punktwolke zu 4D."
+msgstr "Diese Punkte stellen die geometrischen X-, Y- und Z-Koordinaten einzelner Punkte auf der aufzuzeichnenden Oberfläche dar. Eine Punktwolke ist ein Mittel, um eine große Anzahl einzelner räumlicher Messungen zu einem Datensatz zu verknüpfen, der dann ein Ganzes bilden kann. Wenn Farbinformationen vorhanden sind, wird die Punktwolke zu 4D."
 
 msgid "The point cloud is most often generated using 3D laser scanners and LiDAR technologies and techniques. Here, each point represents one measurement by laser scanning. These scans then merge, creating a complete 3D / 4D image. The point cloud thus represents a digitized and virtualized real space from which spatial information about specific objects (point, line or surface) that are the subject of the recording is then extracted. GeoDigit is doing this with specialized software that serves to process such data."
-msgstr "Die Punktwolke wird am häufigsten mit 3D-Laserscannern und LiDAR-Technologien und -Techniken erzeugt. Dabei repräsentiert jeder Punkt eine Messung durch Laserscanning. Diese Scans werden dann zusammengeführt, wodurch ein vollständiges 3D-/4D-Bild entsteht. Die Punktwolke stellt somit einen digitalisierten und virtualisierten realen Raum dar, aus dem dann räumliche Informationen über bestimmte Objekte (Punkt, Linie oder Fläche) extrahiert werden, die Gegenstand der Aufnahme sind. GeoDigit tut dies mit einer speziellen Software, die dazu dient, solche Daten zu verarbeiten."
+msgstr "Die Punktwolke wird am häufigsten mithilfe von 3D-Laserscannern und LiDAR-Technologien und -Techniken generiert. Dabei repräsentiert jeder Punkt eine Messung durch Laserscanning. Diese Scans werden dann zusammengeführt und es entsteht ein vollständiges 3D-/4D-Bild. Die Punktwolke stellt somit einen digitalisierten und virtualisierten realen Raum dar, aus dem dann räumliche Informationen über bestimmte Objekte (Punkt, Linie oder Fläche) extrahiert werden, die Gegenstand der Aufnahme sind. GeoDigit tut dies mit einer speziellen Software, die zur Verarbeitung solcher Daten dient."
 
 msgid "Remote sensing"
 msgstr "Fernerkundung"
 
 msgid "Remote sensing is the process of discovering the physical characteristics of the Earth’s surface by measuring the reflection and radiation on a distance from the target area."
-msgstr "Fernerkundung ist der Prozess der Entdeckung der physikalischen Eigenschaften der Erdoberfläche durch Messung der Reflexion und Strahlung in einer Entfernung vom Zielgebiet."
+msgstr "Bei der Fernerkundung handelt es sich um den Prozess der Entdeckung der physikalischen Eigenschaften der Erdoberfläche durch Messung der Reflexion und Strahlung in einer Entfernung vom Zielgebiet."
 
 msgid "Special cameras and satellites perform remote collection of pictures of the Earth, which are further processed by special techniques and methods."
-msgstr "Spezielle Kameras und Satelliten führen eine Fernerfassung von Bildern der Erde durch, die durch spezielle Techniken und Methoden weiterverarbeitet werden."
+msgstr "Spezielle Kameras und Satelliten erfassen aus der Ferne Bilder der Erde, die mit speziellen Techniken und Methoden weiterverarbeitet werden."
 
 msgid "GeoDigit, in cooperation with its partners, provides the services of recording the surface with special high-resolution cameras and processing of the recorded data, as well as processing of the existing satellite imagery that are publicly available."
-msgstr "GeoDigit bietet in Zusammenarbeit mit seinen Partnern die Dienstleistungen der Erfassung der Oberfläche mit speziellen hochauflösenden Kameras und der Verarbeitung der aufgezeichneten Daten sowie die Verarbeitung der vorhandenen öffentlich zugänglichen Satellitenbilder an."
+msgstr "GeoDigit ,in Zusammenarbeit mit seinen Partnern, bietet die Dienste der Oberflächenerfassung mit speziellen hochauflösenden Kameras und der Verarbeitung der aufgezeichneten Daten sowie der Verarbeitung der vorhandenen, öffentlich zugänglichen Satellitenbilder an."
 
 msgid "Recording, detection and high-resolution image processing"
 msgstr "Aufnahme, Erkennung und hochauflösende Bildverarbeitung"
@@ -2256,7 +2264,7 @@ msgid "GIS data Conversion"
 msgstr "GIS-Datenkonvertierung"
 
 msgid "GIS Mapping"
-msgstr "GIS-Mapping"
+msgstr "GIS-Kartierung"
 
 msgid "Map creation"
 msgstr "Kartenerstellung"
@@ -2264,10 +2272,10 @@ msgstr "Kartenerstellung"
 
 # SERVICES - GEODETSKE USLUGE
 msgid "What are we offer our clients?"
-msgstr "Was wir unseren Kunden anbieten?"
+msgstr "Was bieten wir unseren Kunden?"
 
 msgid "From construction layout of high-rise steel structures to 3-D laser scanning, we perform comprehensive surveying services for commercial and residential developments, buildings, highways, bridges, utilities, waterways and property acquisitions."
-msgstr "Vom Konstruktionslayout von Hochhaus-Stahlkonstruktionen bis hin zum 3-D-Laserscanning führen wir umfassende Vermessungsdienste für Gewerbe- und Wohnsiedlungen, Gebäude, Autobahnen, Brücken, Versorgungsleitungen, Wasserstraßen und Grundstücksakquisitionen durch."
+msgstr "Von der Konstruktionsplanung von Hochhausstahlkonstruktionen bis zum 3D-Laserscanning führen wir umfassende Vermessungsdienstleistungen für Gewerbe- und Wohnsiedlungen, Gebäude, Autobahnen, Brücken, Versorgungsleitungen, Wasserwege und den Erweb von Grundstüucken durch."
 
 msgid "The following surveying services:"
 msgstr "Folgende Vermessungsleistungen:"
@@ -2285,25 +2293,25 @@ msgid "Boundary survey"
 msgstr "Grenzvermessung"
 
 msgid "Bathymetry survey"
-msgstr "Bathymetrievermessung"
+msgstr "Bathymetrische Vermessung"
 
 msgid "Linear infrastructure survey"
-msgstr "Lineare Infrastrukturvermessung"
+msgstr "Vermessung linearer Infrastrukturobjekte"
 
 msgid "Drone surveying"
 msgstr "Drohnenvermessung"
 
 msgid "Aerial laser scanning"
-msgstr "Luftlaserscanning"
+msgstr "Laserscanning aus der Luft"
 
 msgid "Monitoring of construction site"
-msgstr "Überwachung von Baustellen"
+msgstr "Bauaufsicht"
 
 msgid "Utility Detection and Tracing"
-msgstr "Leitungsortung und -verfolgung"
+msgstr "Erkennung und Verfolgung von Versorgungsleitungen"
 
 msgid "Collect geodata for GIS purpose"
-msgstr "Geodatenerfassung für GIS-Zwecke"
+msgstr "Sammeln von Geodaten für GIS-Zwecke"
 
 msgid "Gallery"
 msgstr "Galerie"
@@ -2314,40 +2322,40 @@ msgid "Passive optical networks"
 msgstr "Passive optische Netzwerke"
 
 msgid "We are able to provide services in the field of designing, planning, collecting documents and permits, performing works, laying cables and splicing of all types of telecommunications networks mainly based on P2P, GPON technologies."
-msgstr "Wir sind in der Lage, Dienstleistungen im Bereich des Entwurfs, der Planung, der Einholung von Dokumenten und Genehmigungen, der Ausführung von Arbeiten, der Verlegung von Kabeln und Spleißen aller Arten von Telekommunikationsnetzen, hauptsächlich basierend auf P2P- und GPON-Technologien, anzubieten."
+msgstr "Wir sind in der Lage, Dienstleistungen im Bereich von Entwurf, Planung, Einholung von Dokumenten und Genehmigungen, Durchführung von Arbeiten, Verlegung von Kabeln und Verbindung aller Arten von Telekommunikationsnetzen anzubieten, die hauptsächlich auf P2P- und GPON-Technologien basieren."
 
 msgid "YEARS OF EXPERIENCE IN THE FIELD OF TELECOMMUNICATION NETWORKS"
 msgstr "JAHRELANGE ERFAHRUNG IM BEREICH DER TELEKOMMUNIKATIONSNETZE"
 
 msgid "We have experience in designing and modifying telecommunications networks based on optical and coax cables. Our experienced team of engineers will provide the latest and high-quality technical solutions in accordance with the highest standards."
-msgstr "Wir haben Erfahrung in der Entwicklung und Modifikation von Telekommunikationsnetzen auf Basis von Glasfaser- und Koaxialkabel. Unser erfahrenes Team von Ingenieuren bietet die neuesten und qualitativ hochwertigsten technischen Lösungen gemäß den höchsten Standards an."
+msgstr "Wir haben Erfahrung in der Planung und Änderung von Telekommunikationsnetzen auf Basis von Glasfaser- und Koaxialkabeln. Unser erfahrenes Ingenieurteam liefert modernste und qualitativ hochwertige technische Lösungen nach höchsten Standards."
 
 msgid "WE OFFER SERVICES OF DEVELOPING:"
-msgstr "WIR BIETEN DIENSTLEISTUNGEN AN ZUR ENTWICKLUNG VON:"
+msgstr "WIR BIETEN ENTWICKLUNGSDIENSTLEISTUNGEN:"
 
 msgid "Preliminary design"
-msgstr "Vorläufigem Design"
+msgstr "Vorläufiger Entwurf"
 
 msgid "Main design"
 msgstr "Hauptdesign"
 
 msgid "As-built design"
-msgstr "As-Built-Design"
+msgstr "As-built-Design"
 
 msgid "TECHNICAL SOLUTIONS:"
 msgstr "TECHNISCHE LÖSUNGEN:"
 
 msgid "Design of main and local connecting routes with optical cables"
-msgstr "Auslegung von Haupt- und Ortsverbindungsstrecken mit Lichtwellenleitern"
+msgstr "Gestaltung von Haupt- und Ortsverbindungsstrecken mit Glasfaserkabeln"
 
 msgid "Calculating new network cost"
 msgstr "Berechnung neuer Netzwerkkosten"
 
 msgid "Design routes of cable ducts"
-msgstr "Entwurf von Trassen von Kabelkanälen"
+msgstr "Entwurf von Verläufen von Kabelkanälen"
 
 msgid "Design of FTTH"
-msgstr "Design von FTTH"
+msgstr "FTTH-Design"
 
 msgid "DOCSIS technology"
 msgstr "DOCSIS-Technologie"
@@ -2358,13 +2366,13 @@ msgid "With GeoDigit"
 msgstr "Mit GeoDigit"
 
 msgid "GEODIGIT CONSULTING INCLUDES PROFESSIONAL, TECHNICAL, LEGAL AND ORGANIZATIONAL SUPPORT TO CLIENTS DURING PLANNING AND REALISATION OF THEIR PROJECTS."
-msgstr "GEODIGIT CONSULTING UMFASST DIE PROFESSIONELLE, TECHNISCHE, RECHTLICHE UND ORGANISATORISCHE UNTERSTÜTZUNG FÜR DIE KUNDEN BEI DER PLANUNG UND UMSETZUNG IHRER PROJEKTE."
+msgstr "GEODIGIT - BERATUNG UMFASST DIE PROFESSIONELLE, TECHNISCHE, RECHTLICHE UND ORGANISATORISCHE UNTERSTÜTZUNG DER KUNDEN BEI DER PLANUNG UND UMSETZUNG IHRER PROJEKTE."
 
 msgid "We have extensive experience in consulting activities, from project assignment, conceptual solutions, urban planning, design and audit, to inspection and technical consulting."
-msgstr "Wir verfügen über umfangreiche Erfahrung in Beratungstätigkeiten, vom Projektauftrag, konzeptionellen Lösungen, Stadtplanung, Design und Audit bis hin zu Inspektion und technischer Beratung."
+msgstr "Wir verfügen über umfangreiche Erfahrung in der Beratungstätigkeit, von der Projektbeauftragung über konzeptionelle Lösungen, Stadtplanung, Design und Audit bis hin zur Inspektion und technischen Beratung."
 
 msgid "The high level of qualifications, competencies and quality possessed by the expert team of GeoDigit ensures the success of project implementation in the field of geodesy, geoinformation, construction and telecommunications."
-msgstr "Die hohe Qualifikation, Kompetenz und Qualität des Expertenteams von GeoDigit sichert den Erfolg der Projektumsetzung in den Bereichen Geodäsie, Geoinformation, Bauwesen und Telekommunikation."
+msgstr "Das hohe Maß an Qualifikation, Kompetenz und Qualität des Expertenteams von GeoDigit sichert den Erfolg der Projektumsetzung im Bereich Geodäsie, Geoinformation, Bauwesen und Telekommunikation."
 
 msgid "Project development and management"
 msgstr "Projektentwicklung und -management"
@@ -2414,7 +2422,7 @@ msgid "There are no comments for this post."
 msgstr "Es gibt keine Kommentare zu diesem Beitrag."
 
 msgid "Name"
-msgstr "Vor-und Nachname"
+msgstr "Name"
 
 msgid "Content"
 msgstr "Kommentar"
@@ -2429,25 +2437,28 @@ msgstr "Archivbeiträge"
 msgid "Archive for"
 msgstr "Archiv für"
 
+msgid "SEND COMMENT"
+msgstr "KOMMENTAR SENDEN"
+
 
 # KONTAKT
 msgid "Contact Details"
-msgstr "Kontaktdetails"
+msgstr "Kontaktinfo"
 
 msgid "Message"
 msgstr "Nachricht"
 
 msgid "Office Address"
-msgstr "Büro adresse"
+msgstr "Büroadresse"
 
 msgid "Mail Us"
-msgstr "Mailen Sie uns"
+msgstr "E-Mail"
 
 msgid "Telephone"
 msgstr "Telefon"
 
 msgid "GET A QUOTE"
-msgstr "EIN ANGEBOT BEKOMMEN"
+msgstr "FORDERN SIE EIN ANGEBOT AN"
 
 msgid "Message sent successfully!"
 msgstr "Nachricht erfolgreich gesendet!"
