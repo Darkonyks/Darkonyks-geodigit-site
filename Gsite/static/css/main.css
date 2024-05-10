@@ -5894,7 +5894,7 @@ body {
   z-index: -1;
   content: "";
   width: 705px;
-  height: 360px;
+  height: 390px;
   position: absolute;
   background-color: #fff;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
@@ -9252,7 +9252,7 @@ body {
     text-align: center;
     padding: 10px 20px;
     width: 300px;
-    height: 360px;
+    height: 390px;
     background-color: #fff;
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
 }
