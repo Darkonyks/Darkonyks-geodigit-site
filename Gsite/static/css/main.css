@@ -8949,15 +8949,15 @@ body {
 }
 
 .overlay-2 img {
-  content: url("../img/certificates/13370-ISMS-recert-cert.jpg");
+  content: url("../img/certificates/ISO-27001.jpg");
 }
 
 .overlay-3 img {
-  content: url("../img/certificates/13370-OHS-recert-and-migration-cert.jpg");
+  content: url("../img/certificates/ISO-45001.jpg");
 }
 
 .overlay-4 img {
-  content: url("../img/certificates/13370-E15-recert-cert.jpg");
+  content: url("../img/certificates/ISO-14001.jpg");
 }
 
 .overlay-5 img {
