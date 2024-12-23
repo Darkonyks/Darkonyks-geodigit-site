@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>{% block title %}Geodigit{% endblock %}</title>
-	<meta name="description" content="Geodetske usluge od geodetskog snimka, ucrtavanje objekta u katastar, izrada katastarsko topografskih planova – situacija, ozakonjenje – legalizacija.">
+	<meta name="description" content="Mi analiziramo i prikupljamo bilo koje skupove podataka u geoinformacione sisteme (GIS), posebno prostorne podatke linearne infrastrukture (telekomunikacione i elektroenergetske mreže, mreže gasnih instalacija itd.). Naša GIS rešenja za čuvanje i vizuelizaciju razvijaju se u skladu sa potrebama naših klijenata. Nudimo usluge geodetskog prikupljanja podataka koje se mogu koristiti u kontekstu GIS ili 3D proizvodima za mapiranje">
 	<meta name="description" content="We are processing and mapping data into GIS systems on all types of underground and overhead lines such as telecommunications networks, low and high-voltage.">
 	<meta name="keywords" content="geospatial data, data management, specialists, GIS, 3d mapping, mapping, surveying, geoinfomation technology, geodesy, outsourcing">
 	<script defer src="{% static 'js/customMain.js' %}"></script>
@@ -24,9 +24,11 @@
     <link rel="stylesheet" href="{% static 'css/slider.css' %}">
     <link rel="stylesheet" href="{% static 'css/swiper.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/nanogallery2.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/snow-style.css' %}">
 
 </head>
 <body class="archx-home">
+	<div id="snow" data-count="200"></div>
 	<div id="preloader">
 	</div>
 	</div>
@@ -62,7 +64,7 @@
 	<script src="{% static 'js/nanogallery-custom.js' %}"></script>
 	<script src="{% static 'js/customGisService.js' %}"></script>
 	<script src="{% static 'js/animated-icons.js' %}"></script>	
-
+	<script src="{% static 'js/pure-snow.js' %}"></script>
 	
 	{% if '/blog/' == request.path %}
 	<script>
@@ -109,5 +111,6 @@
 		const observer = lozad(); 
 		observer.observe();
 	</script>
+	
 </body>
 </html>
