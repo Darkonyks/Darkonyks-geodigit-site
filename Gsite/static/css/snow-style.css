@@ -12,9 +12,11 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: linear-gradient(white, white);
+    background: transparent; /* Set background to transparent for visibility */
     /* Workaround for Chromium's selective color inversion */
     border-radius: 50%;
     filter: drop-shadow(0 0 10px white);
+    opacity: 0.9; /* Set opacity for better visibility */
     z-index: 999;
+    user-select: none; /* Prevent snowflakes from being selectable */
   }

@@ -1,4 +1,4 @@
-let snowflakesCount = 200; // Snowflake count, can be overwritten by attrs
+let snowflakesCount = 500; // Snowflake count, can be overwritten by attrs
 let baseCSS = ``;
 
 
@@ -44,7 +44,12 @@ function generateSnow(snowDensity = 200) {
   for (let i = 0; i < snowDensity; i++) {
     let board = document.createElement('div');
     board.className = "snowflake";
+    const snowflakeCharacters = ['❄', '❅', '❆', '❉', '❊'];
+    board.innerHTML = snowflakeCharacters[Math.floor(Math.random() * snowflakeCharacters.length)]; // Randomly select a snowflake character
+    board.style.fontSize = '20px'; // Set font size for visibility
+    board.style.color = 'white'; // Set color to white for better visibility
     snowWrapper.appendChild(board);
+    // console.log(`Snowflake displayed: ${board.innerHTML}`); // Log the displayed snowflake character
   }
 }
 
@@ -93,8 +98,8 @@ function generateSnowCSS(snowDensity = 200) {
     let randomYoyoTime = getRandomArbitrary(0.3, 0.8);
     let randomYoyoY = randomYoyoTime * pageHeightVh; // vh
     let randomScale = Math.random();
-    let fallDuration = randomIntRange(10, pageHeightVh / 10 * 3); // s
-    let fallDelay = randomInt(pageHeightVh / 10 * 3) * -1; // s
+    let fallDuration = randomIntRange(5, pageHeightVh / 10 * 4); // s (wider range for variability)
+    let fallDelay = randomInt(pageHeightVh / 10 * 5) * -1; // s (increased delay for staggered effect)
     let opacity = Math.random();
 
     rule += `
@@ -105,7 +110,7 @@ function generateSnowCSS(snowDensity = 200) {
       }
       @keyframes fall-${i} {
         ${randomYoyoTime * 100}% {
-          transform: translate(${randomXEnd}vw, ${randomYoyoY}vh) scale(${randomScale});
+        transform: translate(${randomXEnd}vw, ${randomYoyoY}vh) scale(${randomScale}) rotate(${Math.random() * 360}deg); // Add rotation effect
         }
         to {
           transform: translate(${randomXEndYoyo}vw, ${pageHeightVh}vh) scale(${randomScale});
