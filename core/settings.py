@@ -35,10 +35,10 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', get_random_secret_key())
 # SECRET_KEY = 'django-insecure-!ng&=a646&z26l(lr0pywc@anl-+w$qu=&4+ol7@vqvgsj74aq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+DEBUG = False
 # DEBUG = config('DEBUG', default=False, cast=bool)
 
-DEBUG = os.getenv('DEBUG', 'False') == 'True'
+# DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'geodigit.net', 'www.geodigit.net', 'https://www.geodigit.net/', 'https://geodigit.net','www.geodigit.net', 'sea-lion-app-86bt6.ondigitalocean.app']
