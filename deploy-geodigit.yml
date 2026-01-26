@@ -1,0 +1,81 @@
+---
+- name: Deploy GeoDigit Django Application
+  hosts: geodigit_prod
+  become: yes
+  vars:
+    app_dir: /var/www/geodigit-web
+    app_user: darko
+    venv_path: "{{ app_dir }}/venv"
+    gunicorn_service: geodigit-gunicorn
+    
+  tasks:
+    - name: Pull latest code from GitHub
+      become_user: "{{ app_user }}"
+      git:
+        repo: 'git@github.com:Darkonyks/Darkonyks-geodigit-site.git'
+        dest: "{{ app_dir }}"
+        version: main
+        accept_hostkey: yes
+        force: yes
+      tags:
+        - deploy
+        - git
+
+    - name: Install Python dependencies
+      become_user: "{{ app_user }}"
+      pip:
+        requirements: "{{ app_dir }}/requirements.txt"
+        virtualenv: "{{ venv_path }}"
+        virtualenv_command: python3 -m venv
+      tags:
+        - deploy
+        - dependencies
+
+    - name: Run Django migrations
+      become_user: "{{ app_user }}"
+      django_manage:
+        command: migrate
+        app_path: "{{ app_dir }}"
+        virtualenv: "{{ venv_path }}"
+      environment:
+        DJANGO_SETTINGS_MODULE: core.settings
+      tags:
+        - deploy
+        - migrations
+
+    - name: Collect static files
+      become_user: "{{ app_user }}"
+      django_manage:
+        command: collectstatic
+        app_path: "{{ app_dir }}"
+        virtualenv: "{{ venv_path }}"
+      environment:
+        DJANGO_SETTINGS_MODULE: core.settings
+      tags:
+        - deploy
+        - static
+
+    - name: Restart Gunicorn service
+      systemd:
+        name: "{{ gunicorn_service }}"
+        state: restarted
+        daemon_reload: yes
+      tags:
+        - deploy
+        - restart
+
+    - name: Verify Gunicorn is running
+      systemd:
+        name: "{{ gunicorn_service }}"
+        state: started
+      register: gunicorn_status
+      tags:
+        - deploy
+        - verify
+
+    - name: Display deployment status
+      debug:
+        msg: "Deployment completed successfully. Gunicorn status: {{ gunicorn_status.status.ActiveState }}"
+      tags:
+        - deploy
+        - verify
