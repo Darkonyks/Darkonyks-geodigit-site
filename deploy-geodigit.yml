@@ -33,10 +33,12 @@
 
     - name: Run Django migrations
       become_user: "{{ app_user }}"
-      django_manage:
-        command: migrate
-        app_path: "{{ app_dir }}"
-        virtualenv: "{{ venv_path }}"
+      shell: |
+        source {{ venv_path }}/bin/activate
+        cd {{ app_dir }}
+        python manage.py migrate --noinput
+      args:
+        executable: /bin/bash
       environment:
         DJANGO_SETTINGS_MODULE: core.settings
       tags:
@@ -45,10 +47,12 @@
 
     - name: Collect static files
       become_user: "{{ app_user }}"
-      django_manage:
-        command: collectstatic
-        app_path: "{{ app_dir }}"
-        virtualenv: "{{ venv_path }}"
+      shell: |
+        source {{ venv_path }}/bin/activate
+        cd {{ app_dir }}
+        python manage.py collectstatic --noinput
+      args:
+        executable: /bin/bash
       environment:
         DJANGO_SETTINGS_MODULE: core.settings
       tags:
