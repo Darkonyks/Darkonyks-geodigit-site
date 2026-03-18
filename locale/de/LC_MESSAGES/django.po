@@ -1633,7 +1633,7 @@ msgid "ABOUT"
 msgstr "ÜBER UNS"
 
 msgid "SERVICES"
-msgstr "DIENSTLEINSTUNGEN"
+msgstr "DIENSTLEISTUNGEN"
 
 msgid "GIS SERVICES"
 msgstr "GIS-DIENSTLEISTUNGEN"
